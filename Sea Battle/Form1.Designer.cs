@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pl1OneShip = new System.Windows.Forms.Button();
+            this.pl1OneShipN1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -37,30 +37,30 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.pl1OneShipN2 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.pl1FourShipP4 = new System.Windows.Forms.Button();
+            this.pl1FourShipP3 = new System.Windows.Forms.Button();
+            this.pl1FourShipP2 = new System.Windows.Forms.Button();
+            this.pl1FourShipP1 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
+            this.pl1OneShipN3 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN1P2 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN2P2 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN1P1 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
@@ -80,18 +80,18 @@
             this.button50 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
             this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN1P3 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN3P2 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN3P1 = new System.Windows.Forms.Button();
             this.button58 = new System.Windows.Forms.Button();
             this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN2P1 = new System.Windows.Forms.Button();
             this.button61 = new System.Windows.Forms.Button();
             this.button62 = new System.Windows.Forms.Button();
             this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN1P2 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
             this.button66 = new System.Windows.Forms.Button();
             this.button67 = new System.Windows.Forms.Button();
@@ -99,37 +99,37 @@
             this.button69 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
+            this.pl1OneShipN4 = new System.Windows.Forms.Button();
             this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
+            this.pl1TwoShipN1P1 = new System.Windows.Forms.Button();
             this.button75 = new System.Windows.Forms.Button();
             this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN2P3 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN2P2 = new System.Windows.Forms.Button();
+            this.pl1ThreeShipN2P1 = new System.Windows.Forms.Button();
             this.button80 = new System.Windows.Forms.Button();
             this.mainButton = new System.Windows.Forms.Button();
             this.groupBoxPL1 = new System.Windows.Forms.GroupBox();
             this.hintLabel = new System.Windows.Forms.Label();
             this.button81 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN1P1 = new System.Windows.Forms.Button();
             this.button84 = new System.Windows.Forms.Button();
             this.button85 = new System.Windows.Forms.Button();
             this.button86 = new System.Windows.Forms.Button();
             this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN1P2 = new System.Windows.Forms.Button();
             this.button89 = new System.Windows.Forms.Button();
             this.button90 = new System.Windows.Forms.Button();
             this.button91 = new System.Windows.Forms.Button();
             this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.button94 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN2P2 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN2P1 = new System.Windows.Forms.Button();
             this.button95 = new System.Windows.Forms.Button();
             this.button96 = new System.Windows.Forms.Button();
             this.button97 = new System.Windows.Forms.Button();
             this.button98 = new System.Windows.Forms.Button();
             this.button99 = new System.Windows.Forms.Button();
-            this.button100 = new System.Windows.Forms.Button();
+            this.pl2OneShipN1 = new System.Windows.Forms.Button();
             this.button101 = new System.Windows.Forms.Button();
             this.button102 = new System.Windows.Forms.Button();
             this.button103 = new System.Windows.Forms.Button();
@@ -137,12 +137,12 @@
             this.button105 = new System.Windows.Forms.Button();
             this.button106 = new System.Windows.Forms.Button();
             this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
+            this.pl2ThreeShipN1P1 = new System.Windows.Forms.Button();
             this.button109 = new System.Windows.Forms.Button();
             this.button110 = new System.Windows.Forms.Button();
             this.button111 = new System.Windows.Forms.Button();
             this.button112 = new System.Windows.Forms.Button();
-            this.button113 = new System.Windows.Forms.Button();
+            this.button123pl2ThreeShipN2P2 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
             this.button115 = new System.Windows.Forms.Button();
             this.button116 = new System.Windows.Forms.Button();
@@ -152,44 +152,44 @@
             this.button120 = new System.Windows.Forms.Button();
             this.button121 = new System.Windows.Forms.Button();
             this.button122 = new System.Windows.Forms.Button();
-            this.button123 = new System.Windows.Forms.Button();
+            this.button123pl2ThreeShipN2P1 = new System.Windows.Forms.Button();
             this.button124 = new System.Windows.Forms.Button();
             this.button125 = new System.Windows.Forms.Button();
-            this.button126 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN3P2 = new System.Windows.Forms.Button();
             this.button127 = new System.Windows.Forms.Button();
-            this.button128 = new System.Windows.Forms.Button();
+            this.pl2ThreeShipN1P3 = new System.Windows.Forms.Button();
             this.button129 = new System.Windows.Forms.Button();
             this.button130 = new System.Windows.Forms.Button();
-            this.button131 = new System.Windows.Forms.Button();
+            this.pl2OneShipN3 = new System.Windows.Forms.Button();
             this.button132 = new System.Windows.Forms.Button();
             this.button133 = new System.Windows.Forms.Button();
             this.button134 = new System.Windows.Forms.Button();
             this.button135 = new System.Windows.Forms.Button();
-            this.button136 = new System.Windows.Forms.Button();
+            this.pl2TwoShipN3P1 = new System.Windows.Forms.Button();
             this.button137 = new System.Windows.Forms.Button();
-            this.button138 = new System.Windows.Forms.Button();
+            this.pl2ThreeShipN1P2 = new System.Windows.Forms.Button();
             this.button139 = new System.Windows.Forms.Button();
             this.button140 = new System.Windows.Forms.Button();
-            this.button141 = new System.Windows.Forms.Button();
+            this.pl2OneShipN4 = new System.Windows.Forms.Button();
             this.button142 = new System.Windows.Forms.Button();
             this.button143 = new System.Windows.Forms.Button();
             this.button144 = new System.Windows.Forms.Button();
-            this.button145 = new System.Windows.Forms.Button();
-            this.button146 = new System.Windows.Forms.Button();
-            this.button147 = new System.Windows.Forms.Button();
-            this.button148 = new System.Windows.Forms.Button();
+            this.pl2FourShipP4 = new System.Windows.Forms.Button();
+            this.pl2FourShipP3 = new System.Windows.Forms.Button();
+            this.pl2FourShipP2 = new System.Windows.Forms.Button();
+            this.pl2FourShipP1 = new System.Windows.Forms.Button();
             this.button149 = new System.Windows.Forms.Button();
             this.button150 = new System.Windows.Forms.Button();
             this.button151 = new System.Windows.Forms.Button();
             this.button152 = new System.Windows.Forms.Button();
-            this.button153 = new System.Windows.Forms.Button();
+            this.button123pl2ThreeShipN2P3 = new System.Windows.Forms.Button();
             this.button154 = new System.Windows.Forms.Button();
             this.button155 = new System.Windows.Forms.Button();
             this.button156 = new System.Windows.Forms.Button();
             this.button157 = new System.Windows.Forms.Button();
             this.button158 = new System.Windows.Forms.Button();
             this.button159 = new System.Windows.Forms.Button();
-            this.button160 = new System.Windows.Forms.Button();
+            this.pl2OneShipN2 = new System.Windows.Forms.Button();
             this.groupBoxPL2 = new System.Windows.Forms.GroupBox();
             this.whoseTurnComboBox = new System.Windows.Forms.ComboBox();
             this.whoseTurnLabel = new System.Windows.Forms.Label();
@@ -198,15 +198,15 @@
             this.groupBoxPL2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pl1OneShip
+            // pl1OneShipN1
             // 
-            this.pl1OneShip.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pl1OneShip.Enabled = false;
-            this.pl1OneShip.Location = new System.Drawing.Point(14, 25);
-            this.pl1OneShip.Name = "pl1OneShip";
-            this.pl1OneShip.Size = new System.Drawing.Size(17, 17);
-            this.pl1OneShip.TabIndex = 0;
-            this.pl1OneShip.UseVisualStyleBackColor = false;
+            this.pl1OneShipN1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1OneShipN1.Enabled = false;
+            this.pl1OneShipN1.Location = new System.Drawing.Point(14, 25);
+            this.pl1OneShipN1.Name = "pl1OneShipN1";
+            this.pl1OneShipN1.Size = new System.Drawing.Size(17, 17);
+            this.pl1OneShipN1.TabIndex = 0;
+            this.pl1OneShipN1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -280,15 +280,15 @@
             this.button9.TabIndex = 9;
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // pl1OneShipN2
             // 
-            this.button10.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button10.Enabled = false;
-            this.button10.Location = new System.Drawing.Point(198, 25);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(17, 17);
-            this.button10.TabIndex = 8;
-            this.button10.UseVisualStyleBackColor = false;
+            this.pl1OneShipN2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1OneShipN2.Enabled = false;
+            this.pl1OneShipN2.Location = new System.Drawing.Point(198, 25);
+            this.pl1OneShipN2.Name = "pl1OneShipN2";
+            this.pl1OneShipN2.Size = new System.Drawing.Size(17, 17);
+            this.pl1OneShipN2.TabIndex = 8;
+            this.pl1OneShipN2.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
@@ -326,45 +326,45 @@
             this.button14.TabIndex = 16;
             this.button14.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // pl1FourShipP4
             // 
-            this.button15.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button15.Enabled = false;
-            this.button15.Location = new System.Drawing.Point(129, 48);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(17, 17);
-            this.button15.TabIndex = 15;
-            this.button15.UseVisualStyleBackColor = false;
+            this.pl1FourShipP4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1FourShipP4.Enabled = false;
+            this.pl1FourShipP4.Location = new System.Drawing.Point(129, 48);
+            this.pl1FourShipP4.Name = "pl1FourShipP4";
+            this.pl1FourShipP4.Size = new System.Drawing.Size(17, 17);
+            this.pl1FourShipP4.TabIndex = 15;
+            this.pl1FourShipP4.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // pl1FourShipP3
             // 
-            this.button16.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button16.Enabled = false;
-            this.button16.Location = new System.Drawing.Point(106, 48);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(17, 17);
-            this.button16.TabIndex = 14;
-            this.button16.UseVisualStyleBackColor = false;
+            this.pl1FourShipP3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1FourShipP3.Enabled = false;
+            this.pl1FourShipP3.Location = new System.Drawing.Point(106, 48);
+            this.pl1FourShipP3.Name = "pl1FourShipP3";
+            this.pl1FourShipP3.Size = new System.Drawing.Size(17, 17);
+            this.pl1FourShipP3.TabIndex = 14;
+            this.pl1FourShipP3.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // pl1FourShipP2
             // 
-            this.button17.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button17.Enabled = false;
-            this.button17.Location = new System.Drawing.Point(83, 48);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(17, 17);
-            this.button17.TabIndex = 13;
-            this.button17.UseVisualStyleBackColor = false;
+            this.pl1FourShipP2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1FourShipP2.Enabled = false;
+            this.pl1FourShipP2.Location = new System.Drawing.Point(83, 48);
+            this.pl1FourShipP2.Name = "pl1FourShipP2";
+            this.pl1FourShipP2.Size = new System.Drawing.Size(17, 17);
+            this.pl1FourShipP2.TabIndex = 13;
+            this.pl1FourShipP2.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // pl1FourShipP1
             // 
-            this.button18.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button18.Enabled = false;
-            this.button18.Location = new System.Drawing.Point(60, 48);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(17, 17);
-            this.button18.TabIndex = 12;
-            this.button18.UseVisualStyleBackColor = false;
+            this.pl1FourShipP1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1FourShipP1.Enabled = false;
+            this.pl1FourShipP1.Location = new System.Drawing.Point(60, 48);
+            this.pl1FourShipP1.Name = "pl1FourShipP1";
+            this.pl1FourShipP1.Size = new System.Drawing.Size(17, 17);
+            this.pl1FourShipP1.TabIndex = 12;
+            this.pl1FourShipP1.UseVisualStyleBackColor = false;
             // 
             // button19
             // 
@@ -384,15 +384,15 @@
             this.button20.TabIndex = 10;
             this.button20.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // pl1OneShipN3
             // 
-            this.button21.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button21.Enabled = false;
-            this.button21.Location = new System.Drawing.Point(221, 97);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(17, 17);
-            this.button21.TabIndex = 39;
-            this.button21.UseVisualStyleBackColor = false;
+            this.pl1OneShipN3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1OneShipN3.Enabled = false;
+            this.pl1OneShipN3.Location = new System.Drawing.Point(221, 97);
+            this.pl1OneShipN3.Name = "pl1OneShipN3";
+            this.pl1OneShipN3.Size = new System.Drawing.Size(17, 17);
+            this.pl1OneShipN3.TabIndex = 39;
+            this.pl1OneShipN3.UseVisualStyleBackColor = false;
             // 
             // button22
             // 
@@ -403,15 +403,15 @@
             this.button22.TabIndex = 38;
             this.button22.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // pl1ThreeShipN1P2
             // 
-            this.button23.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button23.Enabled = false;
-            this.button23.Location = new System.Drawing.Point(175, 97);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(17, 17);
-            this.button23.TabIndex = 37;
-            this.button23.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN1P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN1P2.Enabled = false;
+            this.pl1ThreeShipN1P2.Location = new System.Drawing.Point(175, 97);
+            this.pl1ThreeShipN1P2.Name = "pl1ThreeShipN1P2";
+            this.pl1ThreeShipN1P2.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN1P2.TabIndex = 37;
+            this.pl1ThreeShipN1P2.UseVisualStyleBackColor = false;
             // 
             // button24
             // 
@@ -467,15 +467,15 @@
             this.button29.TabIndex = 31;
             this.button29.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // pl1TwoShipN2P2
             // 
-            this.button30.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button30.Enabled = false;
-            this.button30.Location = new System.Drawing.Point(14, 97);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(17, 17);
-            this.button30.TabIndex = 30;
-            this.button30.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN2P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN2P2.Enabled = false;
+            this.pl1TwoShipN2P2.Location = new System.Drawing.Point(14, 97);
+            this.pl1TwoShipN2P2.Name = "pl1TwoShipN2P2";
+            this.pl1TwoShipN2P2.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN2P2.TabIndex = 30;
+            this.pl1TwoShipN2P2.UseVisualStyleBackColor = false;
             // 
             // button31
             // 
@@ -495,15 +495,15 @@
             this.button32.TabIndex = 28;
             this.button32.UseVisualStyleBackColor = true;
             // 
-            // button33
+            // pl1ThreeShipN1P1
             // 
-            this.button33.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button33.Enabled = false;
-            this.button33.Location = new System.Drawing.Point(175, 74);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(17, 17);
-            this.button33.TabIndex = 27;
-            this.button33.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN1P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN1P1.Enabled = false;
+            this.pl1ThreeShipN1P1.Location = new System.Drawing.Point(175, 74);
+            this.pl1ThreeShipN1P1.Name = "pl1ThreeShipN1P1";
+            this.pl1ThreeShipN1P1.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN1P1.TabIndex = 27;
+            this.pl1ThreeShipN1P1.UseVisualStyleBackColor = false;
             // 
             // button34
             // 
@@ -676,15 +676,15 @@
             this.button52.TabIndex = 48;
             this.button52.UseVisualStyleBackColor = true;
             // 
-            // button53
+            // pl1ThreeShipN1P3
             // 
-            this.button53.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button53.Enabled = false;
-            this.button53.Location = new System.Drawing.Point(175, 120);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(17, 17);
-            this.button53.TabIndex = 47;
-            this.button53.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN1P3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN1P3.Enabled = false;
+            this.pl1ThreeShipN1P3.Location = new System.Drawing.Point(175, 120);
+            this.pl1ThreeShipN1P3.Name = "pl1ThreeShipN1P3";
+            this.pl1ThreeShipN1P3.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN1P3.TabIndex = 47;
+            this.pl1ThreeShipN1P3.UseVisualStyleBackColor = false;
             // 
             // button54
             // 
@@ -704,25 +704,25 @@
             this.button55.TabIndex = 45;
             this.button55.UseVisualStyleBackColor = true;
             // 
-            // button56
+            // pl1TwoShipN3P2
             // 
-            this.button56.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button56.Enabled = false;
-            this.button56.Location = new System.Drawing.Point(106, 120);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(17, 17);
-            this.button56.TabIndex = 44;
-            this.button56.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN3P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN3P2.Enabled = false;
+            this.pl1TwoShipN3P2.Location = new System.Drawing.Point(106, 120);
+            this.pl1TwoShipN3P2.Name = "pl1TwoShipN3P2";
+            this.pl1TwoShipN3P2.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN3P2.TabIndex = 44;
+            this.pl1TwoShipN3P2.UseVisualStyleBackColor = false;
             // 
-            // button57
+            // pl1TwoShipN3P1
             // 
-            this.button57.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button57.Enabled = false;
-            this.button57.Location = new System.Drawing.Point(83, 120);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(17, 17);
-            this.button57.TabIndex = 43;
-            this.button57.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN3P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN3P1.Enabled = false;
+            this.pl1TwoShipN3P1.Location = new System.Drawing.Point(83, 120);
+            this.pl1TwoShipN3P1.Name = "pl1TwoShipN3P1";
+            this.pl1TwoShipN3P1.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN3P1.TabIndex = 43;
+            this.pl1TwoShipN3P1.UseVisualStyleBackColor = false;
             // 
             // button58
             // 
@@ -742,15 +742,15 @@
             this.button59.TabIndex = 41;
             this.button59.UseVisualStyleBackColor = true;
             // 
-            // button60
+            // pl1TwoShipN2P1
             // 
-            this.button60.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button60.Enabled = false;
-            this.button60.Location = new System.Drawing.Point(14, 120);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(17, 17);
-            this.button60.TabIndex = 40;
-            this.button60.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN2P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN2P1.Enabled = false;
+            this.pl1TwoShipN2P1.Location = new System.Drawing.Point(14, 120);
+            this.pl1TwoShipN2P1.Name = "pl1TwoShipN2P1";
+            this.pl1TwoShipN2P1.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN2P1.TabIndex = 40;
+            this.pl1TwoShipN2P1.UseVisualStyleBackColor = false;
             // 
             // button61
             // 
@@ -779,15 +779,15 @@
             this.button63.TabIndex = 77;
             this.button63.UseVisualStyleBackColor = true;
             // 
-            // button64
+            // pl1TwoShipN1P2
             // 
-            this.button64.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button64.Enabled = false;
-            this.button64.Location = new System.Drawing.Point(152, 189);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(17, 17);
-            this.button64.TabIndex = 76;
-            this.button64.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN1P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN1P2.Enabled = false;
+            this.pl1TwoShipN1P2.Location = new System.Drawing.Point(152, 189);
+            this.pl1TwoShipN1P2.Name = "pl1TwoShipN1P2";
+            this.pl1TwoShipN1P2.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN1P2.TabIndex = 76;
+            this.pl1TwoShipN1P2.UseVisualStyleBackColor = false;
             // 
             // button65
             // 
@@ -852,15 +852,15 @@
             this.button71.TabIndex = 69;
             this.button71.UseVisualStyleBackColor = true;
             // 
-            // button72
+            // pl1OneShipN4
             // 
-            this.button72.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button72.Enabled = false;
-            this.button72.Location = new System.Drawing.Point(198, 166);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(17, 17);
-            this.button72.TabIndex = 68;
-            this.button72.UseVisualStyleBackColor = false;
+            this.pl1OneShipN4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1OneShipN4.Enabled = false;
+            this.pl1OneShipN4.Location = new System.Drawing.Point(198, 166);
+            this.pl1OneShipN4.Name = "pl1OneShipN4";
+            this.pl1OneShipN4.Size = new System.Drawing.Size(17, 17);
+            this.pl1OneShipN4.TabIndex = 68;
+            this.pl1OneShipN4.UseVisualStyleBackColor = false;
             // 
             // button73
             // 
@@ -871,15 +871,15 @@
             this.button73.TabIndex = 67;
             this.button73.UseVisualStyleBackColor = true;
             // 
-            // button74
+            // pl1TwoShipN1P1
             // 
-            this.button74.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button74.Enabled = false;
-            this.button74.Location = new System.Drawing.Point(152, 166);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(17, 17);
-            this.button74.TabIndex = 66;
-            this.button74.UseVisualStyleBackColor = false;
+            this.pl1TwoShipN1P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1TwoShipN1P1.Enabled = false;
+            this.pl1TwoShipN1P1.Location = new System.Drawing.Point(152, 166);
+            this.pl1TwoShipN1P1.Name = "pl1TwoShipN1P1";
+            this.pl1TwoShipN1P1.Size = new System.Drawing.Size(17, 17);
+            this.pl1TwoShipN1P1.TabIndex = 66;
+            this.pl1TwoShipN1P1.UseVisualStyleBackColor = false;
             // 
             // button75
             // 
@@ -899,35 +899,35 @@
             this.button76.TabIndex = 64;
             this.button76.UseVisualStyleBackColor = true;
             // 
-            // button77
+            // pl1ThreeShipN2P3
             // 
-            this.button77.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button77.Enabled = false;
-            this.button77.Location = new System.Drawing.Point(83, 166);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(17, 17);
-            this.button77.TabIndex = 63;
-            this.button77.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN2P3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN2P3.Enabled = false;
+            this.pl1ThreeShipN2P3.Location = new System.Drawing.Point(83, 166);
+            this.pl1ThreeShipN2P3.Name = "pl1ThreeShipN2P3";
+            this.pl1ThreeShipN2P3.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN2P3.TabIndex = 63;
+            this.pl1ThreeShipN2P3.UseVisualStyleBackColor = false;
             // 
-            // button78
+            // pl1ThreeShipN2P2
             // 
-            this.button78.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button78.Enabled = false;
-            this.button78.Location = new System.Drawing.Point(60, 166);
-            this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(17, 17);
-            this.button78.TabIndex = 62;
-            this.button78.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN2P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN2P2.Enabled = false;
+            this.pl1ThreeShipN2P2.Location = new System.Drawing.Point(60, 166);
+            this.pl1ThreeShipN2P2.Name = "pl1ThreeShipN2P2";
+            this.pl1ThreeShipN2P2.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN2P2.TabIndex = 62;
+            this.pl1ThreeShipN2P2.UseVisualStyleBackColor = false;
             // 
-            // button79
+            // pl1ThreeShipN2P1
             // 
-            this.button79.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button79.Enabled = false;
-            this.button79.Location = new System.Drawing.Point(37, 166);
-            this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(17, 17);
-            this.button79.TabIndex = 61;
-            this.button79.UseVisualStyleBackColor = false;
+            this.pl1ThreeShipN2P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl1ThreeShipN2P1.Enabled = false;
+            this.pl1ThreeShipN2P1.Location = new System.Drawing.Point(37, 166);
+            this.pl1ThreeShipN2P1.Name = "pl1ThreeShipN2P1";
+            this.pl1ThreeShipN2P1.Size = new System.Drawing.Size(17, 17);
+            this.pl1ThreeShipN2P1.TabIndex = 61;
+            this.pl1ThreeShipN2P1.UseVisualStyleBackColor = false;
             // 
             // button80
             // 
@@ -950,7 +950,7 @@
             // 
             // groupBoxPL1
             // 
-            this.groupBoxPL1.Controls.Add(this.pl1OneShip);
+            this.groupBoxPL1.Controls.Add(this.pl1OneShipN1);
             this.groupBoxPL1.Controls.Add(this.button2);
             this.groupBoxPL1.Controls.Add(this.button4);
             this.groupBoxPL1.Controls.Add(this.button61);
@@ -961,18 +961,18 @@
             this.groupBoxPL1.Controls.Add(this.button6);
             this.groupBoxPL1.Controls.Add(this.button63);
             this.groupBoxPL1.Controls.Add(this.button5);
-            this.groupBoxPL1.Controls.Add(this.button10);
-            this.groupBoxPL1.Controls.Add(this.button64);
+            this.groupBoxPL1.Controls.Add(this.pl1OneShipN2);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN1P2);
             this.groupBoxPL1.Controls.Add(this.button9);
             this.groupBoxPL1.Controls.Add(this.button20);
             this.groupBoxPL1.Controls.Add(this.button65);
             this.groupBoxPL1.Controls.Add(this.button19);
-            this.groupBoxPL1.Controls.Add(this.button18);
+            this.groupBoxPL1.Controls.Add(this.pl1FourShipP1);
             this.groupBoxPL1.Controls.Add(this.button66);
-            this.groupBoxPL1.Controls.Add(this.button17);
-            this.groupBoxPL1.Controls.Add(this.button16);
+            this.groupBoxPL1.Controls.Add(this.pl1FourShipP2);
+            this.groupBoxPL1.Controls.Add(this.pl1FourShipP3);
             this.groupBoxPL1.Controls.Add(this.button67);
-            this.groupBoxPL1.Controls.Add(this.button15);
+            this.groupBoxPL1.Controls.Add(this.pl1FourShipP4);
             this.groupBoxPL1.Controls.Add(this.button14);
             this.groupBoxPL1.Controls.Add(this.button68);
             this.groupBoxPL1.Controls.Add(this.button13);
@@ -986,41 +986,41 @@
             this.groupBoxPL1.Controls.Add(this.button71);
             this.groupBoxPL1.Controls.Add(this.button37);
             this.groupBoxPL1.Controls.Add(this.button36);
-            this.groupBoxPL1.Controls.Add(this.button72);
+            this.groupBoxPL1.Controls.Add(this.pl1OneShipN4);
             this.groupBoxPL1.Controls.Add(this.button35);
             this.groupBoxPL1.Controls.Add(this.button34);
             this.groupBoxPL1.Controls.Add(this.button73);
-            this.groupBoxPL1.Controls.Add(this.button33);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P1);
             this.groupBoxPL1.Controls.Add(this.button32);
-            this.groupBoxPL1.Controls.Add(this.button74);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN1P1);
             this.groupBoxPL1.Controls.Add(this.button31);
-            this.groupBoxPL1.Controls.Add(this.button30);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN2P2);
             this.groupBoxPL1.Controls.Add(this.button75);
             this.groupBoxPL1.Controls.Add(this.button29);
             this.groupBoxPL1.Controls.Add(this.button28);
             this.groupBoxPL1.Controls.Add(this.button76);
             this.groupBoxPL1.Controls.Add(this.button27);
             this.groupBoxPL1.Controls.Add(this.button26);
-            this.groupBoxPL1.Controls.Add(this.button77);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P3);
             this.groupBoxPL1.Controls.Add(this.button25);
             this.groupBoxPL1.Controls.Add(this.button24);
-            this.groupBoxPL1.Controls.Add(this.button78);
-            this.groupBoxPL1.Controls.Add(this.button23);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P2);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P2);
             this.groupBoxPL1.Controls.Add(this.button22);
-            this.groupBoxPL1.Controls.Add(this.button79);
-            this.groupBoxPL1.Controls.Add(this.button21);
-            this.groupBoxPL1.Controls.Add(this.button60);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P1);
+            this.groupBoxPL1.Controls.Add(this.pl1OneShipN3);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN2P1);
             this.groupBoxPL1.Controls.Add(this.button80);
             this.groupBoxPL1.Controls.Add(this.button59);
             this.groupBoxPL1.Controls.Add(this.button58);
             this.groupBoxPL1.Controls.Add(this.button41);
-            this.groupBoxPL1.Controls.Add(this.button57);
-            this.groupBoxPL1.Controls.Add(this.button56);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN3P1);
+            this.groupBoxPL1.Controls.Add(this.pl1TwoShipN3P2);
             this.groupBoxPL1.Controls.Add(this.button42);
             this.groupBoxPL1.Controls.Add(this.button55);
             this.groupBoxPL1.Controls.Add(this.button54);
             this.groupBoxPL1.Controls.Add(this.button43);
-            this.groupBoxPL1.Controls.Add(this.button53);
+            this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P3);
             this.groupBoxPL1.Controls.Add(this.button52);
             this.groupBoxPL1.Controls.Add(this.button44);
             this.groupBoxPL1.Controls.Add(this.button51);
@@ -1030,7 +1030,7 @@
             this.groupBoxPL1.Controls.Add(this.button48);
             this.groupBoxPL1.Controls.Add(this.button46);
             this.groupBoxPL1.Controls.Add(this.button47);
-            this.groupBoxPL1.Location = new System.Drawing.Point(50, 118);
+            this.groupBoxPL1.Location = new System.Drawing.Point(30, 118);
             this.groupBoxPL1.Name = "groupBoxPL1";
             this.groupBoxPL1.Size = new System.Drawing.Size(254, 224);
             this.groupBoxPL1.TabIndex = 162;
@@ -1053,14 +1053,14 @@
             this.button81.TabIndex = 164;
             this.button81.UseVisualStyleBackColor = true;
             // 
-            // button83
+            // pl2TwoShipN1P1
             // 
-            this.button83.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button83.Location = new System.Drawing.Point(94, 20);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(17, 17);
-            this.button83.TabIndex = 166;
-            this.button83.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN1P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN1P1.Location = new System.Drawing.Point(94, 20);
+            this.pl2TwoShipN1P1.Name = "pl2TwoShipN1P1";
+            this.pl2TwoShipN1P1.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN1P1.TabIndex = 166;
+            this.pl2TwoShipN1P1.UseVisualStyleBackColor = false;
             // 
             // button84
             // 
@@ -1094,14 +1094,14 @@
             this.button87.TabIndex = 168;
             this.button87.UseVisualStyleBackColor = true;
             // 
-            // button88
+            // pl2TwoShipN1P2
             // 
-            this.button88.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button88.Location = new System.Drawing.Point(117, 20);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(17, 17);
-            this.button88.TabIndex = 167;
-            this.button88.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN1P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN1P2.Location = new System.Drawing.Point(117, 20);
+            this.pl2TwoShipN1P2.Name = "pl2TwoShipN1P2";
+            this.pl2TwoShipN1P2.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN1P2.TabIndex = 167;
+            this.pl2TwoShipN1P2.UseVisualStyleBackColor = false;
             // 
             // button89
             // 
@@ -1135,23 +1135,23 @@
             this.button92.TabIndex = 181;
             this.button92.UseVisualStyleBackColor = true;
             // 
-            // button93
+            // pl2TwoShipN2P2
             // 
-            this.button93.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button93.Location = new System.Drawing.Point(186, 43);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(17, 17);
-            this.button93.TabIndex = 180;
-            this.button93.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN2P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN2P2.Location = new System.Drawing.Point(186, 43);
+            this.pl2TwoShipN2P2.Name = "pl2TwoShipN2P2";
+            this.pl2TwoShipN2P2.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN2P2.TabIndex = 180;
+            this.pl2TwoShipN2P2.UseVisualStyleBackColor = false;
             // 
-            // button94
+            // pl2TwoShipN2P1
             // 
-            this.button94.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button94.Location = new System.Drawing.Point(163, 43);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(17, 17);
-            this.button94.TabIndex = 179;
-            this.button94.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN2P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN2P1.Location = new System.Drawing.Point(163, 43);
+            this.pl2TwoShipN2P1.Name = "pl2TwoShipN2P1";
+            this.pl2TwoShipN2P1.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN2P1.TabIndex = 179;
+            this.pl2TwoShipN2P1.UseVisualStyleBackColor = false;
             // 
             // button95
             // 
@@ -1193,14 +1193,14 @@
             this.button99.TabIndex = 174;
             this.button99.UseVisualStyleBackColor = true;
             // 
-            // button100
+            // pl2OneShipN1
             // 
-            this.button100.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button100.Location = new System.Drawing.Point(25, 43);
-            this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(17, 17);
-            this.button100.TabIndex = 173;
-            this.button100.UseVisualStyleBackColor = false;
+            this.pl2OneShipN1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2OneShipN1.Location = new System.Drawing.Point(25, 43);
+            this.pl2OneShipN1.Name = "pl2OneShipN1";
+            this.pl2OneShipN1.Size = new System.Drawing.Size(17, 17);
+            this.pl2OneShipN1.TabIndex = 173;
+            this.pl2OneShipN1.UseVisualStyleBackColor = false;
             // 
             // button101
             // 
@@ -1258,14 +1258,14 @@
             this.button107.TabIndex = 186;
             this.button107.UseVisualStyleBackColor = true;
             // 
-            // button108
+            // pl2ThreeShipN1P1
             // 
-            this.button108.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button108.Location = new System.Drawing.Point(71, 66);
-            this.button108.Name = "button108";
-            this.button108.Size = new System.Drawing.Size(17, 17);
-            this.button108.TabIndex = 185;
-            this.button108.UseVisualStyleBackColor = false;
+            this.pl2ThreeShipN1P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2ThreeShipN1P1.Location = new System.Drawing.Point(71, 66);
+            this.pl2ThreeShipN1P1.Name = "pl2ThreeShipN1P1";
+            this.pl2ThreeShipN1P1.Size = new System.Drawing.Size(17, 17);
+            this.pl2ThreeShipN1P1.TabIndex = 185;
+            this.pl2ThreeShipN1P1.UseVisualStyleBackColor = false;
             // 
             // button109
             // 
@@ -1299,14 +1299,14 @@
             this.button112.TabIndex = 221;
             this.button112.UseVisualStyleBackColor = true;
             // 
-            // button113
+            // button123pl2ThreeShipN2P2
             // 
-            this.button113.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button113.Location = new System.Drawing.Point(186, 138);
-            this.button113.Name = "button113";
-            this.button113.Size = new System.Drawing.Size(17, 17);
-            this.button113.TabIndex = 220;
-            this.button113.UseVisualStyleBackColor = false;
+            this.button123pl2ThreeShipN2P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button123pl2ThreeShipN2P2.Location = new System.Drawing.Point(186, 138);
+            this.button123pl2ThreeShipN2P2.Name = "button123pl2ThreeShipN2P2";
+            this.button123pl2ThreeShipN2P2.Size = new System.Drawing.Size(17, 17);
+            this.button123pl2ThreeShipN2P2.TabIndex = 220;
+            this.button123pl2ThreeShipN2P2.UseVisualStyleBackColor = false;
             // 
             // button114
             // 
@@ -1380,14 +1380,14 @@
             this.button122.TabIndex = 211;
             this.button122.UseVisualStyleBackColor = true;
             // 
-            // button123
+            // button123pl2ThreeShipN2P1
             // 
-            this.button123.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button123.Location = new System.Drawing.Point(186, 115);
-            this.button123.Name = "button123";
-            this.button123.Size = new System.Drawing.Size(17, 17);
-            this.button123.TabIndex = 210;
-            this.button123.UseVisualStyleBackColor = false;
+            this.button123pl2ThreeShipN2P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button123pl2ThreeShipN2P1.Location = new System.Drawing.Point(186, 115);
+            this.button123pl2ThreeShipN2P1.Name = "button123pl2ThreeShipN2P1";
+            this.button123pl2ThreeShipN2P1.Size = new System.Drawing.Size(17, 17);
+            this.button123pl2ThreeShipN2P1.TabIndex = 210;
+            this.button123pl2ThreeShipN2P1.UseVisualStyleBackColor = false;
             // 
             // button124
             // 
@@ -1405,14 +1405,14 @@
             this.button125.TabIndex = 208;
             this.button125.UseVisualStyleBackColor = true;
             // 
-            // button126
+            // pl2TwoShipN3P2
             // 
-            this.button126.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button126.Location = new System.Drawing.Point(117, 115);
-            this.button126.Name = "button126";
-            this.button126.Size = new System.Drawing.Size(17, 17);
-            this.button126.TabIndex = 207;
-            this.button126.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN3P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN3P2.Location = new System.Drawing.Point(117, 115);
+            this.pl2TwoShipN3P2.Name = "pl2TwoShipN3P2";
+            this.pl2TwoShipN3P2.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN3P2.TabIndex = 207;
+            this.pl2TwoShipN3P2.UseVisualStyleBackColor = false;
             // 
             // button127
             // 
@@ -1422,14 +1422,14 @@
             this.button127.TabIndex = 206;
             this.button127.UseVisualStyleBackColor = true;
             // 
-            // button128
+            // pl2ThreeShipN1P3
             // 
-            this.button128.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button128.Location = new System.Drawing.Point(71, 115);
-            this.button128.Name = "button128";
-            this.button128.Size = new System.Drawing.Size(17, 17);
-            this.button128.TabIndex = 205;
-            this.button128.UseVisualStyleBackColor = false;
+            this.pl2ThreeShipN1P3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2ThreeShipN1P3.Location = new System.Drawing.Point(71, 115);
+            this.pl2ThreeShipN1P3.Name = "pl2ThreeShipN1P3";
+            this.pl2ThreeShipN1P3.Size = new System.Drawing.Size(17, 17);
+            this.pl2ThreeShipN1P3.TabIndex = 205;
+            this.pl2ThreeShipN1P3.UseVisualStyleBackColor = false;
             // 
             // button129
             // 
@@ -1447,14 +1447,14 @@
             this.button130.TabIndex = 203;
             this.button130.UseVisualStyleBackColor = true;
             // 
-            // button131
+            // pl2OneShipN3
             // 
-            this.button131.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button131.Location = new System.Drawing.Point(232, 92);
-            this.button131.Name = "button131";
-            this.button131.Size = new System.Drawing.Size(17, 17);
-            this.button131.TabIndex = 202;
-            this.button131.UseVisualStyleBackColor = false;
+            this.pl2OneShipN3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2OneShipN3.Location = new System.Drawing.Point(232, 92);
+            this.pl2OneShipN3.Name = "pl2OneShipN3";
+            this.pl2OneShipN3.Size = new System.Drawing.Size(17, 17);
+            this.pl2OneShipN3.TabIndex = 202;
+            this.pl2OneShipN3.UseVisualStyleBackColor = false;
             // 
             // button132
             // 
@@ -1488,14 +1488,14 @@
             this.button135.TabIndex = 198;
             this.button135.UseVisualStyleBackColor = true;
             // 
-            // button136
+            // pl2TwoShipN3P1
             // 
-            this.button136.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button136.Location = new System.Drawing.Point(117, 92);
-            this.button136.Name = "button136";
-            this.button136.Size = new System.Drawing.Size(17, 17);
-            this.button136.TabIndex = 197;
-            this.button136.UseVisualStyleBackColor = false;
+            this.pl2TwoShipN3P1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2TwoShipN3P1.Location = new System.Drawing.Point(117, 92);
+            this.pl2TwoShipN3P1.Name = "pl2TwoShipN3P1";
+            this.pl2TwoShipN3P1.Size = new System.Drawing.Size(17, 17);
+            this.pl2TwoShipN3P1.TabIndex = 197;
+            this.pl2TwoShipN3P1.UseVisualStyleBackColor = false;
             // 
             // button137
             // 
@@ -1505,14 +1505,14 @@
             this.button137.TabIndex = 196;
             this.button137.UseVisualStyleBackColor = true;
             // 
-            // button138
+            // pl2ThreeShipN1P2
             // 
-            this.button138.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button138.Location = new System.Drawing.Point(71, 92);
-            this.button138.Name = "button138";
-            this.button138.Size = new System.Drawing.Size(17, 17);
-            this.button138.TabIndex = 195;
-            this.button138.UseVisualStyleBackColor = false;
+            this.pl2ThreeShipN1P2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2ThreeShipN1P2.Location = new System.Drawing.Point(71, 92);
+            this.pl2ThreeShipN1P2.Name = "pl2ThreeShipN1P2";
+            this.pl2ThreeShipN1P2.Size = new System.Drawing.Size(17, 17);
+            this.pl2ThreeShipN1P2.TabIndex = 195;
+            this.pl2ThreeShipN1P2.UseVisualStyleBackColor = false;
             // 
             // button139
             // 
@@ -1530,14 +1530,14 @@
             this.button140.TabIndex = 193;
             this.button140.UseVisualStyleBackColor = true;
             // 
-            // button141
+            // pl2OneShipN4
             // 
-            this.button141.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button141.Location = new System.Drawing.Point(232, 184);
-            this.button141.Name = "button141";
-            this.button141.Size = new System.Drawing.Size(17, 17);
-            this.button141.TabIndex = 242;
-            this.button141.UseVisualStyleBackColor = false;
+            this.pl2OneShipN4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2OneShipN4.Location = new System.Drawing.Point(232, 184);
+            this.pl2OneShipN4.Name = "pl2OneShipN4";
+            this.pl2OneShipN4.Size = new System.Drawing.Size(17, 17);
+            this.pl2OneShipN4.TabIndex = 242;
+            this.pl2OneShipN4.UseVisualStyleBackColor = false;
             // 
             // button142
             // 
@@ -1563,41 +1563,41 @@
             this.button144.TabIndex = 239;
             this.button144.UseVisualStyleBackColor = true;
             // 
-            // button145
+            // pl2FourShipP4
             // 
-            this.button145.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button145.Location = new System.Drawing.Point(140, 184);
-            this.button145.Name = "button145";
-            this.button145.Size = new System.Drawing.Size(17, 17);
-            this.button145.TabIndex = 238;
-            this.button145.UseVisualStyleBackColor = false;
+            this.pl2FourShipP4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2FourShipP4.Location = new System.Drawing.Point(140, 184);
+            this.pl2FourShipP4.Name = "pl2FourShipP4";
+            this.pl2FourShipP4.Size = new System.Drawing.Size(17, 17);
+            this.pl2FourShipP4.TabIndex = 238;
+            this.pl2FourShipP4.UseVisualStyleBackColor = false;
             // 
-            // button146
+            // pl2FourShipP3
             // 
-            this.button146.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button146.Location = new System.Drawing.Point(117, 184);
-            this.button146.Name = "button146";
-            this.button146.Size = new System.Drawing.Size(17, 17);
-            this.button146.TabIndex = 237;
-            this.button146.UseVisualStyleBackColor = false;
+            this.pl2FourShipP3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2FourShipP3.Location = new System.Drawing.Point(117, 184);
+            this.pl2FourShipP3.Name = "pl2FourShipP3";
+            this.pl2FourShipP3.Size = new System.Drawing.Size(17, 17);
+            this.pl2FourShipP3.TabIndex = 237;
+            this.pl2FourShipP3.UseVisualStyleBackColor = false;
             // 
-            // button147
+            // pl2FourShipP2
             // 
-            this.button147.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button147.Location = new System.Drawing.Point(94, 184);
-            this.button147.Name = "button147";
-            this.button147.Size = new System.Drawing.Size(17, 17);
-            this.button147.TabIndex = 236;
-            this.button147.UseVisualStyleBackColor = false;
+            this.pl2FourShipP2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2FourShipP2.Location = new System.Drawing.Point(94, 184);
+            this.pl2FourShipP2.Name = "pl2FourShipP2";
+            this.pl2FourShipP2.Size = new System.Drawing.Size(17, 17);
+            this.pl2FourShipP2.TabIndex = 236;
+            this.pl2FourShipP2.UseVisualStyleBackColor = false;
             // 
-            // button148
+            // pl2FourShipP1
             // 
-            this.button148.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button148.Location = new System.Drawing.Point(71, 184);
-            this.button148.Name = "button148";
-            this.button148.Size = new System.Drawing.Size(17, 17);
-            this.button148.TabIndex = 235;
-            this.button148.UseVisualStyleBackColor = false;
+            this.pl2FourShipP1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2FourShipP1.Location = new System.Drawing.Point(71, 184);
+            this.pl2FourShipP1.Name = "pl2FourShipP1";
+            this.pl2FourShipP1.Size = new System.Drawing.Size(17, 17);
+            this.pl2FourShipP1.TabIndex = 235;
+            this.pl2FourShipP1.UseVisualStyleBackColor = false;
             // 
             // button149
             // 
@@ -1631,14 +1631,14 @@
             this.button152.TabIndex = 231;
             this.button152.UseVisualStyleBackColor = true;
             // 
-            // button153
+            // button123pl2ThreeShipN2P3
             // 
-            this.button153.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button153.Location = new System.Drawing.Point(186, 161);
-            this.button153.Name = "button153";
-            this.button153.Size = new System.Drawing.Size(17, 17);
-            this.button153.TabIndex = 230;
-            this.button153.UseVisualStyleBackColor = false;
+            this.button123pl2ThreeShipN2P3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button123pl2ThreeShipN2P3.Location = new System.Drawing.Point(186, 161);
+            this.button123pl2ThreeShipN2P3.Name = "button123pl2ThreeShipN2P3";
+            this.button123pl2ThreeShipN2P3.Size = new System.Drawing.Size(17, 17);
+            this.button123pl2ThreeShipN2P3.TabIndex = 230;
+            this.button123pl2ThreeShipN2P3.UseVisualStyleBackColor = false;
             // 
             // button154
             // 
@@ -1688,32 +1688,32 @@
             this.button159.TabIndex = 224;
             this.button159.UseVisualStyleBackColor = true;
             // 
-            // button160
+            // pl2OneShipN2
             // 
-            this.button160.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button160.Location = new System.Drawing.Point(25, 161);
-            this.button160.Name = "button160";
-            this.button160.Size = new System.Drawing.Size(17, 17);
-            this.button160.TabIndex = 223;
-            this.button160.UseVisualStyleBackColor = false;
+            this.pl2OneShipN2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pl2OneShipN2.Location = new System.Drawing.Point(25, 161);
+            this.pl2OneShipN2.Name = "pl2OneShipN2";
+            this.pl2OneShipN2.Size = new System.Drawing.Size(17, 17);
+            this.pl2OneShipN2.TabIndex = 223;
+            this.pl2OneShipN2.UseVisualStyleBackColor = false;
             // 
             // groupBoxPL2
             // 
             this.groupBoxPL2.Controls.Add(this.button82);
-            this.groupBoxPL2.Controls.Add(this.button141);
-            this.groupBoxPL2.Controls.Add(this.button138);
+            this.groupBoxPL2.Controls.Add(this.pl2OneShipN4);
+            this.groupBoxPL2.Controls.Add(this.pl2ThreeShipN1P2);
             this.groupBoxPL2.Controls.Add(this.button142);
             this.groupBoxPL2.Controls.Add(this.button143);
             this.groupBoxPL2.Controls.Add(this.button81);
             this.groupBoxPL2.Controls.Add(this.button144);
             this.groupBoxPL2.Controls.Add(this.button84);
-            this.groupBoxPL2.Controls.Add(this.button145);
-            this.groupBoxPL2.Controls.Add(this.button83);
-            this.groupBoxPL2.Controls.Add(this.button146);
-            this.groupBoxPL2.Controls.Add(this.button88);
-            this.groupBoxPL2.Controls.Add(this.button147);
+            this.groupBoxPL2.Controls.Add(this.pl2FourShipP4);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN1P1);
+            this.groupBoxPL2.Controls.Add(this.pl2FourShipP3);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN1P2);
+            this.groupBoxPL2.Controls.Add(this.pl2FourShipP2);
             this.groupBoxPL2.Controls.Add(this.button87);
-            this.groupBoxPL2.Controls.Add(this.button148);
+            this.groupBoxPL2.Controls.Add(this.pl2FourShipP1);
             this.groupBoxPL2.Controls.Add(this.button86);
             this.groupBoxPL2.Controls.Add(this.button149);
             this.groupBoxPL2.Controls.Add(this.button85);
@@ -1722,8 +1722,8 @@
             this.groupBoxPL2.Controls.Add(this.button151);
             this.groupBoxPL2.Controls.Add(this.button89);
             this.groupBoxPL2.Controls.Add(this.button152);
-            this.groupBoxPL2.Controls.Add(this.button100);
-            this.groupBoxPL2.Controls.Add(this.button153);
+            this.groupBoxPL2.Controls.Add(this.pl2OneShipN1);
+            this.groupBoxPL2.Controls.Add(this.button123pl2ThreeShipN2P3);
             this.groupBoxPL2.Controls.Add(this.button99);
             this.groupBoxPL2.Controls.Add(this.button154);
             this.groupBoxPL2.Controls.Add(this.button98);
@@ -1734,19 +1734,19 @@
             this.groupBoxPL2.Controls.Add(this.button157);
             this.groupBoxPL2.Controls.Add(this.button95);
             this.groupBoxPL2.Controls.Add(this.button158);
-            this.groupBoxPL2.Controls.Add(this.button94);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN2P1);
             this.groupBoxPL2.Controls.Add(this.button159);
-            this.groupBoxPL2.Controls.Add(this.button93);
-            this.groupBoxPL2.Controls.Add(this.button160);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN2P2);
+            this.groupBoxPL2.Controls.Add(this.pl2OneShipN2);
             this.groupBoxPL2.Controls.Add(this.button92);
             this.groupBoxPL2.Controls.Add(this.button111);
             this.groupBoxPL2.Controls.Add(this.button91);
             this.groupBoxPL2.Controls.Add(this.button112);
             this.groupBoxPL2.Controls.Add(this.button110);
-            this.groupBoxPL2.Controls.Add(this.button113);
+            this.groupBoxPL2.Controls.Add(this.button123pl2ThreeShipN2P2);
             this.groupBoxPL2.Controls.Add(this.button109);
             this.groupBoxPL2.Controls.Add(this.button114);
-            this.groupBoxPL2.Controls.Add(this.button108);
+            this.groupBoxPL2.Controls.Add(this.pl2ThreeShipN1P1);
             this.groupBoxPL2.Controls.Add(this.button115);
             this.groupBoxPL2.Controls.Add(this.button107);
             this.groupBoxPL2.Controls.Add(this.button116);
@@ -1763,22 +1763,22 @@
             this.groupBoxPL2.Controls.Add(this.button101);
             this.groupBoxPL2.Controls.Add(this.button122);
             this.groupBoxPL2.Controls.Add(this.button140);
-            this.groupBoxPL2.Controls.Add(this.button123);
+            this.groupBoxPL2.Controls.Add(this.button123pl2ThreeShipN2P1);
             this.groupBoxPL2.Controls.Add(this.button139);
             this.groupBoxPL2.Controls.Add(this.button124);
             this.groupBoxPL2.Controls.Add(this.button137);
             this.groupBoxPL2.Controls.Add(this.button125);
-            this.groupBoxPL2.Controls.Add(this.button136);
-            this.groupBoxPL2.Controls.Add(this.button126);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN3P1);
+            this.groupBoxPL2.Controls.Add(this.pl2TwoShipN3P2);
             this.groupBoxPL2.Controls.Add(this.button135);
             this.groupBoxPL2.Controls.Add(this.button127);
             this.groupBoxPL2.Controls.Add(this.button134);
-            this.groupBoxPL2.Controls.Add(this.button128);
+            this.groupBoxPL2.Controls.Add(this.pl2ThreeShipN1P3);
             this.groupBoxPL2.Controls.Add(this.button133);
             this.groupBoxPL2.Controls.Add(this.button129);
             this.groupBoxPL2.Controls.Add(this.button132);
             this.groupBoxPL2.Controls.Add(this.button130);
-            this.groupBoxPL2.Controls.Add(this.button131);
+            this.groupBoxPL2.Controls.Add(this.pl2OneShipN3);
             this.groupBoxPL2.Location = new System.Drawing.Point(466, 118);
             this.groupBoxPL2.Name = "groupBoxPL2";
             this.groupBoxPL2.Size = new System.Drawing.Size(268, 220);
@@ -1837,7 +1837,7 @@
         #endregion
         private System.Windows.Forms.Button mainButton;
         private System.Windows.Forms.GroupBox groupBoxPL1;
-        public System.Windows.Forms.Button pl1OneShip;
+        public System.Windows.Forms.Button pl1OneShipN1;
         public System.Windows.Forms.Button button2;
         public System.Windows.Forms.Button button3;
         public System.Windows.Forms.Button button4;
@@ -1846,30 +1846,30 @@
         public System.Windows.Forms.Button button7;
         public System.Windows.Forms.Button button8;
         public System.Windows.Forms.Button button9;
-        public System.Windows.Forms.Button button10;
+        public System.Windows.Forms.Button pl1OneShipN2;
         public System.Windows.Forms.Button button11;
         public System.Windows.Forms.Button button12;
         public System.Windows.Forms.Button button13;
         public System.Windows.Forms.Button button14;
-        public System.Windows.Forms.Button button15;
-        public System.Windows.Forms.Button button16;
-        public System.Windows.Forms.Button button17;
-        public System.Windows.Forms.Button button18;
+        public System.Windows.Forms.Button pl1FourShipP4;
+        public System.Windows.Forms.Button pl1FourShipP3;
+        public System.Windows.Forms.Button pl1FourShipP2;
+        public System.Windows.Forms.Button pl1FourShipP1;
         public System.Windows.Forms.Button button19;
         public System.Windows.Forms.Button button20;
-        public System.Windows.Forms.Button button21;
+        public System.Windows.Forms.Button pl1OneShipN3;
         public System.Windows.Forms.Button button22;
-        public System.Windows.Forms.Button button23;
+        public System.Windows.Forms.Button pl1ThreeShipN1P2;
         public System.Windows.Forms.Button button24;
         public System.Windows.Forms.Button button25;
         public System.Windows.Forms.Button button26;
         public System.Windows.Forms.Button button27;
         public System.Windows.Forms.Button button28;
         public System.Windows.Forms.Button button29;
-        public System.Windows.Forms.Button button30;
+        public System.Windows.Forms.Button pl1TwoShipN2P2;
         public System.Windows.Forms.Button button31;
         public System.Windows.Forms.Button button32;
-        public System.Windows.Forms.Button button33;
+        public System.Windows.Forms.Button pl1ThreeShipN1P1;
         public System.Windows.Forms.Button button34;
         public System.Windows.Forms.Button button35;
         public System.Windows.Forms.Button button36;
@@ -1889,18 +1889,18 @@
         public System.Windows.Forms.Button button50;
         public System.Windows.Forms.Button button51;
         public System.Windows.Forms.Button button52;
-        public System.Windows.Forms.Button button53;
+        public System.Windows.Forms.Button pl1ThreeShipN1P3;
         public System.Windows.Forms.Button button54;
         public System.Windows.Forms.Button button55;
-        public System.Windows.Forms.Button button56;
-        public System.Windows.Forms.Button button57;
+        public System.Windows.Forms.Button pl1TwoShipN3P2;
+        public System.Windows.Forms.Button pl1TwoShipN3P1;
         public System.Windows.Forms.Button button58;
         public System.Windows.Forms.Button button59;
-        public System.Windows.Forms.Button button60;
+        public System.Windows.Forms.Button pl1TwoShipN2P1;
         public System.Windows.Forms.Button button61;
         public System.Windows.Forms.Button button62;
         public System.Windows.Forms.Button button63;
-        public System.Windows.Forms.Button button64;
+        public System.Windows.Forms.Button pl1TwoShipN1P2;
         public System.Windows.Forms.Button button65;
         public System.Windows.Forms.Button button66;
         public System.Windows.Forms.Button button67;
@@ -1908,35 +1908,35 @@
         public System.Windows.Forms.Button button69;
         public System.Windows.Forms.Button button70;
         public System.Windows.Forms.Button button71;
-        public System.Windows.Forms.Button button72;
+        public System.Windows.Forms.Button pl1OneShipN4;
         public System.Windows.Forms.Button button73;
-        public System.Windows.Forms.Button button74;
+        public System.Windows.Forms.Button pl1TwoShipN1P1;
         public System.Windows.Forms.Button button75;
         public System.Windows.Forms.Button button76;
-        public System.Windows.Forms.Button button77;
-        public System.Windows.Forms.Button button78;
-        public System.Windows.Forms.Button button79;
+        public System.Windows.Forms.Button pl1ThreeShipN2P3;
+        public System.Windows.Forms.Button pl1ThreeShipN2P2;
+        public System.Windows.Forms.Button pl1ThreeShipN2P1;
         public System.Windows.Forms.Button button80;
         private System.Windows.Forms.Label hintLabel;
         public System.Windows.Forms.Button button81;
-        public System.Windows.Forms.Button button83;
+        public System.Windows.Forms.Button pl2TwoShipN1P1;
         public System.Windows.Forms.Button button84;
         public System.Windows.Forms.Button button85;
         public System.Windows.Forms.Button button86;
         public System.Windows.Forms.Button button87;
-        public System.Windows.Forms.Button button88;
+        public System.Windows.Forms.Button pl2TwoShipN1P2;
         public System.Windows.Forms.Button button89;
         public System.Windows.Forms.Button button90;
         public System.Windows.Forms.Button button91;
         public System.Windows.Forms.Button button92;
-        public System.Windows.Forms.Button button93;
-        public System.Windows.Forms.Button button94;
+        public System.Windows.Forms.Button pl2TwoShipN2P2;
+        public System.Windows.Forms.Button pl2TwoShipN2P1;
         public System.Windows.Forms.Button button95;
         public System.Windows.Forms.Button button96;
         public System.Windows.Forms.Button button97;
         public System.Windows.Forms.Button button98;
         public System.Windows.Forms.Button button99;
-        public System.Windows.Forms.Button button100;
+        public System.Windows.Forms.Button pl2OneShipN1;
         public System.Windows.Forms.Button button101;
         public System.Windows.Forms.Button button102;
         public System.Windows.Forms.Button button103;
@@ -1944,12 +1944,12 @@
         public System.Windows.Forms.Button button105;
         public System.Windows.Forms.Button button106;
         public System.Windows.Forms.Button button107;
-        public System.Windows.Forms.Button button108;
+        public System.Windows.Forms.Button pl2ThreeShipN1P1;
         public System.Windows.Forms.Button button109;
         public System.Windows.Forms.Button button110;
         public System.Windows.Forms.Button button111;
         public System.Windows.Forms.Button button112;
-        public System.Windows.Forms.Button button113;
+        public System.Windows.Forms.Button button123pl2ThreeShipN2P2;
         public System.Windows.Forms.Button button114;
         public System.Windows.Forms.Button button115;
         public System.Windows.Forms.Button button116;
@@ -1959,44 +1959,44 @@
         public System.Windows.Forms.Button button120;
         public System.Windows.Forms.Button button121;
         public System.Windows.Forms.Button button122;
-        public System.Windows.Forms.Button button123;
+        public System.Windows.Forms.Button button123pl2ThreeShipN2P1;
         public System.Windows.Forms.Button button124;
         public System.Windows.Forms.Button button125;
-        public System.Windows.Forms.Button button126;
+        public System.Windows.Forms.Button pl2TwoShipN3P2;
         public System.Windows.Forms.Button button127;
-        public System.Windows.Forms.Button button128;
+        public System.Windows.Forms.Button pl2ThreeShipN1P3;
         public System.Windows.Forms.Button button129;
         public System.Windows.Forms.Button button130;
-        public System.Windows.Forms.Button button131;
+        public System.Windows.Forms.Button pl2OneShipN3;
         public System.Windows.Forms.Button button132;
         public System.Windows.Forms.Button button133;
         public System.Windows.Forms.Button button134;
         public System.Windows.Forms.Button button135;
-        public System.Windows.Forms.Button button136;
+        public System.Windows.Forms.Button pl2TwoShipN3P1;
         public System.Windows.Forms.Button button137;
-        public System.Windows.Forms.Button button138;
+        public System.Windows.Forms.Button pl2ThreeShipN1P2;
         public System.Windows.Forms.Button button139;
         public System.Windows.Forms.Button button140;
-        public System.Windows.Forms.Button button141;
+        public System.Windows.Forms.Button pl2OneShipN4;
         public System.Windows.Forms.Button button142;
         public System.Windows.Forms.Button button143;
         public System.Windows.Forms.Button button144;
-        public System.Windows.Forms.Button button145;
-        public System.Windows.Forms.Button button146;
-        public System.Windows.Forms.Button button147;
-        public System.Windows.Forms.Button button148;
+        public System.Windows.Forms.Button pl2FourShipP4;
+        public System.Windows.Forms.Button pl2FourShipP3;
+        public System.Windows.Forms.Button pl2FourShipP2;
+        public System.Windows.Forms.Button pl2FourShipP1;
         public System.Windows.Forms.Button button149;
         public System.Windows.Forms.Button button150;
         public System.Windows.Forms.Button button151;
         public System.Windows.Forms.Button button152;
-        public System.Windows.Forms.Button button153;
+        public System.Windows.Forms.Button button123pl2ThreeShipN2P3;
         public System.Windows.Forms.Button button154;
         public System.Windows.Forms.Button button155;
         public System.Windows.Forms.Button button156;
         public System.Windows.Forms.Button button157;
         public System.Windows.Forms.Button button158;
         public System.Windows.Forms.Button button159;
-        public System.Windows.Forms.Button button160;
+        public System.Windows.Forms.Button pl2OneShipN2;
         private System.Windows.Forms.GroupBox groupBoxPL2;
         private System.Windows.Forms.ComboBox whoseTurnComboBox;
         private System.Windows.Forms.Label whoseTurnLabel;
