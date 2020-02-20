@@ -65,10 +65,39 @@ namespace Sea_Battle
             pl1shipArray[19] = pl1FourShipP4;
             // Player 1 Ship Array Finish -------------
 
+            // Player 2 Ship Array Start ------------
+            pl2shipArray[0] = pl2OneShipN1; // Заношу кнопки в массив, чтобы потом можно было считывать их координаты через цикл
+            pl2shipArray[1] = pl2OneShipN2; // Каждая часть кораблика является отдельной кнопкой
+            pl2shipArray[2] = pl2OneShipN3;
+            pl2shipArray[3] = pl2OneShipN4;
 
-            object[] pl2shipArray = new object[20];
+            // Two Cell Ships
+            pl2shipArray[4] = pl2TwoShipN1P1;
+            pl2shipArray[5] = pl2TwoShipN1P2;
+
+            pl2shipArray[6] = pl2TwoShipN2P1;
+            pl2shipArray[7] = pl2TwoShipN2P2;
+
+            pl2shipArray[8] = pl2TwoShipN3P1;
+            pl2shipArray[9] = pl2TwoShipN3P2;
+
+            // Three Cell Ships
+            pl2shipArray[10] = pl2ThreeShipN1P1;
+            pl2shipArray[11] = pl2ThreeShipN1P2;
+            pl2shipArray[12] = pl2ThreeShipN1P3;
+
+            pl2shipArray[13] = pl2ThreeShipN2P1;
+            pl2shipArray[14] = pl2ThreeShipN2P2;
+            pl2shipArray[15] = pl2ThreeShipN2P3;
+
+            // Four Cell Ship
+            pl2shipArray[16] = pl2FourShipP1;
+            pl2shipArray[17] = pl2FourShipP2;
+            pl2shipArray[18] = pl2FourShipP3;
+            pl2shipArray[19] = pl2FourShipP4;
+            // Player 2 Ship Array Finish ------------
         }
-        
+
         private void mainButton_Click(object sender, EventArgs e)
         {
             whoseTurnComboBox.Visible = true;
@@ -118,10 +147,13 @@ namespace Sea_Battle
                         button.BackColor = DefaultBackColor;
                         button.Enabled = false;
                     }
+                    foreach (Control ctrl in pl2shipArray)
+                    {
+                        ctrl.BackColor = System.Drawing.Color.DeepSkyBlue;
+                    }
                     break;
             }
         }
-        
         
 
     }
