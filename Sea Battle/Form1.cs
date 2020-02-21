@@ -28,7 +28,7 @@ namespace Sea_Battle
 
             foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
                 button.Visible = false;
-                
+
 
             foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
                 button.Visible = false;
@@ -36,7 +36,7 @@ namespace Sea_Battle
             whoseTurnComboBox.Visible = false;
             whoseTurnLabel.Visible = false;
 
-            
+
             // Player 1 Ship Array Start -------------
             // One Cell Ships
             pl1shipArray[0] = pl1OneShipN1; // Заношу кнопки в массив, чтобы потом можно было считывать их координаты через цикл
@@ -103,8 +103,9 @@ namespace Sea_Battle
             // Player 2 Ship Array Finish ------------
         }
 
-        private void mainButton_Click(object sender, EventArgs e)
+        async private void mainButton_Click(object sender, EventArgs e)
         {
+            hintLabel.Text = "Выберите, чей ход!";
             whoseTurnComboBox.Visible = true;
             whoseTurnLabel.Visible = true;
 
@@ -112,19 +113,22 @@ namespace Sea_Battle
             {
                 button.Visible = true;
                 button.Enabled = false;
+                button.BackColor = System.Drawing.SystemColors.Menu;
             }
 
             foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
             {
                 button.Visible = true;
+                button.Enabled = false;
                 button.BackColor = System.Drawing.SystemColors.Menu;
             }
-            hintLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
-            mainButton.Text = "Передать хоть второму игроку";
 
             switch (whoseTurnComboBox.SelectedItem)
             {
                 case "Игрок 1":
+                    hintLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
+                    mainButton.Text = "Передать хоть второму игроку";
+
                     foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
                     {
                         button.BackColor = System.Drawing.SystemColors.Menu;
@@ -146,6 +150,9 @@ namespace Sea_Battle
                     break;
 
                 case "Игрок 2":
+                    hintLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
+                    mainButton.Text = "Передать хоть второму игроку";
+
                     foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
                     {
                         button.BackColor = System.Drawing.SystemColors.Menu;
@@ -165,41 +172,36 @@ namespace Sea_Battle
                         button.Click += new System.EventHandler(checkTheHit_Click);
                     }
                     break;
+                default:
+                    MessageBox.Show("Сначала выберите чей ход!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    break;
+
+
+
+
+
             }
-            
-        }
 
-        
-        public void hitChecking(Control pushedButton, Control[] arrayOfShips)
-        {
-           
-
-            for (int i = 0; i < arrayOfShips.Length; i++)
+            void checkTheHit_Click(Object sender, EventArgs e)
             {
-                if (pushedButton.Location == arrayOfShips[i].Location)
+                Button clickedButton = (Button)sender;
+
+                for (int i = 0; i < 20; i++)
                 {
-                    arrayOfShips[i].BackColor = System.Drawing.Color.Red;
-                }
-            }
-        }
-        void checkTheHit_Click(Object sender,  EventArgs e)
-        {
-            Button clickedButton = (Button)sender;
-            for (int i = 0; i < 20; i++)
-            {
-                if (clickedButton.Location == pl1shipArray[i].Location)
-                {
-                    clickedButton.BackColor = System.Drawing.Color.Red;
-                    clickedButton.Enabled = false;
-                }
-                if (clickedButton.Location == pl2shipArray[i].Location)
-                {
-                    clickedButton.BackColor = System.Drawing.Color.Red;
-                    clickedButton.Enabled = false;
+                    if (clickedButton.Location == pl1shipArray[i].Location)
+                    {
+                        clickedButton.BackColor = System.Drawing.Color.Red;
+                        clickedButton.Enabled = false;
+                    }
+                    if (clickedButton.Location == pl2shipArray[i].Location)
+                    {
+                        clickedButton.BackColor = System.Drawing.Color.Red;
+                        clickedButton.Enabled = false;
+                    }
+                    else clickedButton.Enabled = false;
                 }
             }
         }
 
-        
     }
 }
