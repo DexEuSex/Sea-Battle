@@ -29,85 +29,85 @@
         private void InitializeComponent()
         {
             this.pl1OneShipN1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton1 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton3 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton2 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton7 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton6 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton5 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton4 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton8 = new System.Windows.Forms.Button();
             this.pl1OneShipN2 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton14 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton13 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton12 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton11 = new System.Windows.Forms.Button();
             this.pl1FourShipP4 = new System.Windows.Forms.Button();
             this.pl1FourShipP3 = new System.Windows.Forms.Button();
             this.pl1FourShipP2 = new System.Windows.Forms.Button();
             this.pl1FourShipP1 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton10 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton9 = new System.Windows.Forms.Button();
             this.pl1OneShipN3 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton30 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN1P2 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton29 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton28 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton27 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton26 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton25 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton24 = new System.Windows.Forms.Button();
             this.pl1TwoShipN2P2 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton23 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton22 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN1P1 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton21 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton20 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton19 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton18 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton17 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton16 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton15 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton46 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton45 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton44 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton43 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton42 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton41 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton40 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton39 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton38 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton37 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton36 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton35 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN1P3 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton34 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton33 = new System.Windows.Forms.Button();
             this.pl1TwoShipN3P2 = new System.Windows.Forms.Button();
             this.pl1TwoShipN3P1 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton32 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton31 = new System.Windows.Forms.Button();
             this.pl1TwoShipN2P1 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton60 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton59 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton58 = new System.Windows.Forms.Button();
             this.pl1TwoShipN1P2 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton57 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton56 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton55 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton54 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton53 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton52 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton51 = new System.Windows.Forms.Button();
             this.pl1OneShipN4 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton50 = new System.Windows.Forms.Button();
             this.pl1TwoShipN1P1 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton49 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton48 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN2P3 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN2P2 = new System.Windows.Forms.Button();
             this.pl1ThreeShipN2P1 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
+            this.pl1EmptyButton47 = new System.Windows.Forms.Button();
             this.mainButton = new System.Windows.Forms.Button();
             this.groupBoxPL1 = new System.Windows.Forms.GroupBox();
             this.hintLabel = new System.Windows.Forms.Label();
@@ -191,9 +191,9 @@
             this.button159 = new System.Windows.Forms.Button();
             this.pl2OneShipN2 = new System.Windows.Forms.Button();
             this.groupBoxPL2 = new System.Windows.Forms.GroupBox();
+            this.button82 = new System.Windows.Forms.Button();
             this.whoseTurnComboBox = new System.Windows.Forms.ComboBox();
             this.whoseTurnLabel = new System.Windows.Forms.Label();
-            this.button82 = new System.Windows.Forms.Button();
             this.groupBoxPL1.SuspendLayout();
             this.groupBoxPL2.SuspendLayout();
             this.SuspendLayout();
@@ -208,77 +208,77 @@
             this.pl1OneShipN1.TabIndex = 0;
             this.pl1OneShipN1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // pl1EmptyButton1
             // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(37, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(17, 17);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton1.Enabled = false;
+            this.pl1EmptyButton1.Location = new System.Drawing.Point(37, 25);
+            this.pl1EmptyButton1.Name = "pl1EmptyButton1";
+            this.pl1EmptyButton1.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton1.TabIndex = 1;
+            this.pl1EmptyButton1.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // pl1EmptyButton3
             // 
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(83, 25);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(17, 17);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton3.Enabled = false;
+            this.pl1EmptyButton3.Location = new System.Drawing.Point(83, 25);
+            this.pl1EmptyButton3.Name = "pl1EmptyButton3";
+            this.pl1EmptyButton3.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton3.TabIndex = 3;
+            this.pl1EmptyButton3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // pl1EmptyButton2
             // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(60, 25);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(17, 17);
-            this.button4.TabIndex = 2;
-            this.button4.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton2.Enabled = false;
+            this.pl1EmptyButton2.Location = new System.Drawing.Point(60, 25);
+            this.pl1EmptyButton2.Name = "pl1EmptyButton2";
+            this.pl1EmptyButton2.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton2.TabIndex = 2;
+            this.pl1EmptyButton2.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // pl1EmptyButton7
             // 
-            this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(175, 25);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(17, 17);
-            this.button5.TabIndex = 7;
-            this.button5.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton7.Enabled = false;
+            this.pl1EmptyButton7.Location = new System.Drawing.Point(175, 25);
+            this.pl1EmptyButton7.Name = "pl1EmptyButton7";
+            this.pl1EmptyButton7.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton7.TabIndex = 7;
+            this.pl1EmptyButton7.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // pl1EmptyButton6
             // 
-            this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(152, 25);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(17, 17);
-            this.button6.TabIndex = 6;
-            this.button6.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton6.Enabled = false;
+            this.pl1EmptyButton6.Location = new System.Drawing.Point(152, 25);
+            this.pl1EmptyButton6.Name = "pl1EmptyButton6";
+            this.pl1EmptyButton6.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton6.TabIndex = 6;
+            this.pl1EmptyButton6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // pl1EmptyButton5
             // 
-            this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(129, 25);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(17, 17);
-            this.button7.TabIndex = 5;
-            this.button7.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton5.Enabled = false;
+            this.pl1EmptyButton5.Location = new System.Drawing.Point(129, 25);
+            this.pl1EmptyButton5.Name = "pl1EmptyButton5";
+            this.pl1EmptyButton5.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton5.TabIndex = 5;
+            this.pl1EmptyButton5.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // pl1EmptyButton4
             // 
-            this.button8.Enabled = false;
-            this.button8.Location = new System.Drawing.Point(106, 25);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(17, 17);
-            this.button8.TabIndex = 4;
-            this.button8.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton4.Enabled = false;
+            this.pl1EmptyButton4.Location = new System.Drawing.Point(106, 25);
+            this.pl1EmptyButton4.Name = "pl1EmptyButton4";
+            this.pl1EmptyButton4.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton4.TabIndex = 4;
+            this.pl1EmptyButton4.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // pl1EmptyButton8
             // 
-            this.button9.Enabled = false;
-            this.button9.Location = new System.Drawing.Point(221, 25);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(17, 17);
-            this.button9.TabIndex = 9;
-            this.button9.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton8.Enabled = false;
+            this.pl1EmptyButton8.Location = new System.Drawing.Point(221, 25);
+            this.pl1EmptyButton8.Name = "pl1EmptyButton8";
+            this.pl1EmptyButton8.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton8.TabIndex = 9;
+            this.pl1EmptyButton8.UseVisualStyleBackColor = true;
             // 
             // pl1OneShipN2
             // 
@@ -290,41 +290,41 @@
             this.pl1OneShipN2.TabIndex = 8;
             this.pl1OneShipN2.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // pl1EmptyButton14
             // 
-            this.button11.Enabled = false;
-            this.button11.Location = new System.Drawing.Point(221, 48);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(17, 17);
-            this.button11.TabIndex = 19;
-            this.button11.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton14.Enabled = false;
+            this.pl1EmptyButton14.Location = new System.Drawing.Point(221, 48);
+            this.pl1EmptyButton14.Name = "pl1EmptyButton14";
+            this.pl1EmptyButton14.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton14.TabIndex = 19;
+            this.pl1EmptyButton14.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // pl1EmptyButton13
             // 
-            this.button12.Enabled = false;
-            this.button12.Location = new System.Drawing.Point(198, 48);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(17, 17);
-            this.button12.TabIndex = 18;
-            this.button12.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton13.Enabled = false;
+            this.pl1EmptyButton13.Location = new System.Drawing.Point(198, 48);
+            this.pl1EmptyButton13.Name = "pl1EmptyButton13";
+            this.pl1EmptyButton13.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton13.TabIndex = 18;
+            this.pl1EmptyButton13.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // pl1EmptyButton12
             // 
-            this.button13.Enabled = false;
-            this.button13.Location = new System.Drawing.Point(175, 48);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(17, 17);
-            this.button13.TabIndex = 17;
-            this.button13.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton12.Enabled = false;
+            this.pl1EmptyButton12.Location = new System.Drawing.Point(175, 48);
+            this.pl1EmptyButton12.Name = "pl1EmptyButton12";
+            this.pl1EmptyButton12.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton12.TabIndex = 17;
+            this.pl1EmptyButton12.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // pl1EmptyButton11
             // 
-            this.button14.Enabled = false;
-            this.button14.Location = new System.Drawing.Point(152, 48);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(17, 17);
-            this.button14.TabIndex = 16;
-            this.button14.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton11.Enabled = false;
+            this.pl1EmptyButton11.Location = new System.Drawing.Point(152, 48);
+            this.pl1EmptyButton11.Name = "pl1EmptyButton11";
+            this.pl1EmptyButton11.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton11.TabIndex = 16;
+            this.pl1EmptyButton11.UseVisualStyleBackColor = true;
             // 
             // pl1FourShipP4
             // 
@@ -366,23 +366,23 @@
             this.pl1FourShipP1.TabIndex = 12;
             this.pl1FourShipP1.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // pl1EmptyButton10
             // 
-            this.button19.Enabled = false;
-            this.button19.Location = new System.Drawing.Point(37, 48);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(17, 17);
-            this.button19.TabIndex = 11;
-            this.button19.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton10.Enabled = false;
+            this.pl1EmptyButton10.Location = new System.Drawing.Point(37, 48);
+            this.pl1EmptyButton10.Name = "pl1EmptyButton10";
+            this.pl1EmptyButton10.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton10.TabIndex = 11;
+            this.pl1EmptyButton10.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // pl1EmptyButton9
             // 
-            this.button20.Enabled = false;
-            this.button20.Location = new System.Drawing.Point(14, 48);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(17, 17);
-            this.button20.TabIndex = 10;
-            this.button20.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton9.Enabled = false;
+            this.pl1EmptyButton9.Location = new System.Drawing.Point(14, 48);
+            this.pl1EmptyButton9.Name = "pl1EmptyButton9";
+            this.pl1EmptyButton9.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton9.TabIndex = 10;
+            this.pl1EmptyButton9.UseVisualStyleBackColor = true;
             // 
             // pl1OneShipN3
             // 
@@ -394,14 +394,14 @@
             this.pl1OneShipN3.TabIndex = 39;
             this.pl1OneShipN3.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // pl1EmptyButton30
             // 
-            this.button22.Enabled = false;
-            this.button22.Location = new System.Drawing.Point(198, 97);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(17, 17);
-            this.button22.TabIndex = 38;
-            this.button22.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton30.Enabled = false;
+            this.pl1EmptyButton30.Location = new System.Drawing.Point(198, 97);
+            this.pl1EmptyButton30.Name = "pl1EmptyButton30";
+            this.pl1EmptyButton30.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton30.TabIndex = 38;
+            this.pl1EmptyButton30.UseVisualStyleBackColor = true;
             // 
             // pl1ThreeShipN1P2
             // 
@@ -413,59 +413,59 @@
             this.pl1ThreeShipN1P2.TabIndex = 37;
             this.pl1ThreeShipN1P2.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // pl1EmptyButton29
             // 
-            this.button24.Enabled = false;
-            this.button24.Location = new System.Drawing.Point(152, 97);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(17, 17);
-            this.button24.TabIndex = 36;
-            this.button24.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton29.Enabled = false;
+            this.pl1EmptyButton29.Location = new System.Drawing.Point(152, 97);
+            this.pl1EmptyButton29.Name = "pl1EmptyButton29";
+            this.pl1EmptyButton29.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton29.TabIndex = 36;
+            this.pl1EmptyButton29.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // pl1EmptyButton28
             // 
-            this.button25.Enabled = false;
-            this.button25.Location = new System.Drawing.Point(129, 97);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(17, 17);
-            this.button25.TabIndex = 35;
-            this.button25.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton28.Enabled = false;
+            this.pl1EmptyButton28.Location = new System.Drawing.Point(129, 97);
+            this.pl1EmptyButton28.Name = "pl1EmptyButton28";
+            this.pl1EmptyButton28.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton28.TabIndex = 35;
+            this.pl1EmptyButton28.UseVisualStyleBackColor = true;
             // 
-            // button26
+            // pl1EmptyButton27
             // 
-            this.button26.Enabled = false;
-            this.button26.Location = new System.Drawing.Point(106, 97);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(17, 17);
-            this.button26.TabIndex = 34;
-            this.button26.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton27.Enabled = false;
+            this.pl1EmptyButton27.Location = new System.Drawing.Point(106, 97);
+            this.pl1EmptyButton27.Name = "pl1EmptyButton27";
+            this.pl1EmptyButton27.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton27.TabIndex = 34;
+            this.pl1EmptyButton27.UseVisualStyleBackColor = true;
             // 
-            // button27
+            // pl1EmptyButton26
             // 
-            this.button27.Enabled = false;
-            this.button27.Location = new System.Drawing.Point(83, 97);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(17, 17);
-            this.button27.TabIndex = 33;
-            this.button27.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton26.Enabled = false;
+            this.pl1EmptyButton26.Location = new System.Drawing.Point(83, 97);
+            this.pl1EmptyButton26.Name = "pl1EmptyButton26";
+            this.pl1EmptyButton26.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton26.TabIndex = 33;
+            this.pl1EmptyButton26.UseVisualStyleBackColor = true;
             // 
-            // button28
+            // pl1EmptyButton25
             // 
-            this.button28.Enabled = false;
-            this.button28.Location = new System.Drawing.Point(60, 97);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(17, 17);
-            this.button28.TabIndex = 32;
-            this.button28.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton25.Enabled = false;
+            this.pl1EmptyButton25.Location = new System.Drawing.Point(60, 97);
+            this.pl1EmptyButton25.Name = "pl1EmptyButton25";
+            this.pl1EmptyButton25.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton25.TabIndex = 32;
+            this.pl1EmptyButton25.UseVisualStyleBackColor = true;
             // 
-            // button29
+            // pl1EmptyButton24
             // 
-            this.button29.Enabled = false;
-            this.button29.Location = new System.Drawing.Point(37, 97);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(17, 17);
-            this.button29.TabIndex = 31;
-            this.button29.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton24.Enabled = false;
+            this.pl1EmptyButton24.Location = new System.Drawing.Point(37, 97);
+            this.pl1EmptyButton24.Name = "pl1EmptyButton24";
+            this.pl1EmptyButton24.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton24.TabIndex = 31;
+            this.pl1EmptyButton24.UseVisualStyleBackColor = true;
             // 
             // pl1TwoShipN2P2
             // 
@@ -477,23 +477,23 @@
             this.pl1TwoShipN2P2.TabIndex = 30;
             this.pl1TwoShipN2P2.UseVisualStyleBackColor = false;
             // 
-            // button31
+            // pl1EmptyButton23
             // 
-            this.button31.Enabled = false;
-            this.button31.Location = new System.Drawing.Point(221, 74);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(17, 17);
-            this.button31.TabIndex = 29;
-            this.button31.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton23.Enabled = false;
+            this.pl1EmptyButton23.Location = new System.Drawing.Point(221, 74);
+            this.pl1EmptyButton23.Name = "pl1EmptyButton23";
+            this.pl1EmptyButton23.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton23.TabIndex = 29;
+            this.pl1EmptyButton23.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // pl1EmptyButton22
             // 
-            this.button32.Enabled = false;
-            this.button32.Location = new System.Drawing.Point(198, 74);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(17, 17);
-            this.button32.TabIndex = 28;
-            this.button32.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton22.Enabled = false;
+            this.pl1EmptyButton22.Location = new System.Drawing.Point(198, 74);
+            this.pl1EmptyButton22.Name = "pl1EmptyButton22";
+            this.pl1EmptyButton22.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton22.TabIndex = 28;
+            this.pl1EmptyButton22.UseVisualStyleBackColor = true;
             // 
             // pl1ThreeShipN1P1
             // 
@@ -505,176 +505,176 @@
             this.pl1ThreeShipN1P1.TabIndex = 27;
             this.pl1ThreeShipN1P1.UseVisualStyleBackColor = false;
             // 
-            // button34
+            // pl1EmptyButton21
             // 
-            this.button34.Enabled = false;
-            this.button34.Location = new System.Drawing.Point(152, 74);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(17, 17);
-            this.button34.TabIndex = 26;
-            this.button34.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton21.Enabled = false;
+            this.pl1EmptyButton21.Location = new System.Drawing.Point(152, 74);
+            this.pl1EmptyButton21.Name = "pl1EmptyButton21";
+            this.pl1EmptyButton21.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton21.TabIndex = 26;
+            this.pl1EmptyButton21.UseVisualStyleBackColor = true;
             // 
-            // button35
+            // pl1EmptyButton20
             // 
-            this.button35.Enabled = false;
-            this.button35.Location = new System.Drawing.Point(129, 74);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(17, 17);
-            this.button35.TabIndex = 25;
-            this.button35.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton20.Enabled = false;
+            this.pl1EmptyButton20.Location = new System.Drawing.Point(129, 74);
+            this.pl1EmptyButton20.Name = "pl1EmptyButton20";
+            this.pl1EmptyButton20.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton20.TabIndex = 25;
+            this.pl1EmptyButton20.UseVisualStyleBackColor = true;
             // 
-            // button36
+            // pl1EmptyButton19
             // 
-            this.button36.Enabled = false;
-            this.button36.Location = new System.Drawing.Point(106, 74);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(17, 17);
-            this.button36.TabIndex = 24;
-            this.button36.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton19.Enabled = false;
+            this.pl1EmptyButton19.Location = new System.Drawing.Point(106, 74);
+            this.pl1EmptyButton19.Name = "pl1EmptyButton19";
+            this.pl1EmptyButton19.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton19.TabIndex = 24;
+            this.pl1EmptyButton19.UseVisualStyleBackColor = true;
             // 
-            // button37
+            // pl1EmptyButton18
             // 
-            this.button37.Enabled = false;
-            this.button37.Location = new System.Drawing.Point(83, 74);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(17, 17);
-            this.button37.TabIndex = 23;
-            this.button37.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton18.Enabled = false;
+            this.pl1EmptyButton18.Location = new System.Drawing.Point(83, 74);
+            this.pl1EmptyButton18.Name = "pl1EmptyButton18";
+            this.pl1EmptyButton18.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton18.TabIndex = 23;
+            this.pl1EmptyButton18.UseVisualStyleBackColor = true;
             // 
-            // button38
+            // pl1EmptyButton17
             // 
-            this.button38.Enabled = false;
-            this.button38.Location = new System.Drawing.Point(60, 74);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(17, 17);
-            this.button38.TabIndex = 22;
-            this.button38.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton17.Enabled = false;
+            this.pl1EmptyButton17.Location = new System.Drawing.Point(60, 74);
+            this.pl1EmptyButton17.Name = "pl1EmptyButton17";
+            this.pl1EmptyButton17.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton17.TabIndex = 22;
+            this.pl1EmptyButton17.UseVisualStyleBackColor = true;
             // 
-            // button39
+            // pl1EmptyButton16
             // 
-            this.button39.Enabled = false;
-            this.button39.Location = new System.Drawing.Point(37, 74);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(17, 17);
-            this.button39.TabIndex = 21;
-            this.button39.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton16.Enabled = false;
+            this.pl1EmptyButton16.Location = new System.Drawing.Point(37, 74);
+            this.pl1EmptyButton16.Name = "pl1EmptyButton16";
+            this.pl1EmptyButton16.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton16.TabIndex = 21;
+            this.pl1EmptyButton16.UseVisualStyleBackColor = true;
             // 
-            // button40
+            // pl1EmptyButton15
             // 
-            this.button40.Enabled = false;
-            this.button40.Location = new System.Drawing.Point(14, 74);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(17, 17);
-            this.button40.TabIndex = 20;
-            this.button40.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton15.Enabled = false;
+            this.pl1EmptyButton15.Location = new System.Drawing.Point(14, 74);
+            this.pl1EmptyButton15.Name = "pl1EmptyButton15";
+            this.pl1EmptyButton15.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton15.TabIndex = 20;
+            this.pl1EmptyButton15.UseVisualStyleBackColor = true;
             // 
-            // button41
+            // pl1EmptyButton46
             // 
-            this.button41.Enabled = false;
-            this.button41.Location = new System.Drawing.Point(221, 143);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(17, 17);
-            this.button41.TabIndex = 59;
-            this.button41.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton46.Enabled = false;
+            this.pl1EmptyButton46.Location = new System.Drawing.Point(221, 143);
+            this.pl1EmptyButton46.Name = "pl1EmptyButton46";
+            this.pl1EmptyButton46.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton46.TabIndex = 59;
+            this.pl1EmptyButton46.UseVisualStyleBackColor = true;
             // 
-            // button42
+            // pl1EmptyButton45
             // 
-            this.button42.Enabled = false;
-            this.button42.Location = new System.Drawing.Point(198, 143);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(17, 17);
-            this.button42.TabIndex = 58;
-            this.button42.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton45.Enabled = false;
+            this.pl1EmptyButton45.Location = new System.Drawing.Point(198, 143);
+            this.pl1EmptyButton45.Name = "pl1EmptyButton45";
+            this.pl1EmptyButton45.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton45.TabIndex = 58;
+            this.pl1EmptyButton45.UseVisualStyleBackColor = true;
             // 
-            // button43
+            // pl1EmptyButton44
             // 
-            this.button43.Enabled = false;
-            this.button43.Location = new System.Drawing.Point(175, 143);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(17, 17);
-            this.button43.TabIndex = 57;
-            this.button43.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton44.Enabled = false;
+            this.pl1EmptyButton44.Location = new System.Drawing.Point(175, 143);
+            this.pl1EmptyButton44.Name = "pl1EmptyButton44";
+            this.pl1EmptyButton44.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton44.TabIndex = 57;
+            this.pl1EmptyButton44.UseVisualStyleBackColor = true;
             // 
-            // button44
+            // pl1EmptyButton43
             // 
-            this.button44.Enabled = false;
-            this.button44.Location = new System.Drawing.Point(152, 143);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(17, 17);
-            this.button44.TabIndex = 56;
-            this.button44.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton43.Enabled = false;
+            this.pl1EmptyButton43.Location = new System.Drawing.Point(152, 143);
+            this.pl1EmptyButton43.Name = "pl1EmptyButton43";
+            this.pl1EmptyButton43.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton43.TabIndex = 56;
+            this.pl1EmptyButton43.UseVisualStyleBackColor = true;
             // 
-            // button45
+            // pl1EmptyButton42
             // 
-            this.button45.Enabled = false;
-            this.button45.Location = new System.Drawing.Point(129, 143);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(17, 17);
-            this.button45.TabIndex = 55;
-            this.button45.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton42.Enabled = false;
+            this.pl1EmptyButton42.Location = new System.Drawing.Point(129, 143);
+            this.pl1EmptyButton42.Name = "pl1EmptyButton42";
+            this.pl1EmptyButton42.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton42.TabIndex = 55;
+            this.pl1EmptyButton42.UseVisualStyleBackColor = true;
             // 
-            // button46
+            // pl1EmptyButton41
             // 
-            this.button46.Enabled = false;
-            this.button46.Location = new System.Drawing.Point(106, 143);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(17, 17);
-            this.button46.TabIndex = 54;
-            this.button46.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton41.Enabled = false;
+            this.pl1EmptyButton41.Location = new System.Drawing.Point(106, 143);
+            this.pl1EmptyButton41.Name = "pl1EmptyButton41";
+            this.pl1EmptyButton41.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton41.TabIndex = 54;
+            this.pl1EmptyButton41.UseVisualStyleBackColor = true;
             // 
-            // button47
+            // pl1EmptyButton40
             // 
-            this.button47.Enabled = false;
-            this.button47.Location = new System.Drawing.Point(83, 143);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(17, 17);
-            this.button47.TabIndex = 53;
-            this.button47.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton40.Enabled = false;
+            this.pl1EmptyButton40.Location = new System.Drawing.Point(83, 143);
+            this.pl1EmptyButton40.Name = "pl1EmptyButton40";
+            this.pl1EmptyButton40.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton40.TabIndex = 53;
+            this.pl1EmptyButton40.UseVisualStyleBackColor = true;
             // 
-            // button48
+            // pl1EmptyButton39
             // 
-            this.button48.Enabled = false;
-            this.button48.Location = new System.Drawing.Point(60, 143);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(17, 17);
-            this.button48.TabIndex = 52;
-            this.button48.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton39.Enabled = false;
+            this.pl1EmptyButton39.Location = new System.Drawing.Point(60, 143);
+            this.pl1EmptyButton39.Name = "pl1EmptyButton39";
+            this.pl1EmptyButton39.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton39.TabIndex = 52;
+            this.pl1EmptyButton39.UseVisualStyleBackColor = true;
             // 
-            // button49
+            // pl1EmptyButton38
             // 
-            this.button49.Enabled = false;
-            this.button49.Location = new System.Drawing.Point(37, 143);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(17, 17);
-            this.button49.TabIndex = 51;
-            this.button49.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton38.Enabled = false;
+            this.pl1EmptyButton38.Location = new System.Drawing.Point(37, 143);
+            this.pl1EmptyButton38.Name = "pl1EmptyButton38";
+            this.pl1EmptyButton38.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton38.TabIndex = 51;
+            this.pl1EmptyButton38.UseVisualStyleBackColor = true;
             // 
-            // button50
+            // pl1EmptyButton37
             // 
-            this.button50.Enabled = false;
-            this.button50.Location = new System.Drawing.Point(14, 143);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(17, 17);
-            this.button50.TabIndex = 50;
-            this.button50.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton37.Enabled = false;
+            this.pl1EmptyButton37.Location = new System.Drawing.Point(14, 143);
+            this.pl1EmptyButton37.Name = "pl1EmptyButton37";
+            this.pl1EmptyButton37.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton37.TabIndex = 50;
+            this.pl1EmptyButton37.UseVisualStyleBackColor = true;
             // 
-            // button51
+            // pl1EmptyButton36
             // 
-            this.button51.Enabled = false;
-            this.button51.Location = new System.Drawing.Point(221, 120);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(17, 17);
-            this.button51.TabIndex = 49;
-            this.button51.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton36.Enabled = false;
+            this.pl1EmptyButton36.Location = new System.Drawing.Point(221, 120);
+            this.pl1EmptyButton36.Name = "pl1EmptyButton36";
+            this.pl1EmptyButton36.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton36.TabIndex = 49;
+            this.pl1EmptyButton36.UseVisualStyleBackColor = true;
             // 
-            // button52
+            // pl1EmptyButton35
             // 
-            this.button52.Enabled = false;
-            this.button52.Location = new System.Drawing.Point(198, 120);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(17, 17);
-            this.button52.TabIndex = 48;
-            this.button52.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton35.Enabled = false;
+            this.pl1EmptyButton35.Location = new System.Drawing.Point(198, 120);
+            this.pl1EmptyButton35.Name = "pl1EmptyButton35";
+            this.pl1EmptyButton35.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton35.TabIndex = 48;
+            this.pl1EmptyButton35.UseVisualStyleBackColor = true;
             // 
             // pl1ThreeShipN1P3
             // 
@@ -686,23 +686,23 @@
             this.pl1ThreeShipN1P3.TabIndex = 47;
             this.pl1ThreeShipN1P3.UseVisualStyleBackColor = false;
             // 
-            // button54
+            // pl1EmptyButton34
             // 
-            this.button54.Enabled = false;
-            this.button54.Location = new System.Drawing.Point(152, 120);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(17, 17);
-            this.button54.TabIndex = 46;
-            this.button54.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton34.Enabled = false;
+            this.pl1EmptyButton34.Location = new System.Drawing.Point(152, 120);
+            this.pl1EmptyButton34.Name = "pl1EmptyButton34";
+            this.pl1EmptyButton34.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton34.TabIndex = 46;
+            this.pl1EmptyButton34.UseVisualStyleBackColor = true;
             // 
-            // button55
+            // pl1EmptyButton33
             // 
-            this.button55.Enabled = false;
-            this.button55.Location = new System.Drawing.Point(129, 120);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(17, 17);
-            this.button55.TabIndex = 45;
-            this.button55.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton33.Enabled = false;
+            this.pl1EmptyButton33.Location = new System.Drawing.Point(129, 120);
+            this.pl1EmptyButton33.Name = "pl1EmptyButton33";
+            this.pl1EmptyButton33.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton33.TabIndex = 45;
+            this.pl1EmptyButton33.UseVisualStyleBackColor = true;
             // 
             // pl1TwoShipN3P2
             // 
@@ -724,23 +724,23 @@
             this.pl1TwoShipN3P1.TabIndex = 43;
             this.pl1TwoShipN3P1.UseVisualStyleBackColor = false;
             // 
-            // button58
+            // pl1EmptyButton32
             // 
-            this.button58.Enabled = false;
-            this.button58.Location = new System.Drawing.Point(60, 120);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(17, 17);
-            this.button58.TabIndex = 42;
-            this.button58.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton32.Enabled = false;
+            this.pl1EmptyButton32.Location = new System.Drawing.Point(60, 120);
+            this.pl1EmptyButton32.Name = "pl1EmptyButton32";
+            this.pl1EmptyButton32.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton32.TabIndex = 42;
+            this.pl1EmptyButton32.UseVisualStyleBackColor = true;
             // 
-            // button59
+            // pl1EmptyButton31
             // 
-            this.button59.Enabled = false;
-            this.button59.Location = new System.Drawing.Point(37, 120);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(17, 17);
-            this.button59.TabIndex = 41;
-            this.button59.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton31.Enabled = false;
+            this.pl1EmptyButton31.Location = new System.Drawing.Point(37, 120);
+            this.pl1EmptyButton31.Name = "pl1EmptyButton31";
+            this.pl1EmptyButton31.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton31.TabIndex = 41;
+            this.pl1EmptyButton31.UseVisualStyleBackColor = true;
             // 
             // pl1TwoShipN2P1
             // 
@@ -752,32 +752,32 @@
             this.pl1TwoShipN2P1.TabIndex = 40;
             this.pl1TwoShipN2P1.UseVisualStyleBackColor = false;
             // 
-            // button61
+            // pl1EmptyButton60
             // 
-            this.button61.Enabled = false;
-            this.button61.Location = new System.Drawing.Point(221, 189);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(17, 17);
-            this.button61.TabIndex = 79;
-            this.button61.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton60.Enabled = false;
+            this.pl1EmptyButton60.Location = new System.Drawing.Point(221, 189);
+            this.pl1EmptyButton60.Name = "pl1EmptyButton60";
+            this.pl1EmptyButton60.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton60.TabIndex = 79;
+            this.pl1EmptyButton60.UseVisualStyleBackColor = true;
             // 
-            // button62
+            // pl1EmptyButton59
             // 
-            this.button62.Enabled = false;
-            this.button62.Location = new System.Drawing.Point(198, 189);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(17, 17);
-            this.button62.TabIndex = 78;
-            this.button62.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton59.Enabled = false;
+            this.pl1EmptyButton59.Location = new System.Drawing.Point(198, 189);
+            this.pl1EmptyButton59.Name = "pl1EmptyButton59";
+            this.pl1EmptyButton59.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton59.TabIndex = 78;
+            this.pl1EmptyButton59.UseVisualStyleBackColor = true;
             // 
-            // button63
+            // pl1EmptyButton58
             // 
-            this.button63.Enabled = false;
-            this.button63.Location = new System.Drawing.Point(175, 189);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(17, 17);
-            this.button63.TabIndex = 77;
-            this.button63.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton58.Enabled = false;
+            this.pl1EmptyButton58.Location = new System.Drawing.Point(175, 189);
+            this.pl1EmptyButton58.Name = "pl1EmptyButton58";
+            this.pl1EmptyButton58.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton58.TabIndex = 77;
+            this.pl1EmptyButton58.UseVisualStyleBackColor = true;
             // 
             // pl1TwoShipN1P2
             // 
@@ -789,68 +789,68 @@
             this.pl1TwoShipN1P2.TabIndex = 76;
             this.pl1TwoShipN1P2.UseVisualStyleBackColor = false;
             // 
-            // button65
+            // pl1EmptyButton57
             // 
-            this.button65.Enabled = false;
-            this.button65.Location = new System.Drawing.Point(129, 189);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(17, 17);
-            this.button65.TabIndex = 75;
-            this.button65.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton57.Enabled = false;
+            this.pl1EmptyButton57.Location = new System.Drawing.Point(129, 189);
+            this.pl1EmptyButton57.Name = "pl1EmptyButton57";
+            this.pl1EmptyButton57.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton57.TabIndex = 75;
+            this.pl1EmptyButton57.UseVisualStyleBackColor = true;
             // 
-            // button66
+            // pl1EmptyButton56
             // 
-            this.button66.Enabled = false;
-            this.button66.Location = new System.Drawing.Point(106, 189);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(17, 17);
-            this.button66.TabIndex = 74;
-            this.button66.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton56.Enabled = false;
+            this.pl1EmptyButton56.Location = new System.Drawing.Point(106, 189);
+            this.pl1EmptyButton56.Name = "pl1EmptyButton56";
+            this.pl1EmptyButton56.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton56.TabIndex = 74;
+            this.pl1EmptyButton56.UseVisualStyleBackColor = true;
             // 
-            // button67
+            // pl1EmptyButton55
             // 
-            this.button67.Enabled = false;
-            this.button67.Location = new System.Drawing.Point(83, 189);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(17, 17);
-            this.button67.TabIndex = 73;
-            this.button67.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton55.Enabled = false;
+            this.pl1EmptyButton55.Location = new System.Drawing.Point(83, 189);
+            this.pl1EmptyButton55.Name = "pl1EmptyButton55";
+            this.pl1EmptyButton55.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton55.TabIndex = 73;
+            this.pl1EmptyButton55.UseVisualStyleBackColor = true;
             // 
-            // button68
+            // pl1EmptyButton54
             // 
-            this.button68.Enabled = false;
-            this.button68.Location = new System.Drawing.Point(60, 189);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(17, 17);
-            this.button68.TabIndex = 72;
-            this.button68.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton54.Enabled = false;
+            this.pl1EmptyButton54.Location = new System.Drawing.Point(60, 189);
+            this.pl1EmptyButton54.Name = "pl1EmptyButton54";
+            this.pl1EmptyButton54.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton54.TabIndex = 72;
+            this.pl1EmptyButton54.UseVisualStyleBackColor = true;
             // 
-            // button69
+            // pl1EmptyButton53
             // 
-            this.button69.Enabled = false;
-            this.button69.Location = new System.Drawing.Point(37, 189);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(17, 17);
-            this.button69.TabIndex = 71;
-            this.button69.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton53.Enabled = false;
+            this.pl1EmptyButton53.Location = new System.Drawing.Point(37, 189);
+            this.pl1EmptyButton53.Name = "pl1EmptyButton53";
+            this.pl1EmptyButton53.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton53.TabIndex = 71;
+            this.pl1EmptyButton53.UseVisualStyleBackColor = true;
             // 
-            // button70
+            // pl1EmptyButton52
             // 
-            this.button70.Enabled = false;
-            this.button70.Location = new System.Drawing.Point(14, 189);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(17, 17);
-            this.button70.TabIndex = 70;
-            this.button70.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton52.Enabled = false;
+            this.pl1EmptyButton52.Location = new System.Drawing.Point(14, 189);
+            this.pl1EmptyButton52.Name = "pl1EmptyButton52";
+            this.pl1EmptyButton52.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton52.TabIndex = 70;
+            this.pl1EmptyButton52.UseVisualStyleBackColor = true;
             // 
-            // button71
+            // pl1EmptyButton51
             // 
-            this.button71.Enabled = false;
-            this.button71.Location = new System.Drawing.Point(221, 166);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(17, 17);
-            this.button71.TabIndex = 69;
-            this.button71.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton51.Enabled = false;
+            this.pl1EmptyButton51.Location = new System.Drawing.Point(221, 166);
+            this.pl1EmptyButton51.Name = "pl1EmptyButton51";
+            this.pl1EmptyButton51.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton51.TabIndex = 69;
+            this.pl1EmptyButton51.UseVisualStyleBackColor = true;
             // 
             // pl1OneShipN4
             // 
@@ -862,14 +862,14 @@
             this.pl1OneShipN4.TabIndex = 68;
             this.pl1OneShipN4.UseVisualStyleBackColor = false;
             // 
-            // button73
+            // pl1EmptyButton50
             // 
-            this.button73.Enabled = false;
-            this.button73.Location = new System.Drawing.Point(175, 166);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(17, 17);
-            this.button73.TabIndex = 67;
-            this.button73.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton50.Enabled = false;
+            this.pl1EmptyButton50.Location = new System.Drawing.Point(175, 166);
+            this.pl1EmptyButton50.Name = "pl1EmptyButton50";
+            this.pl1EmptyButton50.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton50.TabIndex = 67;
+            this.pl1EmptyButton50.UseVisualStyleBackColor = true;
             // 
             // pl1TwoShipN1P1
             // 
@@ -881,23 +881,23 @@
             this.pl1TwoShipN1P1.TabIndex = 66;
             this.pl1TwoShipN1P1.UseVisualStyleBackColor = false;
             // 
-            // button75
+            // pl1EmptyButton49
             // 
-            this.button75.Enabled = false;
-            this.button75.Location = new System.Drawing.Point(129, 166);
-            this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(17, 17);
-            this.button75.TabIndex = 65;
-            this.button75.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton49.Enabled = false;
+            this.pl1EmptyButton49.Location = new System.Drawing.Point(129, 166);
+            this.pl1EmptyButton49.Name = "pl1EmptyButton49";
+            this.pl1EmptyButton49.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton49.TabIndex = 65;
+            this.pl1EmptyButton49.UseVisualStyleBackColor = true;
             // 
-            // button76
+            // pl1EmptyButton48
             // 
-            this.button76.Enabled = false;
-            this.button76.Location = new System.Drawing.Point(106, 166);
-            this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(17, 17);
-            this.button76.TabIndex = 64;
-            this.button76.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton48.Enabled = false;
+            this.pl1EmptyButton48.Location = new System.Drawing.Point(106, 166);
+            this.pl1EmptyButton48.Name = "pl1EmptyButton48";
+            this.pl1EmptyButton48.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton48.TabIndex = 64;
+            this.pl1EmptyButton48.UseVisualStyleBackColor = true;
             // 
             // pl1ThreeShipN2P3
             // 
@@ -929,14 +929,14 @@
             this.pl1ThreeShipN2P1.TabIndex = 61;
             this.pl1ThreeShipN2P1.UseVisualStyleBackColor = false;
             // 
-            // button80
+            // pl1EmptyButton47
             // 
-            this.button80.Enabled = false;
-            this.button80.Location = new System.Drawing.Point(14, 166);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(17, 17);
-            this.button80.TabIndex = 60;
-            this.button80.UseVisualStyleBackColor = true;
+            this.pl1EmptyButton47.Enabled = false;
+            this.pl1EmptyButton47.Location = new System.Drawing.Point(14, 166);
+            this.pl1EmptyButton47.Name = "pl1EmptyButton47";
+            this.pl1EmptyButton47.Size = new System.Drawing.Size(17, 17);
+            this.pl1EmptyButton47.TabIndex = 60;
+            this.pl1EmptyButton47.UseVisualStyleBackColor = true;
             // 
             // mainButton
             // 
@@ -951,85 +951,85 @@
             // groupBoxPL1
             // 
             this.groupBoxPL1.Controls.Add(this.pl1OneShipN1);
-            this.groupBoxPL1.Controls.Add(this.button2);
-            this.groupBoxPL1.Controls.Add(this.button4);
-            this.groupBoxPL1.Controls.Add(this.button61);
-            this.groupBoxPL1.Controls.Add(this.button3);
-            this.groupBoxPL1.Controls.Add(this.button8);
-            this.groupBoxPL1.Controls.Add(this.button62);
-            this.groupBoxPL1.Controls.Add(this.button7);
-            this.groupBoxPL1.Controls.Add(this.button6);
-            this.groupBoxPL1.Controls.Add(this.button63);
-            this.groupBoxPL1.Controls.Add(this.button5);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton1);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton2);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton60);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton3);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton4);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton59);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton5);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton6);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton58);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton7);
             this.groupBoxPL1.Controls.Add(this.pl1OneShipN2);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN1P2);
-            this.groupBoxPL1.Controls.Add(this.button9);
-            this.groupBoxPL1.Controls.Add(this.button20);
-            this.groupBoxPL1.Controls.Add(this.button65);
-            this.groupBoxPL1.Controls.Add(this.button19);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton8);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton9);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton57);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton10);
             this.groupBoxPL1.Controls.Add(this.pl1FourShipP1);
-            this.groupBoxPL1.Controls.Add(this.button66);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton56);
             this.groupBoxPL1.Controls.Add(this.pl1FourShipP2);
             this.groupBoxPL1.Controls.Add(this.pl1FourShipP3);
-            this.groupBoxPL1.Controls.Add(this.button67);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton55);
             this.groupBoxPL1.Controls.Add(this.pl1FourShipP4);
-            this.groupBoxPL1.Controls.Add(this.button14);
-            this.groupBoxPL1.Controls.Add(this.button68);
-            this.groupBoxPL1.Controls.Add(this.button13);
-            this.groupBoxPL1.Controls.Add(this.button12);
-            this.groupBoxPL1.Controls.Add(this.button69);
-            this.groupBoxPL1.Controls.Add(this.button11);
-            this.groupBoxPL1.Controls.Add(this.button40);
-            this.groupBoxPL1.Controls.Add(this.button70);
-            this.groupBoxPL1.Controls.Add(this.button39);
-            this.groupBoxPL1.Controls.Add(this.button38);
-            this.groupBoxPL1.Controls.Add(this.button71);
-            this.groupBoxPL1.Controls.Add(this.button37);
-            this.groupBoxPL1.Controls.Add(this.button36);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton11);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton54);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton12);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton13);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton53);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton14);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton15);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton52);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton16);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton17);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton51);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton18);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton19);
             this.groupBoxPL1.Controls.Add(this.pl1OneShipN4);
-            this.groupBoxPL1.Controls.Add(this.button35);
-            this.groupBoxPL1.Controls.Add(this.button34);
-            this.groupBoxPL1.Controls.Add(this.button73);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton20);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton21);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton50);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P1);
-            this.groupBoxPL1.Controls.Add(this.button32);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton22);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN1P1);
-            this.groupBoxPL1.Controls.Add(this.button31);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton23);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN2P2);
-            this.groupBoxPL1.Controls.Add(this.button75);
-            this.groupBoxPL1.Controls.Add(this.button29);
-            this.groupBoxPL1.Controls.Add(this.button28);
-            this.groupBoxPL1.Controls.Add(this.button76);
-            this.groupBoxPL1.Controls.Add(this.button27);
-            this.groupBoxPL1.Controls.Add(this.button26);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton49);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton24);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton25);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton48);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton26);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton27);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P3);
-            this.groupBoxPL1.Controls.Add(this.button25);
-            this.groupBoxPL1.Controls.Add(this.button24);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton28);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton29);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P2);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P2);
-            this.groupBoxPL1.Controls.Add(this.button22);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton30);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN2P1);
             this.groupBoxPL1.Controls.Add(this.pl1OneShipN3);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN2P1);
-            this.groupBoxPL1.Controls.Add(this.button80);
-            this.groupBoxPL1.Controls.Add(this.button59);
-            this.groupBoxPL1.Controls.Add(this.button58);
-            this.groupBoxPL1.Controls.Add(this.button41);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton47);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton31);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton32);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton46);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN3P1);
             this.groupBoxPL1.Controls.Add(this.pl1TwoShipN3P2);
-            this.groupBoxPL1.Controls.Add(this.button42);
-            this.groupBoxPL1.Controls.Add(this.button55);
-            this.groupBoxPL1.Controls.Add(this.button54);
-            this.groupBoxPL1.Controls.Add(this.button43);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton45);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton33);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton34);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton44);
             this.groupBoxPL1.Controls.Add(this.pl1ThreeShipN1P3);
-            this.groupBoxPL1.Controls.Add(this.button52);
-            this.groupBoxPL1.Controls.Add(this.button44);
-            this.groupBoxPL1.Controls.Add(this.button51);
-            this.groupBoxPL1.Controls.Add(this.button50);
-            this.groupBoxPL1.Controls.Add(this.button45);
-            this.groupBoxPL1.Controls.Add(this.button49);
-            this.groupBoxPL1.Controls.Add(this.button48);
-            this.groupBoxPL1.Controls.Add(this.button46);
-            this.groupBoxPL1.Controls.Add(this.button47);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton35);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton43);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton36);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton37);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton42);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton38);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton39);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton41);
+            this.groupBoxPL1.Controls.Add(this.pl1EmptyButton40);
             this.groupBoxPL1.Location = new System.Drawing.Point(30, 118);
             this.groupBoxPL1.Name = "groupBoxPL1";
             this.groupBoxPL1.Size = new System.Drawing.Size(254, 224);
@@ -1785,6 +1785,14 @@
             this.groupBoxPL2.TabIndex = 243;
             this.groupBoxPL2.TabStop = false;
             // 
+            // button82
+            // 
+            this.button82.Location = new System.Drawing.Point(25, 19);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(17, 17);
+            this.button82.TabIndex = 243;
+            this.button82.UseVisualStyleBackColor = true;
+            // 
             // whoseTurnComboBox
             // 
             this.whoseTurnComboBox.FormattingEnabled = true;
@@ -1804,14 +1812,6 @@
             this.whoseTurnLabel.TabIndex = 245;
             this.whoseTurnLabel.Text = "Выберите, кто ходит";
             this.whoseTurnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button82
-            // 
-            this.button82.Location = new System.Drawing.Point(25, 19);
-            this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(17, 17);
-            this.button82.TabIndex = 243;
-            this.button82.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1838,85 +1838,85 @@
         private System.Windows.Forms.Button mainButton;
         private System.Windows.Forms.GroupBox groupBoxPL1;
         public System.Windows.Forms.Button pl1OneShipN1;
-        public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.Button button3;
-        public System.Windows.Forms.Button button4;
-        public System.Windows.Forms.Button button5;
-        public System.Windows.Forms.Button button6;
-        public System.Windows.Forms.Button button7;
-        public System.Windows.Forms.Button button8;
-        public System.Windows.Forms.Button button9;
+        public System.Windows.Forms.Button pl1EmptyButton1;
+        public System.Windows.Forms.Button pl1EmptyButton3;
+        public System.Windows.Forms.Button pl1EmptyButton2;
+        public System.Windows.Forms.Button pl1EmptyButton7;
+        public System.Windows.Forms.Button pl1EmptyButton6;
+        public System.Windows.Forms.Button pl1EmptyButton5;
+        public System.Windows.Forms.Button pl1EmptyButton4;
+        public System.Windows.Forms.Button pl1EmptyButton8;
         public System.Windows.Forms.Button pl1OneShipN2;
-        public System.Windows.Forms.Button button11;
-        public System.Windows.Forms.Button button12;
-        public System.Windows.Forms.Button button13;
-        public System.Windows.Forms.Button button14;
+        public System.Windows.Forms.Button pl1EmptyButton14;
+        public System.Windows.Forms.Button pl1EmptyButton13;
+        public System.Windows.Forms.Button pl1EmptyButton12;
+        public System.Windows.Forms.Button pl1EmptyButton11;
         public System.Windows.Forms.Button pl1FourShipP4;
         public System.Windows.Forms.Button pl1FourShipP3;
         public System.Windows.Forms.Button pl1FourShipP2;
         public System.Windows.Forms.Button pl1FourShipP1;
-        public System.Windows.Forms.Button button19;
-        public System.Windows.Forms.Button button20;
+        public System.Windows.Forms.Button pl1EmptyButton10;
+        public System.Windows.Forms.Button pl1EmptyButton9;
         public System.Windows.Forms.Button pl1OneShipN3;
-        public System.Windows.Forms.Button button22;
+        public System.Windows.Forms.Button pl1EmptyButton30;
         public System.Windows.Forms.Button pl1ThreeShipN1P2;
-        public System.Windows.Forms.Button button24;
-        public System.Windows.Forms.Button button25;
-        public System.Windows.Forms.Button button26;
-        public System.Windows.Forms.Button button27;
-        public System.Windows.Forms.Button button28;
-        public System.Windows.Forms.Button button29;
+        public System.Windows.Forms.Button pl1EmptyButton29;
+        public System.Windows.Forms.Button pl1EmptyButton28;
+        public System.Windows.Forms.Button pl1EmptyButton27;
+        public System.Windows.Forms.Button pl1EmptyButton26;
+        public System.Windows.Forms.Button pl1EmptyButton25;
+        public System.Windows.Forms.Button pl1EmptyButton24;
         public System.Windows.Forms.Button pl1TwoShipN2P2;
-        public System.Windows.Forms.Button button31;
-        public System.Windows.Forms.Button button32;
+        public System.Windows.Forms.Button pl1EmptyButton23;
+        public System.Windows.Forms.Button pl1EmptyButton22;
         public System.Windows.Forms.Button pl1ThreeShipN1P1;
-        public System.Windows.Forms.Button button34;
-        public System.Windows.Forms.Button button35;
-        public System.Windows.Forms.Button button36;
-        public System.Windows.Forms.Button button37;
-        public System.Windows.Forms.Button button38;
-        public System.Windows.Forms.Button button39;
-        public System.Windows.Forms.Button button40;
-        public System.Windows.Forms.Button button41;
-        public System.Windows.Forms.Button button42;
-        public System.Windows.Forms.Button button43;
-        public System.Windows.Forms.Button button44;
-        public System.Windows.Forms.Button button45;
-        public System.Windows.Forms.Button button46;
-        public System.Windows.Forms.Button button47;
-        public System.Windows.Forms.Button button48;
-        public System.Windows.Forms.Button button49;
-        public System.Windows.Forms.Button button50;
-        public System.Windows.Forms.Button button51;
-        public System.Windows.Forms.Button button52;
+        public System.Windows.Forms.Button pl1EmptyButton21;
+        public System.Windows.Forms.Button pl1EmptyButton20;
+        public System.Windows.Forms.Button pl1EmptyButton19;
+        public System.Windows.Forms.Button pl1EmptyButton18;
+        public System.Windows.Forms.Button pl1EmptyButton17;
+        public System.Windows.Forms.Button pl1EmptyButton16;
+        public System.Windows.Forms.Button pl1EmptyButton15;
+        public System.Windows.Forms.Button pl1EmptyButton46;
+        public System.Windows.Forms.Button pl1EmptyButton45;
+        public System.Windows.Forms.Button pl1EmptyButton44;
+        public System.Windows.Forms.Button pl1EmptyButton43;
+        public System.Windows.Forms.Button pl1EmptyButton42;
+        public System.Windows.Forms.Button pl1EmptyButton41;
+        public System.Windows.Forms.Button pl1EmptyButton40;
+        public System.Windows.Forms.Button pl1EmptyButton39;
+        public System.Windows.Forms.Button pl1EmptyButton38;
+        public System.Windows.Forms.Button pl1EmptyButton37;
+        public System.Windows.Forms.Button pl1EmptyButton36;
+        public System.Windows.Forms.Button pl1EmptyButton35;
         public System.Windows.Forms.Button pl1ThreeShipN1P3;
-        public System.Windows.Forms.Button button54;
-        public System.Windows.Forms.Button button55;
+        public System.Windows.Forms.Button pl1EmptyButton34;
+        public System.Windows.Forms.Button pl1EmptyButton33;
         public System.Windows.Forms.Button pl1TwoShipN3P2;
         public System.Windows.Forms.Button pl1TwoShipN3P1;
-        public System.Windows.Forms.Button button58;
-        public System.Windows.Forms.Button button59;
+        public System.Windows.Forms.Button pl1EmptyButton32;
+        public System.Windows.Forms.Button pl1EmptyButton31;
         public System.Windows.Forms.Button pl1TwoShipN2P1;
-        public System.Windows.Forms.Button button61;
-        public System.Windows.Forms.Button button62;
-        public System.Windows.Forms.Button button63;
+        public System.Windows.Forms.Button pl1EmptyButton60;
+        public System.Windows.Forms.Button pl1EmptyButton59;
+        public System.Windows.Forms.Button pl1EmptyButton58;
         public System.Windows.Forms.Button pl1TwoShipN1P2;
-        public System.Windows.Forms.Button button65;
-        public System.Windows.Forms.Button button66;
-        public System.Windows.Forms.Button button67;
-        public System.Windows.Forms.Button button68;
-        public System.Windows.Forms.Button button69;
-        public System.Windows.Forms.Button button70;
-        public System.Windows.Forms.Button button71;
+        public System.Windows.Forms.Button pl1EmptyButton57;
+        public System.Windows.Forms.Button pl1EmptyButton56;
+        public System.Windows.Forms.Button pl1EmptyButton55;
+        public System.Windows.Forms.Button pl1EmptyButton54;
+        public System.Windows.Forms.Button pl1EmptyButton53;
+        public System.Windows.Forms.Button pl1EmptyButton52;
+        public System.Windows.Forms.Button pl1EmptyButton51;
         public System.Windows.Forms.Button pl1OneShipN4;
-        public System.Windows.Forms.Button button73;
+        public System.Windows.Forms.Button pl1EmptyButton50;
         public System.Windows.Forms.Button pl1TwoShipN1P1;
-        public System.Windows.Forms.Button button75;
-        public System.Windows.Forms.Button button76;
+        public System.Windows.Forms.Button pl1EmptyButton49;
+        public System.Windows.Forms.Button pl1EmptyButton48;
         public System.Windows.Forms.Button pl1ThreeShipN2P3;
         public System.Windows.Forms.Button pl1ThreeShipN2P2;
         public System.Windows.Forms.Button pl1ThreeShipN2P1;
-        public System.Windows.Forms.Button button80;
+        public System.Windows.Forms.Button pl1EmptyButton47;
         private System.Windows.Forms.Label hintLabel;
         public System.Windows.Forms.Button button81;
         public System.Windows.Forms.Button pl2TwoShipN1P1;

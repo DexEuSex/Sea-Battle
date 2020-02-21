@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,20 +19,24 @@ namespace Sea_Battle
         }
         Control[] pl1shipArray = new Control[20];
         Control[] pl2shipArray = new Control[20];
+        Control[] pl1emptyCellArray = new Control[60];
+        Control[] pl2emptyCellArray = new Control[60];
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
             foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
                 button.Visible = false;
+                
 
             foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
                 button.Visible = false;
 
             whoseTurnComboBox.Visible = false;
             whoseTurnLabel.Visible = false;
-            
 
+            
             // Player 1 Ship Array Start -------------
             // One Cell Ships
             pl1shipArray[0] = pl1OneShipN1; // Заношу кнопки в массив, чтобы потом можно было считывать их координаты через цикл
@@ -66,8 +71,8 @@ namespace Sea_Battle
             // Player 1 Ship Array Finish -------------
 
             // Player 2 Ship Array Start ------------
-            pl2shipArray[0] = pl2OneShipN1; // Заношу кнопки в массив, чтобы потом можно было считывать их координаты через цикл
-            pl2shipArray[1] = pl2OneShipN2; // Каждая часть кораблика является отдельной кнопкой
+            pl2shipArray[0] = pl2OneShipN1;
+            pl2shipArray[1] = pl2OneShipN2;
             pl2shipArray[2] = pl2OneShipN3;
             pl2shipArray[3] = pl2OneShipN4;
 
@@ -134,8 +139,12 @@ namespace Sea_Battle
                     {
                         ctrl.BackColor = System.Drawing.Color.DeepSkyBlue;
                     }
+                    foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
+                    {
+                        button.Click += new System.EventHandler(checkTheHit_Click);
+                    }
                     break;
-    
+
                 case "Игрок 2":
                     foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
                     {
@@ -151,11 +160,46 @@ namespace Sea_Battle
                     {
                         ctrl.BackColor = System.Drawing.Color.DeepSkyBlue;
                     }
+                    foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
+                    {
+                        button.Click += new System.EventHandler(checkTheHit_Click);
+                    }
                     break;
             }
+            
         }
-        
 
+        
+        public void hitChecking(Control pushedButton, Control[] arrayOfShips)
+        {
+           
+
+            for (int i = 0; i < arrayOfShips.Length; i++)
+            {
+                if (pushedButton.Location == arrayOfShips[i].Location)
+                {
+                    arrayOfShips[i].BackColor = System.Drawing.Color.Red;
+                }
+            }
+        }
+        void checkTheHit_Click(Object sender,  EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+            for (int i = 0; i < 20; i++)
+            {
+                if (clickedButton.Location == pl1shipArray[i].Location)
+                {
+                    clickedButton.BackColor = System.Drawing.Color.Red;
+                    clickedButton.Enabled = false;
+                }
+                if (clickedButton.Location == pl2shipArray[i].Location)
+                {
+                    clickedButton.BackColor = System.Drawing.Color.Red;
+                    clickedButton.Enabled = false;
+                }
+            }
+        }
+
+        
     }
-    
 }
