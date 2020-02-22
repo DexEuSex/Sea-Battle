@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Sea_Battle
@@ -14,12 +15,13 @@ namespace Sea_Battle
         Control[] pl1shipArray = new Control[20];
         Control[] pl2shipArray = new Control[20];
         Control[] pl1emptyCellArray = new Control[80];
-        Control[] pl2emptyCellArray = new Control[60];
+        Control[] pl2emptyCellArray = new Control[80];
 
 
-        private void Form1_Load(object sender, EventArgs e)
+        async private void Form1_Load(object sender, EventArgs e)
         {
-            #region ShipStorage
+            await Task.Delay(100);
+            #region Player 1 Ships Storage
             // Player 1 Ship Array Start -------------
             // One Cell Ships
             pl1shipArray[0] = pl1OneShipN1; // Заношу кнопки в массив, чтобы потом можно было считывать их координаты через цикл
@@ -52,7 +54,8 @@ namespace Sea_Battle
             pl1shipArray[18] = pl1FourShipP3;
             pl1shipArray[19] = pl1FourShipP4;
             // Player 1 Ship Array Finish -------------
-
+            #endregion
+            #region Player 2 Ships Storage
             // Player 2 Ship Array Start ------------
             pl2shipArray[0] = pl2OneShipN1;
             pl2shipArray[1] = pl2OneShipN2;
@@ -85,7 +88,7 @@ namespace Sea_Battle
             pl2shipArray[19] = pl2FourShipP4;
             // Player 2 Ship Array Finish ------------
             #endregion
-            #region EmptyCellsStorage
+            #region Player 1 Empty Cells Storage
             pl1emptyCellArray[0]  = pl1EmptyButton1;
             pl1emptyCellArray[1]  = pl1EmptyButton2;
             pl1emptyCellArray[2]  = pl1EmptyButton3;
@@ -167,39 +170,108 @@ namespace Sea_Battle
             pl1emptyCellArray[78] = pl1EmptyButton79;
             pl1emptyCellArray[79] = pl1EmptyButton80;
             #endregion
+            #region Player 2 Empty Cells Storage
+            pl2emptyCellArray[0] =  pl2EmptyButton1;
+            pl2emptyCellArray[1] =  pl2EmptyButton2;
+            pl2emptyCellArray[2] =  pl2EmptyButton3;
+            pl2emptyCellArray[3] =  pl2EmptyButton4;
+            pl2emptyCellArray[4] =  pl2EmptyButton5;
+            pl2emptyCellArray[5] =  pl2EmptyButton6;
+            pl2emptyCellArray[6] =  pl2EmptyButton7;
+            pl2emptyCellArray[7] =  pl2EmptyButton8;
+            pl2emptyCellArray[8] =  pl2EmptyButton9;
+            pl2emptyCellArray[9] =  pl2EmptyButton10;
+            pl2emptyCellArray[10] = pl2EmptyButton11;
+            pl2emptyCellArray[11] = pl2EmptyButton12;
+            pl2emptyCellArray[12] = pl2EmptyButton13;
+            pl2emptyCellArray[13] = pl2EmptyButton14;
+            pl2emptyCellArray[14] = pl2EmptyButton15;
+            pl2emptyCellArray[15] = pl2EmptyButton16;
+            pl2emptyCellArray[16] = pl2EmptyButton17;
+            pl2emptyCellArray[17] = pl2EmptyButton18;
+            pl2emptyCellArray[18] = pl2EmptyButton19;
+            pl2emptyCellArray[19] = pl2EmptyButton20;
+            pl2emptyCellArray[20] = pl2EmptyButton21;
+            pl2emptyCellArray[21] = pl2EmptyButton22;
+            pl2emptyCellArray[22] = pl2EmptyButton23;
+            pl2emptyCellArray[23] = pl2EmptyButton24;
+            pl2emptyCellArray[24] = pl2EmptyButton25;
+            pl2emptyCellArray[25] = pl2EmptyButton26;
+            pl2emptyCellArray[26] = pl2EmptyButton27;
+            pl2emptyCellArray[27] = pl2EmptyButton28;
+            pl2emptyCellArray[28] = pl2EmptyButton29;
+            pl2emptyCellArray[29] = pl2EmptyButton30;
+            pl2emptyCellArray[30] = pl2EmptyButton31;
+            pl2emptyCellArray[31] = pl2EmptyButton32;
+            pl2emptyCellArray[32] = pl2EmptyButton33;
+            pl2emptyCellArray[33] = pl2EmptyButton34;
+            pl2emptyCellArray[34] = pl2EmptyButton35;
+            pl2emptyCellArray[35] = pl2EmptyButton36;
+            pl2emptyCellArray[36] = pl2EmptyButton37;
+            pl2emptyCellArray[37] = pl2EmptyButton38;
+            pl2emptyCellArray[38] = pl2EmptyButton39;
+            pl2emptyCellArray[39] = pl2EmptyButton40;
+            pl2emptyCellArray[40] = pl2EmptyButton41;
+            pl2emptyCellArray[41] = pl2EmptyButton42;
+            pl2emptyCellArray[42] = pl2EmptyButton43;
+            pl2emptyCellArray[43] = pl2EmptyButton44;
+            pl2emptyCellArray[44] = pl2EmptyButton45;
+            pl2emptyCellArray[45] = pl2EmptyButton46;
+            pl2emptyCellArray[46] = pl2EmptyButton47;
+            pl2emptyCellArray[47] = pl2EmptyButton48;
+            pl2emptyCellArray[48] = pl2EmptyButton49;
+            pl2emptyCellArray[49] = pl2EmptyButton50;
+            pl2emptyCellArray[50] = pl2EmptyButton51;
+            pl2emptyCellArray[51] = pl2EmptyButton52;
+            pl2emptyCellArray[52] = pl2EmptyButton53;
+            pl2emptyCellArray[53] = pl2EmptyButton54;
+            pl2emptyCellArray[54] = pl2EmptyButton55;
+            pl2emptyCellArray[55] = pl2EmptyButton56;
+            pl2emptyCellArray[56] = pl2EmptyButton57;
+            pl2emptyCellArray[57] = pl2EmptyButton58;
+            pl2emptyCellArray[58] = pl2EmptyButton59;
+            pl2emptyCellArray[59] = pl2EmptyButton60;
+            pl2emptyCellArray[60] = pl2EmptyButton61;
+            pl2emptyCellArray[61] = pl2EmptyButton62;
+            pl2emptyCellArray[62] = pl2EmptyButton63;
+            pl2emptyCellArray[63] = pl2EmptyButton64;
+            pl2emptyCellArray[64] = pl2EmptyButton65;
+            pl2emptyCellArray[65] = pl2EmptyButton66;
+            pl2emptyCellArray[66] = pl2EmptyButton67;
+            pl2emptyCellArray[67] = pl2EmptyButton68;
+            pl2emptyCellArray[68] = pl2EmptyButton69;
+            pl2emptyCellArray[69] = pl2EmptyButton70;
+            pl2emptyCellArray[70] = pl2EmptyButton71;
+            pl2emptyCellArray[71] = pl2EmptyButton72;
+            pl2emptyCellArray[72] = pl2EmptyButton73;
+            pl2emptyCellArray[73] = pl2EmptyButton74;
+            pl2emptyCellArray[74] = pl2EmptyButton75;
+            pl2emptyCellArray[75] = pl2EmptyButton76;
+            pl2emptyCellArray[76] = pl2EmptyButton77;
+            pl2emptyCellArray[77] = pl2EmptyButton78;
+            pl2emptyCellArray[78] = pl2EmptyButton79;
+            pl2emptyCellArray[79] = pl2EmptyButton80;
+            #endregion
 
             foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
-                button.Visible = false;
-
-
+            {
+                button.BackColor = SystemColors.Menu;
+                button.Visible = true;
+                button.Enabled = true;
+            }
             foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
-                button.Visible = false;
-
-            whoseTurnComboBox.Visible = false;
-            whoseTurnLabel.Visible = false;
-
-
+            {
+                button.BackColor = SystemColors.Menu;
+                button.Visible = true;
+                button.Enabled = true;
+            }
+            whoseTurnComboBox.Visible = true;
+            whoseTurnLabel.Visible = true;
         }
 
         private void mainButton_Click(object sender, EventArgs e)
         {
             hintLabel.Text = "Выберите, чей ход!";
-            whoseTurnComboBox.Visible = true;
-            whoseTurnLabel.Visible = true;
-
-            foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
-            {
-                button.BackColor = SystemColors.Menu;
-                button.Visible = true;
-                button.Enabled = true;
-            }
-
-            foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
-            {
-                button.BackColor = SystemColors.Menu;
-                button.Visible = true;
-                button.Enabled = true;
-            }
             switchTheSide();
         }
 
@@ -236,28 +308,23 @@ namespace Sea_Battle
                     foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
                     {
                         button.Click += new EventHandler(checkTheHit_Click);
-                        button.BackColor = SystemColors.Menu;
-                        button.Enabled = true;
+                        button.BackColor = (button.BackColor == Color.Red ? Color.Red : SystemColors.Menu);
+                        button.Enabled = (button.BackColor == Color.Red? false : true);
                     }
-                    foreach (Control button in pl1emptyCellArray)
+                    
+                    for (int i = 0; i < pl1emptyCellArray.Length; i++)
                     {
-                        button.Enabled = false;
-                        button.BackColor = SystemColors.Menu;
+                        pl1emptyCellArray[i].Enabled = false;
+                        pl1emptyCellArray[i].BackColor = SystemColors.Menu;
                     }
-                    foreach (Button button in pl1shipArray)
+
+                    for (int i = 0; i < pl1shipArray.Length; i++)
                     {
-                        if (button.BackColor == Color.Red)
-                        {
-                            button.BackColor = Color.Red;
-                        }
-                        if (button.BackColor == SystemColors.Menu)
-                        {
-                            button.BackColor = Color.DeepSkyBlue;
-                        }
-                        button.Enabled = false;
+                        pl1shipArray[i].BackColor = (pl1shipArray[i].BackColor == Color.Red ? Color.Red : Color.DeepSkyBlue);
+                        pl1shipArray[i].Enabled = false;
                     }
                     break;
-
+                    
                 case "Игрок 2":
 
                     hintLabel.Text = "Игрок 2, расположение ваших кораблей вы видите справа. Слева - корабли противника";
@@ -266,36 +333,26 @@ namespace Sea_Battle
                     foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
                     {
                         button.Click += new EventHandler(checkTheHit_Click);
-                        button.BackColor = SystemColors.Menu;
-                        button.Enabled = true;
+                        button.BackColor = (button.BackColor == Color.Red ? Color.Red : SystemColors.Menu);
+                        button.Enabled = (button.BackColor == Color.Red ? false : true);
                     }
 
-                    foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
+                    for (int i = 0; i < pl2emptyCellArray.Length; i++)
                     {
-                        if (button.Enabled == true)
-                        {
-                            button.BackColor = SystemColors.Menu;
-                            button.Enabled = false;
-                        }
+                        pl2emptyCellArray[i].Enabled = false;
+                        pl2emptyCellArray[i].BackColor = SystemColors.Menu;
                     }
 
-                    foreach (Button button in pl2shipArray)
+                    for (int i = 0; i < pl2shipArray.Length; i++)
                     {
-                        if (button.Enabled == false)
-                        {
-                            button.BackColor = Color.Red;
-                        }
-                        if (button.Enabled == true)
-                        {
-                            button.BackColor = Color.DeepSkyBlue;
-                        }
+                        pl2shipArray[i].BackColor = (pl2shipArray[i].BackColor == Color.Red ? Color.Red : Color.DeepSkyBlue);
+                        pl2shipArray[i].Enabled = false;
                     }
-
                     
                     
                     break;
                 default:
-                    MessageBox.Show("Выберите, чей ход!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("Выберите, чей ход!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     break;
             }
         }
