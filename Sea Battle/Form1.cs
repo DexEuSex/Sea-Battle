@@ -21,8 +21,8 @@ namespace Sea_Battle
         async private void Form1_Load(object sender, EventArgs e)
         {
             await Task.Delay(100);
-            SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
-            mainTheme.Play();
+            //SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
+            //mainTheme.Play(); Добавлю в будущем
 
             #region Player 1 Ships Storage
             // Player 1 Ship Array Start -------------
