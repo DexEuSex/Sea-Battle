@@ -234,7 +234,6 @@
             this.pl2EmptyButton1 = new System.Windows.Forms.Button();
             this.whoseTurnComboBox = new System.Windows.Forms.ComboBox();
             this.whoseTurnLabel = new System.Windows.Forms.Label();
-            this.overAllGroupBox = new System.Windows.Forms.GroupBox();
             this.groupBoxPL1.SuspendLayout();
             this.groupBoxPL2.SuspendLayout();
             this.SuspendLayout();
@@ -982,7 +981,7 @@
             // 
             // mainButton
             // 
-            this.mainButton.Location = new System.Drawing.Point(286, 47);
+            this.mainButton.Location = new System.Drawing.Point(305, 58);
             this.mainButton.Name = "mainButton";
             this.mainButton.Size = new System.Drawing.Size(190, 44);
             this.mainButton.TabIndex = 80;
@@ -1092,9 +1091,9 @@
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton39);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton41);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton40);
-            this.groupBoxPL1.Location = new System.Drawing.Point(30, 118);
+            this.groupBoxPL1.Location = new System.Drawing.Point(46, 118);
             this.groupBoxPL1.Name = "groupBoxPL1";
-            this.groupBoxPL1.Size = new System.Drawing.Size(254, 262);
+            this.groupBoxPL1.Size = new System.Drawing.Size(266, 262);
             this.groupBoxPL1.TabIndex = 162;
             this.groupBoxPL1.TabStop = false;
             // 
@@ -1280,7 +1279,7 @@
             // 
             // hintLabel
             // 
-            this.hintLabel.Location = new System.Drawing.Point(221, 9);
+            this.hintLabel.Location = new System.Drawing.Point(241, 20);
             this.hintLabel.Name = "hintLabel";
             this.hintLabel.Size = new System.Drawing.Size(317, 35);
             this.hintLabel.TabIndex = 163;
@@ -2041,9 +2040,9 @@
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton32);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton34);
             this.groupBoxPL2.Controls.Add(this.pl2OneShipN3);
-            this.groupBoxPL2.Location = new System.Drawing.Point(466, 118);
+            this.groupBoxPL2.Location = new System.Drawing.Point(487, 118);
             this.groupBoxPL2.Name = "groupBoxPL2";
-            this.groupBoxPL2.Size = new System.Drawing.Size(268, 262);
+            this.groupBoxPL2.Size = new System.Drawing.Size(262, 262);
             this.groupBoxPL2.TabIndex = 243;
             this.groupBoxPL2.TabStop = false;
             // 
@@ -2229,7 +2228,7 @@
             // 
             // pl2EmptyButton1
             // 
-            this.pl2EmptyButton1.Location = new System.Drawing.Point(25, 19);
+            this.pl2EmptyButton1.Location = new System.Drawing.Point(25, 20);
             this.pl2EmptyButton1.Name = "pl2EmptyButton1";
             this.pl2EmptyButton1.Size = new System.Drawing.Size(17, 17);
             this.pl2EmptyButton1.TabIndex = 243;
@@ -2241,27 +2240,19 @@
             this.whoseTurnComboBox.Items.AddRange(new object[] {
             "Игрок 1",
             "Игрок 2"});
-            this.whoseTurnComboBox.Location = new System.Drawing.Point(322, 211);
+            this.whoseTurnComboBox.Location = new System.Drawing.Point(333, 229);
             this.whoseTurnComboBox.Name = "whoseTurnComboBox";
             this.whoseTurnComboBox.Size = new System.Drawing.Size(121, 21);
             this.whoseTurnComboBox.TabIndex = 244;
             // 
             // whoseTurnLabel
             // 
-            this.whoseTurnLabel.Location = new System.Drawing.Point(322, 184);
+            this.whoseTurnLabel.Location = new System.Drawing.Point(333, 189);
             this.whoseTurnLabel.Name = "whoseTurnLabel";
             this.whoseTurnLabel.Size = new System.Drawing.Size(121, 23);
             this.whoseTurnLabel.TabIndex = 245;
             this.whoseTurnLabel.Text = "Выберите, кто ходит";
             this.whoseTurnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // overAllGroupBox
-            // 
-            this.overAllGroupBox.Location = new System.Drawing.Point(22, 107);
-            this.overAllGroupBox.Name = "overAllGroupBox";
-            this.overAllGroupBox.Size = new System.Drawing.Size(728, 284);
-            this.overAllGroupBox.TabIndex = 246;
-            this.overAllGroupBox.TabStop = false;
             // 
             // Form1
             // 
@@ -2270,15 +2261,14 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.whoseTurnLabel);
-            this.Controls.Add(this.whoseTurnComboBox);
             this.Controls.Add(this.groupBoxPL2);
+            this.Controls.Add(this.whoseTurnComboBox);
             this.Controls.Add(this.hintLabel);
             this.Controls.Add(this.mainButton);
             this.Controls.Add(this.groupBoxPL1);
-            this.Controls.Add(this.overAllGroupBox);
             this.Location = new System.Drawing.Point(504, 250);
             this.Name = "Form1";
-            this.Text = "Морской бой";
+            this.Text = "Морской бой 0.1 aplha";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxPL1.ResumeLayout(false);
             this.groupBoxPL2.ResumeLayout(false);
@@ -2493,7 +2483,6 @@
         public System.Windows.Forms.Button pl2EmptyButton62;
         public System.Windows.Forms.Button pl2EmptyButton61;
         public System.Windows.Forms.Button pl2EmptyButton67;
-        private System.Windows.Forms.GroupBox overAllGroupBox;
     }
 }
 

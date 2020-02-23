@@ -16,7 +16,7 @@ namespace Sea_Battle
         Control[] pl2shipArray = new Control[20];
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
-
+        bool hitMissed = false; // для включения режима невидимости игрового поля
 
         async private void Form1_Load(object sender, EventArgs e)
         {
@@ -267,18 +267,21 @@ namespace Sea_Battle
             }
             whoseTurnComboBox.Visible = true;
             whoseTurnLabel.Visible = true;
+            
         }
 
         private void mainButton_Click(object sender, EventArgs e)
         {
+            //battlefieldHideGrouoBox.Visible = false;
             hintLabel.Text = "Выберите, чей ход!";
+            mainButton.Text = "Передать ход другому игроку";
             switchTheSide();
         }
 
         void checkTheHit_Click(Object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < pl1shipArray.Length; i++)
             {
                 if (clickedButton.Location == pl1shipArray[i].Location)
                 {
@@ -290,9 +293,44 @@ namespace Sea_Battle
                     clickedButton.BackColor = Color.Red;
                     clickedButton.Enabled = false;
                 }
-                else
+                else 
                 {
                     clickedButton.Enabled = false;
+                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 1")
+                    //{
+                    //    whoseTurnComboBox.SelectedItem = "Игрок 2";
+                    //}
+                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 2")
+                    //{
+                    //        whoseTurnComboBox.SelectedItem = "Игрок 1";
+                    //}
+                    //battlefieldHideGrouoBox.Visible = true;
+                    //DialogResult resultPlayer1 = MessageBox.Show(
+                    //    "Мимо! Ход переходит к Игроку 2", "Уведомление",
+                    //    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                    //battlefieldHideGrouoBox.Visible = true;
+                    //DialogResult resultPlayer2 = MessageBox.Show(
+                    //    "Мимо! Ход переходит к Игроку 1", "Уведомление",
+                    //    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+            }
+            if (hitMissed)
+            {
+                if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 1")
+                {
+                    //whoseTurnComboBox.SelectedItem = "Игрок 2";
+                    DialogResult resultPlayer1 = MessageBox.Show(
+                        "Мимо! Ход переходит к Игроку 2", "Уведомление",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //}
+                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 2")
+                    //{
+                    //        whoseTurnComboBox.SelectedItem = "Игрок 1";
+                    //}
+
                 }
             }
         }
