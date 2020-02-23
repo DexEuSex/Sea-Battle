@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Sea_Battle
 {
     public partial class Form1 : Form
@@ -21,6 +21,9 @@ namespace Sea_Battle
         async private void Form1_Load(object sender, EventArgs e)
         {
             await Task.Delay(100);
+            SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
+            mainTheme.Play();
+
             #region Player 1 Ships Storage
             // Player 1 Ship Array Start -------------
             // One Cell Ships
@@ -291,7 +294,20 @@ namespace Sea_Battle
             whoseTurn++;
             hidePL1BFButton.Visible = false;
             hidePL2BFButton.Visible = false;
+            CheckTHeVinner();
             switchTheSide();
+        }
+
+        void CheckTHeVinner()
+        {
+            if (pl1WinBar.Value == 100)
+            {
+                MessageBox.Show("Игрок 1 победил!", "Победа", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (pl2WinBar.Value == 100)
+            {
+                MessageBox.Show("Игрок 2 победил!", "Победа", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         void checkTheHit_Click(Object sender, EventArgs e)
