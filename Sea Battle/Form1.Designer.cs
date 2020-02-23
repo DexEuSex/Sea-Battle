@@ -234,6 +234,13 @@
             this.pl2EmptyButton1 = new System.Windows.Forms.Button();
             this.whoseTurnComboBox = new System.Windows.Forms.ComboBox();
             this.whoseTurnLabel = new System.Windows.Forms.Label();
+            this.hidePL1BFButton = new System.Windows.Forms.Button();
+            this.hidePL2BFButton = new System.Windows.Forms.Button();
+            this.pl1WinBar = new System.Windows.Forms.ProgressBar();
+            this.pl2WinBar = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.startButton = new System.Windows.Forms.Button();
             this.groupBoxPL1.SuspendLayout();
             this.groupBoxPL2.SuspendLayout();
             this.SuspendLayout();
@@ -991,6 +998,7 @@
             // 
             // groupBoxPL1
             // 
+            this.groupBoxPL1.Controls.Add(this.hidePL1BFButton);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton61);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton77);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton68);
@@ -1940,6 +1948,7 @@
             // 
             // groupBoxPL2
             // 
+            this.groupBoxPL2.Controls.Add(this.hidePL2BFButton);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton80);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton78);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton69);
@@ -2251,8 +2260,70 @@
             this.whoseTurnLabel.Name = "whoseTurnLabel";
             this.whoseTurnLabel.Size = new System.Drawing.Size(121, 23);
             this.whoseTurnLabel.TabIndex = 245;
-            this.whoseTurnLabel.Text = "Выберите, кто ходит";
+            this.whoseTurnLabel.Text = "Сейчас ходит:";
             this.whoseTurnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // hidePL1BFButton
+            // 
+            this.hidePL1BFButton.Location = new System.Drawing.Point(-21, 0);
+            this.hidePL1BFButton.Name = "hidePL1BFButton";
+            this.hidePL1BFButton.Size = new System.Drawing.Size(302, 262);
+            this.hidePL1BFButton.TabIndex = 246;
+            this.hidePL1BFButton.UseVisualStyleBackColor = true;
+            // 
+            // hidePL2BFButton
+            // 
+            this.hidePL2BFButton.Location = new System.Drawing.Point(-13, -3);
+            this.hidePL2BFButton.Name = "hidePL2BFButton";
+            this.hidePL2BFButton.Size = new System.Drawing.Size(302, 262);
+            this.hidePL2BFButton.TabIndex = 248;
+            this.hidePL2BFButton.UseVisualStyleBackColor = true;
+            // 
+            // pl1WinBar
+            // 
+            this.pl1WinBar.Location = new System.Drawing.Point(46, 415);
+            this.pl1WinBar.Name = "pl1WinBar";
+            this.pl1WinBar.Size = new System.Drawing.Size(266, 23);
+            this.pl1WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pl1WinBar.TabIndex = 246;
+            // 
+            // pl2WinBar
+            // 
+            this.pl2WinBar.Location = new System.Drawing.Point(487, 415);
+            this.pl2WinBar.Name = "pl2WinBar";
+            this.pl2WinBar.Size = new System.Drawing.Size(266, 23);
+            this.pl2WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pl2WinBar.TabIndex = 247;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(97, 399);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(164, 13);
+            this.label1.TabIndex = 248;
+            this.label1.Text = "Путь к победе первого игрока:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(550, 399);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(163, 13);
+            this.label2.TabIndex = 249;
+            this.label2.Text = "Путь к победе второго игрока:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // startButton
+            // 
+            this.startButton.Location = new System.Drawing.Point(333, 290);
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(135, 34);
+            this.startButton.TabIndex = 250;
+            this.startButton.Text = "Начать игру";
+            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // Form1
             // 
@@ -2260,6 +2331,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pl2WinBar);
+            this.Controls.Add(this.pl1WinBar);
             this.Controls.Add(this.whoseTurnLabel);
             this.Controls.Add(this.groupBoxPL2);
             this.Controls.Add(this.whoseTurnComboBox);
@@ -2273,6 +2349,7 @@
             this.groupBoxPL1.ResumeLayout(false);
             this.groupBoxPL2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2483,6 +2560,13 @@
         public System.Windows.Forms.Button pl2EmptyButton62;
         public System.Windows.Forms.Button pl2EmptyButton61;
         public System.Windows.Forms.Button pl2EmptyButton67;
+        private System.Windows.Forms.Button hidePL1BFButton;
+        private System.Windows.Forms.Button hidePL2BFButton;
+        private System.Windows.Forms.ProgressBar pl1WinBar;
+        private System.Windows.Forms.ProgressBar pl2WinBar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button startButton;
     }
 }
 

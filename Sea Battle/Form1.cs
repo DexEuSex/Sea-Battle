@@ -16,8 +16,8 @@ namespace Sea_Battle
         Control[] pl2shipArray = new Control[20];
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
-        bool hitMissed = false; // для включения режима невидимости игрового поля
-
+        int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
+        
         async private void Form1_Load(object sender, EventArgs e)
         {
             await Task.Delay(100);
@@ -265,16 +265,31 @@ namespace Sea_Battle
                 button.Visible = true;
                 button.Enabled = true;
             }
+            mainButton.Visible = false;
+            hidePL1BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
+            hidePL2BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
+            hidePL1BFButton.Enabled = false;
+            hidePL2BFButton.Enabled = false;
+
             whoseTurnComboBox.Visible = true;
+            whoseTurnComboBox.Enabled = false;
             whoseTurnLabel.Visible = true;
             
+        }
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            whoseTurn++;
+            mainButton.Visible = true;
+            startButton.Visible = false;
+            mainButton.Text = "Передать ход другому игроку";
+            switchTheSide();
         }
 
         private void mainButton_Click(object sender, EventArgs e)
         {
-            //battlefieldHideGrouoBox.Visible = false;
-            hintLabel.Text = "Выберите, чей ход!";
-            mainButton.Text = "Передать ход другому игроку";
+            whoseTurn++;
+            hidePL1BFButton.Visible = false;
+            hidePL2BFButton.Visible = false;
             switchTheSide();
         }
 
@@ -287,59 +302,43 @@ namespace Sea_Battle
                 {
                     clickedButton.BackColor = Color.Red;
                     clickedButton.Enabled = false;
+                    pl2WinBar.Value += 2;
                 }
-                if (clickedButton.Location == pl2shipArray[i].Location)
+                else if (clickedButton.Location == pl2shipArray[i].Location)
                 {
                     clickedButton.BackColor = Color.Red;
                     clickedButton.Enabled = false;
+                    pl1WinBar.Value += 2;
                 }
                 else 
                 {
                     clickedButton.Enabled = false;
-                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 1")
-                    //{
-                    //    whoseTurnComboBox.SelectedItem = "Игрок 2";
-                    //}
-                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 2")
-                    //{
-                    //        whoseTurnComboBox.SelectedItem = "Игрок 1";
-                    //}
-                    //battlefieldHideGrouoBox.Visible = true;
-                    //DialogResult resultPlayer1 = MessageBox.Show(
-                    //    "Мимо! Ход переходит к Игроку 2", "Уведомление",
-                    //    MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-                    //battlefieldHideGrouoBox.Visible = true;
-                    //DialogResult resultPlayer2 = MessageBox.Show(
-                    //    "Мимо! Ход переходит к Игроку 1", "Уведомление",
-                    //    MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                 }
             }
-            if (hitMissed)
+            if (clickedButton.BackColor != Color.Red) // Проверка на "непопадание" в корабль противника
             {
-                if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 1")
+                if (whoseTurn % 2 != 0)
                 {
-                    //whoseTurnComboBox.SelectedItem = "Игрок 2";
-                    DialogResult resultPlayer1 = MessageBox.Show(
-                        "Мимо! Ход переходит к Игроку 2", "Уведомление",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //}
-                    //if (whoseTurnComboBox.SelectedItem.ToString() == "Игрок 2")
-                    //{
-                    //        whoseTurnComboBox.SelectedItem = "Игрок 1";
-                    //}
+                    hidePL1BFButton.Visible = true;
+                    MessageBox.Show("Мимо! Ход переходит к Игроку 2", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                       
+                }
+                else if (whoseTurn % 2 == 0)
+                {
+                    hidePL2BFButton.Visible = true;
+                    MessageBox.Show( "Мимо! Ход переходит к Игроку 1", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }
 
         void switchTheSide()
         {
-            switch (whoseTurnComboBox.SelectedItem)
+            //switch (whoseTurnComboBox.SelectedItem)
+            //{
+            //    case "Игрок 1":
+            if (whoseTurn % 2 != 0)
             {
-                case "Игрок 1":
                     hintLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
                     mainButton.Text = "Передать хоть второму игроку";
 
@@ -361,10 +360,13 @@ namespace Sea_Battle
                         pl1shipArray[i].BackColor = (pl1shipArray[i].BackColor == Color.Red ? Color.Red : Color.DeepSkyBlue);
                         pl1shipArray[i].Enabled = false;
                     }
-                    break;
-                    
-                case "Игрок 2":
 
+            }
+                //    break;
+                    
+                //case "Игрок 2":
+            if (whoseTurn % 2 == 0)
+            {
                     hintLabel.Text = "Игрок 2, расположение ваших кораблей вы видите справа. Слева - корабли противника";
                     mainButton.Text = "Передать хоть второму игроку";
 
@@ -386,13 +388,13 @@ namespace Sea_Battle
                         pl2shipArray[i].BackColor = (pl2shipArray[i].BackColor == Color.Red ? Color.Red : Color.DeepSkyBlue);
                         pl2shipArray[i].Enabled = false;
                     }
-                    
-                    
-                    break;
-                default:
-                    //MessageBox.Show("Выберите, чей ход!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    break;
             }
+
+                //    break;
+                //default:
+                //    whoseTurnComboBox.SelectedIndex = 0;
+                //    break;
+            
         }
 
     }
