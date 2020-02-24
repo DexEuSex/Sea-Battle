@@ -21,6 +21,7 @@ namespace Sea_Battle
         async private void Form1_Load(object sender, EventArgs e)
         {
             await Task.Delay(100);
+            
             //SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
             //mainTheme.Play(); Добавлю в будущем
 
@@ -258,17 +259,19 @@ namespace Sea_Battle
 
             foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
             {
+                button.Click += new EventHandler(checkTheHitOnPL1Array_Click);
                 button.BackColor = SystemColors.Menu;
                 button.Visible = true;
                 button.Enabled = true;
             }
             foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
             {
+                button.Click += new EventHandler(checkTheHitOnPL2Array_Click);
                 button.BackColor = SystemColors.Menu;
                 button.Visible = true;
                 button.Enabled = true;
             }
-
+            
             mainButton.Visible = false;
             hidePL1BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
             hidePL2BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
@@ -283,6 +286,9 @@ namespace Sea_Battle
         private void startButton_Click(object sender, EventArgs e)
         {
             whoseTurn++;
+            if (whoseTurn > 2)
+                whoseTurn--;
+
             mainButton.Visible = true;
             startButton.Visible = false;
             mainButton.Text = "Передать ход другому игроку";
@@ -294,7 +300,6 @@ namespace Sea_Battle
             whoseTurn++;
             hidePL1BFButton.Visible = false;
             hidePL2BFButton.Visible = false;
-            CheckTHeVinner();
             switchTheSide();
         }
 
@@ -310,46 +315,45 @@ namespace Sea_Battle
             }
         }
 
-        void checkTheHit_Click(Object sender, EventArgs e)
-        {
-            Button clickedButton = (Button)sender;
-            for (int i = 0; i < pl1shipArray.Length; i++)
-            {
-                if (clickedButton.Location == pl1shipArray[i].Location)
-                {
-                    clickedButton.BackColor = Color.Red;
-                    clickedButton.Enabled = false;
-                    pl2WinBar.Value += 5;
-                }
-                else if (clickedButton.Location == pl2shipArray[i].Location)
-                {
-                    clickedButton.BackColor = Color.Red;
-                    clickedButton.Enabled = false;
-                    pl1WinBar.Value += 5;
-                }
-                else 
-                {
-                    clickedButton.Enabled = false;
-                }
-            }
-            if (clickedButton.BackColor != Color.Red) // Проверка на "непопадание" в корабль противника
-            {
-                if (whoseTurn % 2 != 0)
-                {
-                    hidePL1BFButton.Visible = true;
-                    hidePL2BFButton.Visible = true;
-                    hidePL1BFButton.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
+        //void checkTheHit_Click(Object sender, EventArgs e)
+        //{
+        //    Button clickedButton = (Button)sender;
+        //    for (int i = 0; i < pl1shipArray.Length; i++)
+        //    {
+        //        if (clickedButton.Location == pl1shipArray[i].Location)
+        //        {
+        //            clickedButton.BackColor = Color.Red;
+        //            clickedButton.Enabled = false;
+
+        //        }
+        //        else if (clickedButton.Location == pl2shipArray[i].Location)
+        //        {
+        //            clickedButton.BackColor = Color.Red;
+        //            clickedButton.Enabled = false;
+        //        }
+        //        else 
+        //        {
+        //            clickedButton.Enabled = false;
+        //        }
+        //    }
+        //    if (clickedButton.BackColor != Color.Red) // Проверка на "непопадание" в корабль противника
+        //    {
+        //        if (whoseTurn % 2 != 0)
+        //        {
+        //            hidePL1BFButton.Visible = true;
+        //            hidePL2BFButton.Visible = true;
+        //            hidePL1BFButton.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
 
 
-                }
-                else if (whoseTurn % 2 == 0)
-                {
-                    hidePL1BFButton.Visible = true;
-                    hidePL2BFButton.Visible = true;
-                    hidePL2BFButton.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
-                }
-            }
-        }
+        //        }
+        //        else if (whoseTurn % 2 == 0)
+        //        {
+        //            hidePL1BFButton.Visible = true;
+        //            hidePL2BFButton.Visible = true;
+        //            hidePL2BFButton.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
+        //        }
+        //    }
+        //}
 
         void checkTheHitOnPL1Array_Click(Object sender, EventArgs e)
         {
@@ -358,9 +362,9 @@ namespace Sea_Battle
             {
                 if (clickedButton.Location == pl1shipArray[i].Location)
                 {
+                    pl2WinBar.Value += 5;
                     clickedButton.BackColor = Color.Red;
                     clickedButton.Enabled = false;
-                    pl2WinBar.Value += 2;
                 }
                 else
                 {
@@ -369,11 +373,12 @@ namespace Sea_Battle
             }
             if (clickedButton.BackColor != Color.Red) // Проверка на "непопадание" в корабль противника
             {
-                    clickedButton.BackColor = Color.Gray;
-                    hidePL1BFButton.Visible = true;
-                    hidePL2BFButton.Visible = true;
-                    hidePL1BFButton.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
+                clickedButton.BackColor = Color.Gray;
+                hidePL1BFButton.Visible = true;
+                hidePL2BFButton.Visible = true;
+                hidePL1BFButton.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
             }
+            CheckTHeVinner();
         }
         void checkTheHitOnPL2Array_Click(Object sender, EventArgs e)
         {
@@ -382,9 +387,9 @@ namespace Sea_Battle
             {
                 if (clickedButton.Location == pl2shipArray[i].Location)
                 {
+                    pl1WinBar.Value += 5;
                     clickedButton.BackColor = Color.Red;
                     clickedButton.Enabled = false;
-                    pl1WinBar.Value += 2;
                 }
                 else
                 {
@@ -398,6 +403,7 @@ namespace Sea_Battle
                 hidePL2BFButton.Visible = true;
                 hidePL1BFButton.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
             }
+            CheckTHeVinner();
         }
 
 
@@ -412,21 +418,22 @@ namespace Sea_Battle
 
                     foreach (Button button in groupBoxPL2.Controls.OfType<Button>()) // Отрисовка поля противника перед началом боя
                     {
-                        button.Click += new EventHandler(checkTheHitOnPL2Array_Click);
+                        
                         if (button.BackColor == Color.Red)
                         {
                             button.BackColor = Color.Red;
+                            button.Enabled = false;
                         }
                         if (button.BackColor == Color.Gray)
                         {
                             button.BackColor = Color.Gray;
+                            button.Enabled = false;
                         }
                         if (button.BackColor != Color.Red && button.BackColor != Color.Gray)
                         {
                             button.BackColor = SystemColors.Menu;
+                            button.Enabled = true;
                         }
-                        button.Enabled = (button.BackColor == Color.Red ? false : true);
-                        button.Enabled = (button.BackColor == Color.Gray ? false : true);
                     }
 
                     for (int i = 0; i < pl1emptyCellArray.Length; i++)
@@ -450,22 +457,22 @@ namespace Sea_Battle
 
                     foreach (Button button in groupBoxPL1.Controls.OfType<Button>()) // Отрисовка поля противника перед началом боя
                     {
-                        button.Click += new EventHandler(checkTheHitOnPL1Array_Click);
+                        
                         if (button.BackColor == Color.Red)
                         {
                             button.BackColor = Color.Red;
+                            button.Enabled = false;
                         }
                         if (button.BackColor == Color.Gray)
                         {
                             button.BackColor = Color.Gray;
+                            button.Enabled = false;
                         }
                         if (button.BackColor != Color.Red && button.BackColor != Color.Gray)
                         {
                             button.BackColor = SystemColors.Menu;
+                            button.Enabled = true;
                         }
-
-                        button.Enabled = (button.BackColor == Color.Red ? false : true);
-                        button.Enabled = (button.BackColor == Color.Gray ? false : true);
                     }
 
                     for (int i = 0; i < pl2emptyCellArray.Length; i++)

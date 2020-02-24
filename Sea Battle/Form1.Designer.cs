@@ -110,6 +110,7 @@
             this.pl1EmptyButton47 = new System.Windows.Forms.Button();
             this.mainButton = new System.Windows.Forms.Button();
             this.groupBoxPL1 = new System.Windows.Forms.GroupBox();
+            this.hidePL1BFButton = new System.Windows.Forms.Button();
             this.pl1EmptyButton61 = new System.Windows.Forms.Button();
             this.pl1EmptyButton77 = new System.Windows.Forms.Button();
             this.pl1EmptyButton68 = new System.Windows.Forms.Button();
@@ -211,6 +212,7 @@
             this.pl2EmptyButton50 = new System.Windows.Forms.Button();
             this.pl2OneShipN2 = new System.Windows.Forms.Button();
             this.groupBoxPL2 = new System.Windows.Forms.GroupBox();
+            this.hidePL2BFButton = new System.Windows.Forms.Button();
             this.pl2EmptyButton80 = new System.Windows.Forms.Button();
             this.pl2EmptyButton78 = new System.Windows.Forms.Button();
             this.pl2EmptyButton69 = new System.Windows.Forms.Button();
@@ -234,8 +236,6 @@
             this.pl2EmptyButton1 = new System.Windows.Forms.Button();
             this.whoseTurnComboBox = new System.Windows.Forms.ComboBox();
             this.whoseTurnLabel = new System.Windows.Forms.Label();
-            this.hidePL1BFButton = new System.Windows.Forms.Button();
-            this.hidePL2BFButton = new System.Windows.Forms.Button();
             this.pl1WinBar = new System.Windows.Forms.ProgressBar();
             this.pl2WinBar = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
@@ -1104,6 +1104,14 @@
             this.groupBoxPL1.Size = new System.Drawing.Size(266, 262);
             this.groupBoxPL1.TabIndex = 162;
             this.groupBoxPL1.TabStop = false;
+            // 
+            // hidePL1BFButton
+            // 
+            this.hidePL1BFButton.Location = new System.Drawing.Point(-21, 0);
+            this.hidePL1BFButton.Name = "hidePL1BFButton";
+            this.hidePL1BFButton.Size = new System.Drawing.Size(302, 262);
+            this.hidePL1BFButton.TabIndex = 246;
+            this.hidePL1BFButton.UseVisualStyleBackColor = true;
             // 
             // pl1EmptyButton61
             // 
@@ -2055,6 +2063,14 @@
             this.groupBoxPL2.TabIndex = 243;
             this.groupBoxPL2.TabStop = false;
             // 
+            // hidePL2BFButton
+            // 
+            this.hidePL2BFButton.Location = new System.Drawing.Point(-13, -3);
+            this.hidePL2BFButton.Name = "hidePL2BFButton";
+            this.hidePL2BFButton.Size = new System.Drawing.Size(302, 262);
+            this.hidePL2BFButton.TabIndex = 248;
+            this.hidePL2BFButton.UseVisualStyleBackColor = true;
+            // 
             // pl2EmptyButton80
             // 
             this.pl2EmptyButton80.Enabled = false;
@@ -2263,27 +2279,12 @@
             this.whoseTurnLabel.Text = "Сейчас ходит:";
             this.whoseTurnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // hidePL1BFButton
-            // 
-            this.hidePL1BFButton.Location = new System.Drawing.Point(-21, 0);
-            this.hidePL1BFButton.Name = "hidePL1BFButton";
-            this.hidePL1BFButton.Size = new System.Drawing.Size(302, 262);
-            this.hidePL1BFButton.TabIndex = 246;
-            this.hidePL1BFButton.UseVisualStyleBackColor = true;
-            // 
-            // hidePL2BFButton
-            // 
-            this.hidePL2BFButton.Location = new System.Drawing.Point(-13, -3);
-            this.hidePL2BFButton.Name = "hidePL2BFButton";
-            this.hidePL2BFButton.Size = new System.Drawing.Size(302, 262);
-            this.hidePL2BFButton.TabIndex = 248;
-            this.hidePL2BFButton.UseVisualStyleBackColor = true;
-            // 
             // pl1WinBar
             // 
             this.pl1WinBar.Location = new System.Drawing.Point(46, 415);
             this.pl1WinBar.Name = "pl1WinBar";
             this.pl1WinBar.Size = new System.Drawing.Size(266, 23);
+            this.pl1WinBar.Step = 5;
             this.pl1WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pl1WinBar.TabIndex = 246;
             // 
@@ -2329,6 +2330,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.startButton);
