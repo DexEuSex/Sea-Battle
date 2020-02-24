@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Linq;
 using System.Media;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace Sea_Battle
@@ -21,10 +22,17 @@ namespace Sea_Battle
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
-        
+
         async private void Form1_Load(object sender, EventArgs e)
         {
-            mainTheme.Play();
+            Thread music = new Thread(() =>
+            {
+                mainTheme.Play();
+            })
+            {
+                IsBackground = true,
+            }; 
+            music.Start();
             await Task.Delay(100);
             hidePL1BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
             hidePL2BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
