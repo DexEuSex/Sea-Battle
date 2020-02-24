@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="bin\Release\content\textures\main_background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\content\pictures\shipPL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\content\pictures\shipPL2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
