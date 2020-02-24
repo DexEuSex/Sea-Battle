@@ -302,6 +302,7 @@ namespace Sea_Battle
 
         private void mainButton_Click(object sender, EventArgs e)
         {
+            ButtonsOn();
             whoseTurn++;
             hidePL1BFButton.Visible = false;
             hidePL2BFButton.Visible = false;
@@ -342,6 +343,7 @@ namespace Sea_Battle
             {
                 miss.Play();
                 clickedButton.BackColor = Color.Gray;
+                ButtonsOff();
                 hidePL1BFButton.Visible = true;
                 hidePL1BFButton.Enabled = false;
                 hidePL2BFButton.Visible = true;
@@ -372,6 +374,7 @@ namespace Sea_Battle
             {
                 miss.Play();
                 clickedButton.BackColor = Color.Gray;
+                ButtonsOff();
                 hidePL1BFButton.Visible = true;
                 hidePL1BFButton.Enabled = false;
                 hidePL2BFButton.Visible = true;
@@ -463,6 +466,29 @@ namespace Sea_Battle
                     }
             }
             
+        }
+
+        void ButtonsOff()
+        {
+            foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
+            {
+                button.Enabled = false;
+            }
+            foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
+            {
+                button.Enabled = false;
+            }
+        }
+        void ButtonsOn()
+        {
+            foreach (Button button in groupBoxPL1.Controls.OfType<Button>())
+            {
+                button.Enabled = false;
+            }
+            foreach (Button button in groupBoxPL2.Controls.OfType<Button>())
+            {
+                button.Enabled = false;
+            }
         }
 
     }
