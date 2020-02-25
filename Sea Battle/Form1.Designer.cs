@@ -2385,7 +2385,7 @@
             this.Name = "Form1";
             this.Opacity = 0.95D;
             this.ShowIcon = false;
-            this.Text = "Морской бой 0.1 aplha";
+            this.Text = "Морской бой 0.1 Open Beta";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxPL1.ResumeLayout(false);
             this.groupBoxPL2.ResumeLayout(false);

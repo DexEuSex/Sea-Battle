@@ -5,6 +5,7 @@ using System.Media;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 namespace Sea_Battle
 {
     public partial class Form1 : Form
@@ -13,6 +14,7 @@ namespace Sea_Battle
         {
             InitializeComponent();
         }
+        
         SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
         SoundPlayer bang = new SoundPlayer(@"content\sound\bang.wav");
         SoundPlayer miss = new SoundPlayer(@"content\sound\missed.wav");
@@ -23,16 +25,32 @@ namespace Sea_Battle
         Control[] pl2emptyCellArray = new Control[80];
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
 
+        // UNKNOWN CODE
+        WMPLib.WindowsMediaPlayer Player;
+        private void Player_PlayStateChange(int NewState)
+        {
+            if ((WMPLib.WMPPlayState)NewState == WMPLib.WMPPlayState.wmppsStopped)
+            {
+                this.Close();
+            }
+        }
+        private void Player_MediaError(object pMediaObject)
+        {
+            MessageBox.Show("Cannot play media file.");
+            this.Close();
+        }
+        private void PlayFile(String url)
+        {
+            Player = new WMPLib.WindowsMediaPlayer();
+            Player.PlayStateChange += new WMPLib._WMPOCXEvents_PlayStateChangeEventHandler(Player_PlayStateChange);
+            Player.MediaError += new WMPLib._WMPOCXEvents_MediaErrorEventHandler(Player_MediaError);
+            Player.URL = url;
+            Player.controls.play();
+        }
+        // UNKNOWN CODE
         async private void Form1_Load(object sender, EventArgs e)
         {
-            Thread music = new Thread(() =>
-            {
-                mainTheme.Play();
-            })
-            {
-                IsBackground = true,
-            }; 
-            music.Start();
+            PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
             hidePL1BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
             hidePL2BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
