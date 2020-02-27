@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pl1OneShipN1 = new System.Windows.Forms.Button();
             this.pl1EmptyButton1 = new System.Windows.Forms.Button();
             this.pl1EmptyButton3 = new System.Windows.Forms.Button();
@@ -212,7 +213,6 @@
             this.pl2EmptyButton50 = new System.Windows.Forms.Button();
             this.pl2OneShipN2 = new System.Windows.Forms.Button();
             this.groupBoxPL2 = new System.Windows.Forms.GroupBox();
-            this.hidePL2BFButton = new System.Windows.Forms.Button();
             this.pl2EmptyButton80 = new System.Windows.Forms.Button();
             this.pl2EmptyButton78 = new System.Windows.Forms.Button();
             this.pl2EmptyButton69 = new System.Windows.Forms.Button();
@@ -243,6 +243,7 @@
             this.startButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.hidePL2BFButton = new System.Windows.Forms.Button();
             this.groupBoxPL1.SuspendLayout();
             this.groupBoxPL2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -2072,16 +2073,6 @@
             this.groupBoxPL2.TabIndex = 243;
             this.groupBoxPL2.TabStop = false;
             // 
-            // hidePL2BFButton
-            // 
-            this.hidePL2BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
-            this.hidePL2BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.hidePL2BFButton.Location = new System.Drawing.Point(-17, -14);
-            this.hidePL2BFButton.Name = "hidePL2BFButton";
-            this.hidePL2BFButton.Size = new System.Drawing.Size(342, 346);
-            this.hidePL2BFButton.TabIndex = 248;
-            this.hidePL2BFButton.UseVisualStyleBackColor = false;
-            // 
             // pl2EmptyButton80
             // 
             this.pl2EmptyButton80.Enabled = false;
@@ -2280,7 +2271,7 @@
             "Игрок 2"});
             this.whoseTurnComboBox.Location = new System.Drawing.Point(388, 268);
             this.whoseTurnComboBox.Name = "whoseTurnComboBox";
-            this.whoseTurnComboBox.Size = new System.Drawing.Size(157, 24);
+            this.whoseTurnComboBox.Size = new System.Drawing.Size(157, 25);
             this.whoseTurnComboBox.TabIndex = 244;
             // 
             // whoseTurnLabel
@@ -2316,7 +2307,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.Location = new System.Drawing.Point(113, 491);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 16);
+            this.label1.Size = new System.Drawing.Size(210, 17);
             this.label1.TabIndex = 248;
             this.label1.Text = "Путь к победе первого игрока:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2327,7 +2318,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label2.Location = new System.Drawing.Point(642, 491);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 16);
+            this.label2.Size = new System.Drawing.Size(209, 17);
             this.label2.TabIndex = 249;
             this.label2.Text = "Путь к победе второго игрока:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2344,7 +2335,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Sea_Battle.Properties.Resources.shipPL1;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(54, 35);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(238, 90);
@@ -2353,16 +2344,26 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Sea_Battle.Properties.Resources.shipPL2;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(636, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(238, 90);
             this.pictureBox2.TabIndex = 252;
             this.pictureBox2.TabStop = false;
             // 
+            // hidePL2BFButton
+            // 
+            this.hidePL2BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
+            this.hidePL2BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.hidePL2BFButton.Location = new System.Drawing.Point(-17, -14);
+            this.hidePL2BFButton.Name = "hidePL2BFButton";
+            this.hidePL2BFButton.Size = new System.Drawing.Size(342, 346);
+            this.hidePL2BFButton.TabIndex = 248;
+            this.hidePL2BFButton.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -2380,7 +2381,7 @@
             this.Controls.Add(this.hintLabel);
             this.Controls.Add(this.mainButton);
             this.Controls.Add(this.groupBoxPL1);
-            this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Location = new System.Drawing.Point(504, 250);
             this.Name = "Form1";
             this.Opacity = 0.95D;
@@ -2604,7 +2605,6 @@
         public System.Windows.Forms.Button pl2EmptyButton61;
         public System.Windows.Forms.Button pl2EmptyButton67;
         private System.Windows.Forms.Button hidePL1BFButton;
-        private System.Windows.Forms.Button hidePL2BFButton;
         private System.Windows.Forms.ProgressBar pl1WinBar;
         private System.Windows.Forms.ProgressBar pl2WinBar;
         private System.Windows.Forms.Label label1;
@@ -2612,6 +2612,7 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button hidePL2BFButton;
     }
 }
 

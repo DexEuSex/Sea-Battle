@@ -63,9 +63,9 @@ namespace Sea_Battle.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap main_background {
+        internal static System.Drawing.Bitmap confidential {
             get {
-                object obj = ResourceManager.GetObject("main_background", resourceCulture);
+                object obj = ResourceManager.GetObject("confidential", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

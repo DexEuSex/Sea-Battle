@@ -26,6 +26,7 @@ namespace Sea_Battle
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
 
         // UNKNOWN CODE
+        #region MusicInitialization
         WMPLib.WindowsMediaPlayer Player;
         private void Player_PlayStateChange(int NewState)
         {
@@ -47,14 +48,17 @@ namespace Sea_Battle
             Player.URL = url;
             Player.controls.play();
         }
+        #endregion
         // UNKNOWN CODE
+
         async private void Form1_Load(object sender, EventArgs e)
         {
             PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
             hidePL1BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
             hidePL2BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
-
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             #region Player 1 Ships Storage
             // Player 1 Ship Array Start -------------
@@ -407,6 +411,177 @@ namespace Sea_Battle
                 hidePL1BFButton.Enabled = false;
                 hintLabel.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
             }
+
+            // Автозаполнение области вокруг убитых кораблей второго игрока (однопалубные)
+            if (pl2OneShipN1.BackColor == Color.Red)
+            {
+                // 1 2 9 17 18
+                pl2EmptyButton1.BackColor = Color.Gray;
+                pl2EmptyButton1.Enabled = false;
+
+                pl2EmptyButton2.BackColor = Color.Gray;
+                pl2EmptyButton2.Enabled = false;
+
+                pl2EmptyButton9.BackColor = Color.Gray;
+                pl2EmptyButton9.Enabled = false;
+
+                pl2EmptyButton18.BackColor = Color.Gray;
+                pl2EmptyButton18.Enabled = false;
+
+                pl2EmptyButton17.BackColor = Color.Gray;
+                pl2EmptyButton17.Enabled = false;
+            }
+            if (pl2OneShipN2.BackColor == Color.Red)
+            {
+                // 42 43 50 57 58
+                pl2EmptyButton42.BackColor = Color.Gray;
+                pl2EmptyButton42.Enabled = false;
+
+                pl2EmptyButton43.BackColor = Color.Gray;
+                pl2EmptyButton43.Enabled = false;
+
+                pl2EmptyButton50.BackColor = Color.Gray;
+                pl2EmptyButton50.Enabled = false;
+
+                pl2EmptyButton57.BackColor = Color.Gray;
+                pl2EmptyButton57.Enabled = false;
+
+                pl2EmptyButton58.BackColor = Color.Gray;
+                pl2EmptyButton58.Enabled = false;
+            }
+            if (pl2OneShipN3.BackColor == Color.Red)
+            {
+                // 25 26 27 35 36 43 44 45
+                pl2EmptyButton25.BackColor = Color.Gray;
+                pl2EmptyButton25.Enabled = false;
+
+                pl2EmptyButton26.BackColor = Color.Gray;
+                pl2EmptyButton26.Enabled = false;
+
+                pl2EmptyButton27.BackColor = Color.Gray;
+                pl2EmptyButton27.Enabled = false;
+
+                pl2EmptyButton35.BackColor = Color.Gray;
+                pl2EmptyButton35.Enabled = false;
+
+                pl2EmptyButton36.BackColor = Color.Gray;
+                pl2EmptyButton36.Enabled = false;
+
+                pl2EmptyButton43.BackColor = Color.Gray;
+                pl2EmptyButton43.Enabled = false;
+
+                pl2EmptyButton44.BackColor = Color.Gray;
+                pl2EmptyButton44.Enabled = false;
+
+                pl2EmptyButton45.BackColor = Color.Gray;
+                pl2EmptyButton45.Enabled = false;
+            }
+            if (pl2OneShipN4.BackColor == Color.Red)
+            {
+                // 25 26 27 35 36 43 44 45
+                pl2EmptyButton4.BackColor = Color.Gray;
+                pl2EmptyButton4.Enabled = false;
+
+                pl2EmptyButton5.BackColor = Color.Gray;
+                pl2EmptyButton5.Enabled = false;
+
+                pl2EmptyButton6.BackColor = Color.Gray;
+                pl2EmptyButton6.Enabled = false;
+
+                pl2EmptyButton13.BackColor = Color.Gray;
+                pl2EmptyButton13.Enabled = false;
+
+                pl2EmptyButton14.BackColor = Color.Gray;
+                pl2EmptyButton14.Enabled = false;
+
+                pl2EmptyButton19.BackColor = Color.Gray;
+                pl2EmptyButton19.Enabled = false;
+
+                pl2EmptyButton20.BackColor = Color.Gray;
+                pl2EmptyButton20.Enabled = false;
+
+                pl2EmptyButton21.BackColor = Color.Gray;
+                pl2EmptyButton21.Enabled = false;
+            }
+
+            // Автозаполнение области вокруг убитых кораблей второго игрока (двухпалубные)
+            if (pl2TwoShipN1P1.BackColor == Color.Red && pl2TwoShipN1P2.BackColor == Color.Red)
+            {
+                pl2EmptyButton3.BackColor = Color.Gray;
+                pl2EmptyButton3.Enabled = false;
+
+                pl2EmptyButton4.BackColor = Color.Gray;
+                pl2EmptyButton4.Enabled = false;
+
+                pl2EmptyButton10.BackColor = Color.Gray;
+                pl2EmptyButton10.Enabled = false;
+
+                pl2EmptyButton11.BackColor = Color.Gray;
+                pl2EmptyButton11.Enabled = false;
+
+                pl2EmptyButton12.BackColor = Color.Gray;
+                pl2EmptyButton12.Enabled = false;
+
+                pl2EmptyButton13.BackColor = Color.Gray;
+                pl2EmptyButton13.Enabled = false;
+            }
+            if (pl2TwoShipN2P1.BackColor == Color.Red && pl2TwoShipN2P2.BackColor == Color.Red)
+            {
+                pl2EmptyButton70.BackColor = Color.Gray;
+                pl2EmptyButton70.Enabled = false;
+
+                pl2EmptyButton71.BackColor = Color.Gray;
+                pl2EmptyButton71.Enabled = false;
+
+                pl2EmptyButton64.BackColor = Color.Gray;
+                pl2EmptyButton64.Enabled = false;
+
+                pl2EmptyButton65.BackColor = Color.Gray;
+                pl2EmptyButton65.Enabled = false;
+
+                pl2EmptyButton66.BackColor = Color.Gray;
+                pl2EmptyButton66.Enabled = false;
+
+                pl2EmptyButton79.BackColor = Color.Gray;
+                pl2EmptyButton79.Enabled = false;
+
+                pl2EmptyButton80.BackColor = Color.Gray;
+                pl2EmptyButton80.Enabled = false;
+            }
+            if (pl2TwoShipN3P1.BackColor == Color.Red && pl2TwoShipN3P2.BackColor == Color.Red)
+            {
+                pl2EmptyButton36.BackColor = Color.Gray;
+                pl2EmptyButton36.Enabled = false;
+
+                pl2EmptyButton37.BackColor = Color.Gray;
+                pl2EmptyButton37.Enabled = false;
+
+                pl2EmptyButton38.BackColor = Color.Gray;
+                pl2EmptyButton38.Enabled = false;
+
+                pl2EmptyButton45.BackColor = Color.Gray;
+                pl2EmptyButton45.Enabled = false;
+
+                pl2EmptyButton46.BackColor = Color.Gray;
+                pl2EmptyButton46.Enabled = false;
+
+                pl2EmptyButton52.BackColor = Color.Gray;
+                pl2EmptyButton52.Enabled = false;
+
+                pl2EmptyButton53.BackColor = Color.Gray;
+                pl2EmptyButton53.Enabled = false;
+
+                pl2EmptyButton60.BackColor = Color.Gray;
+                pl2EmptyButton60.Enabled = false;
+
+                pl2EmptyButton61.BackColor = Color.Gray;
+                pl2EmptyButton61.Enabled = false;
+
+                pl2EmptyButton62.BackColor = Color.Gray;
+                pl2EmptyButton62.Enabled = false;
+            }
+
+
             CheckTHeVinner();
         }
 
