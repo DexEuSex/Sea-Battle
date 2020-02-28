@@ -23,6 +23,9 @@ namespace Sea_Battle
         Control[] pl2shipArray = new Control[20];
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
+
+        CommonShips pl1OneDeckShipN1 = new CommonShips("pl1OneShip",10);
+
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
 
         // UNKNOWN CODE

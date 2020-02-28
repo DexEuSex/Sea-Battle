@@ -12,6 +12,8 @@ namespace Sea_Battle
     {
         int hp;
 
+        
+
         public string Name { get; set; }
 
         public bool Alive { get; set; }
@@ -34,8 +36,14 @@ namespace Sea_Battle
             }
         }
 
-        public CommonShips(string shipName, int hp)
+        
+        public CommonShips(string shipName, int hp, int arrayLength, Button[] transferredButtons)
         {
+            Button[] ownedButtons = new Button[arrayLength];
+            for (int i = 0; i < arrayLength; i++)
+            {
+                ownedButtons[i] = transferredButtons[i];
+            }
             Name = shipName;
             Alive = true;
             HealthPoints = hp;
