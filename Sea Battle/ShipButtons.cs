@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace Sea_Battle
 {
-    class CommonShips
+    class ShipButtons
     {
         int hp;
 
@@ -37,10 +37,10 @@ namespace Sea_Battle
         }
 
         
-        public CommonShips(string shipName, int hp, int arrayLength, Button[] transferredButtons)
+        public ShipButtons(string shipName, int hp, Control[] transferredButtons)
         {
-            Button[] ownedButtons = new Button[arrayLength];
-            for (int i = 0; i < arrayLength; i++)
+            Control[] ownedButtons = new Button[transferredButtons.Length];
+            for (int i = 0; i < transferredButtons.Length; i++)
             {
                 ownedButtons[i] = transferredButtons[i];
             }

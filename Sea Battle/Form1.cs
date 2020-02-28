@@ -24,7 +24,9 @@ namespace Sea_Battle
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
 
-        CommonShips pl1OneDeckShipN1 = new CommonShips("pl1OneShip",10);
+
+        Control[] buttonsToTransfere = new Control[1]; // массив используется для транспортировки кнопок в объекты
+        
 
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
 
@@ -56,6 +58,14 @@ namespace Sea_Battle
 
         async private void Form1_Load(object sender, EventArgs e)
         {
+            // Создание объектов - кораблей
+            buttonsToTransfere[0] = pl1OneShipN1;
+            ShipButtons pl1OneDeckShipN1 = new ShipButtons("pl1OneDeckShip", 10, buttonsToTransfere);
+
+
+
+
+
             PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
             hidePL1BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
