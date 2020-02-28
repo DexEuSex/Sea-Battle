@@ -26,7 +26,7 @@
         /// Требуемый метод для поддержки конструктора — не изменяйте 
         /// содержимое этого метода с помощью редактора кода.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pl1OneShipN1 = new System.Windows.Forms.Button();
@@ -213,7 +213,7 @@
             this.pl2EmptyButton50 = new System.Windows.Forms.Button();
             this.pl2OneShipN2 = new System.Windows.Forms.Button();
             this.groupBoxPL2 = new System.Windows.Forms.GroupBox();
-            this.hidePL2BFButton = new System.Windows.Forms.Button();
+            hidePL2BFButton = new System.Windows.Forms.Button();
             this.pl2EmptyButton80 = new System.Windows.Forms.Button();
             this.pl2EmptyButton78 = new System.Windows.Forms.Button();
             this.pl2EmptyButton69 = new System.Windows.Forms.Button();
@@ -1085,7 +1085,7 @@
             // groupBoxPL1
             // 
             this.groupBoxPL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
-            this.groupBoxPL1.Controls.Add(this.hidePL1BFButton);
+            this.groupBoxPL1.Controls.Add(hidePL1BFButton);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton61);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton77);
             this.groupBoxPL1.Controls.Add(this.pl1EmptyButton68);
@@ -1196,14 +1196,14 @@
             // 
             // hidePL1BFButton
             // 
-            this.hidePL1BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
-            this.hidePL1BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.hidePL1BFButton.Location = new System.Drawing.Point(-12, -11);
-            this.hidePL1BFButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.hidePL1BFButton.Name = "hidePL1BFButton";
-            this.hidePL1BFButton.Size = new System.Drawing.Size(258, 260);
-            this.hidePL1BFButton.TabIndex = 246;
-            this.hidePL1BFButton.UseVisualStyleBackColor = false;
+            hidePL1BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
+            hidePL1BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            hidePL1BFButton.Location = new System.Drawing.Point(-12, -11);
+            hidePL1BFButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            hidePL1BFButton.Name = "hidePL1BFButton";
+            hidePL1BFButton.Size = new System.Drawing.Size(258, 260);
+            hidePL1BFButton.TabIndex = 246;
+            hidePL1BFButton.UseVisualStyleBackColor = false;
             // 
             // pl1EmptyButton61
             // 
@@ -2150,7 +2150,7 @@
             // groupBoxPL2
             // 
             this.groupBoxPL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
-            this.groupBoxPL2.Controls.Add(this.hidePL2BFButton);
+            this.groupBoxPL2.Controls.Add(hidePL2BFButton);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton80);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton78);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton69);
@@ -2247,6 +2247,8 @@
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton30);
             this.groupBoxPL2.Controls.Add(this.pl2ThreeShipN1P3);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton31);
+
+
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton35);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton32);
             this.groupBoxPL2.Controls.Add(this.pl2EmptyButton34);
@@ -2261,14 +2263,14 @@
             // 
             // hidePL2BFButton
             // 
-            this.hidePL2BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
-            this.hidePL2BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.hidePL2BFButton.Location = new System.Drawing.Point(-13, -11);
-            this.hidePL2BFButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.hidePL2BFButton.Name = "hidePL2BFButton";
-            this.hidePL2BFButton.Size = new System.Drawing.Size(256, 265);
-            this.hidePL2BFButton.TabIndex = 248;
-            this.hidePL2BFButton.UseVisualStyleBackColor = false;
+            hidePL2BFButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(53)))));
+            hidePL2BFButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            hidePL2BFButton.Location = new System.Drawing.Point(-13, -11);
+            hidePL2BFButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            hidePL2BFButton.Name = "hidePL2BFButton";
+            hidePL2BFButton.Size = new System.Drawing.Size(256, 265);
+            hidePL2BFButton.TabIndex = 248;
+            hidePL2BFButton.UseVisualStyleBackColor = false;
             // 
             // pl2EmptyButton80
             // 
@@ -2510,73 +2512,73 @@
             this.pl1WinBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pl1WinBar.Name = "pl1WinBar";
             this.pl1WinBar.Size = new System.Drawing.Size(232, 22);
-            this.pl1WinBar.Step = 5;
-            this.pl1WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            pl1WinBar.Step = 5;
+            pl1WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pl1WinBar.TabIndex = 246;
             // 
             // pl2WinBar
             // 
-            this.pl2WinBar.Location = new System.Drawing.Point(426, 391);
-            this.pl2WinBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pl2WinBar.Name = "pl2WinBar";
-            this.pl2WinBar.Size = new System.Drawing.Size(232, 22);
-            this.pl2WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.pl2WinBar.TabIndex = 247;
+            pl2WinBar.Location = new System.Drawing.Point(426, 391);
+            pl2WinBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            pl2WinBar.Name = "pl2WinBar";
+            pl2WinBar.Size = new System.Drawing.Size(232, 22);
+            pl2WinBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            pl2WinBar.TabIndex = 247;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.Location = new System.Drawing.Point(85, 375);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 13);
-            this.label1.TabIndex = 248;
-            this.label1.Text = "Путь к победе первого игрока:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label1.AutoSize = true;
+            label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            label1.Location = new System.Drawing.Point(85, 375);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(164, 13);
+            label1.TabIndex = 248;
+            label1.Text = "Путь к победе первого игрока:";
+            label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label2.Location = new System.Drawing.Point(482, 375);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 13);
-            this.label2.TabIndex = 249;
-            this.label2.Text = "Путь к победе второго игрока:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label2.AutoSize = true;
+            label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            label2.Location = new System.Drawing.Point(482, 375);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(163, 13);
+            label2.TabIndex = 249;
+            label2.Text = "Путь к победе второго игрока:";
+            label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(291, 273);
-            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(118, 32);
-            this.startButton.TabIndex = 250;
-            this.startButton.Text = "Начать игру";
-            this.startButton.UseVisualStyleBackColor = true;
-            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            startButton.Location = new System.Drawing.Point(291, 273);
+            startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            startButton.Name = "startButton";
+            startButton.Size = new System.Drawing.Size(118, 32);
+            startButton.TabIndex = 250;
+            startButton.Text = "Начать игру";
+            startButton.UseVisualStyleBackColor = true;
+            startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(40, 27);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 69);
-            this.pictureBox1.TabIndex = 251;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            pictureBox1.Location = new System.Drawing.Point(40, 27);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(178, 69);
+            pictureBox1.TabIndex = 251;
+            pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(477, 27);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(178, 69);
-            this.pictureBox2.TabIndex = 252;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            pictureBox2.Location = new System.Drawing.Point(477, 27);
+            pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(178, 69);
+            pictureBox2.TabIndex = 252;
+            pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -2585,19 +2587,19 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(700, 424);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.startButton);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pl2WinBar);
-            this.Controls.Add(this.pl1WinBar);
-            this.Controls.Add(this.whoseTurnLabelAux);
-            this.Controls.Add(this.groupBoxPL2);
-            this.Controls.Add(this.mainComboBox);
-            this.Controls.Add(this.mainLabel);
-            this.Controls.Add(this.mainBigButton);
-            this.Controls.Add(this.groupBoxPL1);
+            this.Controls.Add(pictureBox2);
+            this.Controls.Add(pictureBox1);
+            this.Controls.Add(startButton);
+            this.Controls.Add(label2);
+            this.Controls.Add(label1);
+            this.Controls.Add(pl2WinBar);
+            this.Controls.Add(pl1WinBar);
+            this.Controls.Add(whoseTurnLabelAux);
+            this.Controls.Add(groupBoxPL2);
+            this.Controls.Add(mainComboBox);
+            this.Controls.Add(mainLabel);
+            this.Controls.Add(mainBigButton);
+            this.Controls.Add(groupBoxPL1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Location = new System.Drawing.Point(504, 250);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -2606,18 +2608,18 @@
             this.ShowIcon = false;
             this.Text = "Морской бой 0.1 Open Beta";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBoxPL1.ResumeLayout(false);
-            this.groupBoxPL2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            groupBoxPL1.ResumeLayout(false);
+            groupBoxPL2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button mainBigButton;
-        private System.Windows.Forms.GroupBox groupBoxPL1;
+        public System.Windows.Forms.Button mainBigButton;
+        public System.Windows.Forms.GroupBox groupBoxPL1;
         public System.Windows.Forms.Button pl1OneShipN1;
         public System.Windows.Forms.Button pl1EmptyButton1;
         public System.Windows.Forms.Button pl1EmptyButton3;
@@ -2698,7 +2700,7 @@
         public System.Windows.Forms.Button pl1ThreeShipN2P2;
         public System.Windows.Forms.Button pl1ThreeShipN2P1;
         public System.Windows.Forms.Button pl1EmptyButton47;
-        private System.Windows.Forms.Label mainLabel;
+        public System.Windows.Forms.Label mainLabel;
         public System.Windows.Forms.Button pl2EmptyButton2;
         public System.Windows.Forms.Button pl2TwoShipN1P1;
         public System.Windows.Forms.Button pl2EmptyButton3;
@@ -2778,9 +2780,9 @@
         public System.Windows.Forms.Button pl2EmptyButton51;
         public System.Windows.Forms.Button pl2EmptyButton50;
         public System.Windows.Forms.Button pl2OneShipN2;
-        private System.Windows.Forms.GroupBox groupBoxPL2;
-        private System.Windows.Forms.ComboBox mainComboBox;
-        private System.Windows.Forms.Label whoseTurnLabelAux;
+        public System.Windows.Forms.GroupBox groupBoxPL2;
+        public System.Windows.Forms.ComboBox mainComboBox;
+        public System.Windows.Forms.Label whoseTurnLabelAux;
         public System.Windows.Forms.Button pl2EmptyButton1;
         public System.Windows.Forms.Button pl1EmptyButton61;
         public System.Windows.Forms.Button pl1EmptyButton77;
@@ -2822,15 +2824,15 @@
         public System.Windows.Forms.Button pl2EmptyButton62;
         public System.Windows.Forms.Button pl2EmptyButton61;
         public System.Windows.Forms.Button pl2EmptyButton67;
-        private System.Windows.Forms.Button hidePL1BFButton;
-        private System.Windows.Forms.ProgressBar pl1WinBar;
-        private System.Windows.Forms.ProgressBar pl2WinBar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button startButton;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button hidePL2BFButton;
+        public System.Windows.Forms.ProgressBar pl1WinBar;
+        public System.Windows.Forms.ProgressBar pl2WinBar;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Button startButton;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.Button hidePL2BFButton;
+        public System.Windows.Forms.Button hidePL1BFButton;
     }
 }
 

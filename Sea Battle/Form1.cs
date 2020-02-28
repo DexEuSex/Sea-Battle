@@ -14,8 +14,7 @@ namespace Sea_Battle
         {
             InitializeComponent();
         }
-        
-        SoundPlayer mainTheme = new SoundPlayer(@"content\music\seabattlemain.wav");
+
         SoundPlayer bang = new SoundPlayer(@"content\sound\bang.wav");
         SoundPlayer miss = new SoundPlayer(@"content\sound\missed.wav");
 
@@ -24,8 +23,12 @@ namespace Sea_Battle
         Control[] pl1emptyCellArray = new Control[80];
         Control[] pl2emptyCellArray = new Control[80];
 
-
+        
         Control[] buttonsToTransfere = new Control[1]; // массив используется для транспортировки кнопок в объекты
+
+        
+
+        // Создание объектов - кораблей
         
 
         int whoseTurn = 0; // Переменная, проверяющая текущий ход. Непарнео число - ход первого игрока. Парное число - ход второго игрока.
@@ -56,19 +59,20 @@ namespace Sea_Battle
         #endregion
         // UNKNOWN CODE
 
-        async private void Form1_Load(object sender, EventArgs e)
+        async public void Form1_Load(object sender, EventArgs e)
         {
-            // Создание объектов - кораблей
-            buttonsToTransfere[0] = pl1OneShipN1;
-            ShipButtons pl1OneDeckShipN1 = new ShipButtons("pl1OneDeckShip", 10, buttonsToTransfere);
-
+            
             // Создание объектов - контролов-хелперов (вспомогательных контролов)
-            AuxControls player1BigButton = new AuxControls(hidePL1BFButton);
-            AuxControls player2BigButton = new AuxControls(hidePL2BFButton);
             AuxControls whoseTurnComboBox = new AuxControls(mainComboBox);
             AuxControls whoseTurnLabel = new AuxControls(whoseTurnLabelAux);
             AuxControls hintLabel = new AuxControls(mainLabel);
             AuxControls mainButton = new AuxControls(mainBigButton);
+            AuxControls player1BigButton = new AuxControls(hidePL1BFButton);
+            AuxControls player2BigButton = new AuxControls(hidePL2BFButton);
+
+            buttonsToTransfere[0] = pl1OneShipN1;
+            ShipButtons pl1OneDeckShipN1 = new ShipButtons("pl1OneDeckShip", 10, buttonsToTransfere);
+
 
             PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
@@ -338,19 +342,20 @@ namespace Sea_Battle
             whoseTurnLabel.IsVisible(true);
 
         }
-        private void startButton_Click(object sender, EventArgs e)
+        public void startButton_Click(object sender, EventArgs e)
         {
+            AuxControls mainButton = new AuxControls(mainBigButton);
             whoseTurn++;
             if (whoseTurn > 2)
                 whoseTurn--;
 
-            mainBigButton.Visible = true;
+            mainButton.IsVisible(true);
             startButton.Visible = false;
-            mainBigButton.Text = "Передать ход другому игроку";
+            mainButton.Text = "Передать ход другому игроку";
             switchTheSide();
         }
 
-        private void mainButton_Click(object sender, EventArgs e)
+        public void mainButton_Click(object sender, EventArgs e)
         {
             ButtonsOn();
             whoseTurn++;
@@ -359,7 +364,7 @@ namespace Sea_Battle
             switchTheSide();
         }
 
-        void CheckTHeVinner()
+        public void CheckTHeVinner()
         {
             if (pl1WinBar.Value == 100)
             {
