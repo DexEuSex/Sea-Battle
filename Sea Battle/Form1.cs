@@ -62,10 +62,13 @@ namespace Sea_Battle
             buttonsToTransfere[0] = pl1OneShipN1;
             ShipButtons pl1OneDeckShipN1 = new ShipButtons("pl1OneDeckShip", 10, buttonsToTransfere);
 
-            // Создание объектор - кнопок-хелперов (воспомогательных кнопок)
-            AuxButtons player1BigButton = new AuxButtons(hidePL1BFButton);
-            AuxButtons player2BigButton = new AuxButtons(hidePL2BFButton);
-
+            // Создание объектов - контролов-хелперов (вспомогательных контролов)
+            AuxControls player1BigButton = new AuxControls(hidePL1BFButton);
+            AuxControls player2BigButton = new AuxControls(hidePL2BFButton);
+            AuxControls whoseTurnComboBox = new AuxControls(mainComboBox);
+            AuxControls whoseTurnLabel = new AuxControls(whoseTurnLabelAux);
+            AuxControls hintLabel = new AuxControls(mainLabel);
+            AuxControls mainButton = new AuxControls(mainBigButton);
 
             PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
@@ -322,19 +325,18 @@ namespace Sea_Battle
                 button.Visible = true;
                 button.Enabled = false;
             }
-            
-            mainButton.Visible = false;
 
-            // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
+            // Дефолтные настройки для свойств разных контролов при запуске формы
+            mainButton.IsVisible(false);
             player1BigButton.IsVisible(false);
             player2BigButton.IsVisible(false);
             player1BigButton.IsEnabled(false);
             player2BigButton.IsEnabled(false);
 
-            whoseTurnComboBox.Visible = true;
-            whoseTurnComboBox.Enabled = false;
-            whoseTurnLabel.Visible = true;
-            
+            whoseTurnComboBox.IsVisible(true);
+            whoseTurnComboBox.IsEnabled(false);
+            whoseTurnLabel.IsVisible(true);
+
         }
         private void startButton_Click(object sender, EventArgs e)
         {
@@ -342,9 +344,9 @@ namespace Sea_Battle
             if (whoseTurn > 2)
                 whoseTurn--;
 
-            mainButton.Visible = true;
+            mainBigButton.Visible = true;
             startButton.Visible = false;
-            mainButton.Text = "Передать ход другому игроку";
+            mainBigButton.Text = "Передать ход другому игроку";
             switchTheSide();
         }
 
@@ -396,7 +398,7 @@ namespace Sea_Battle
                 hidePL1BFButton.Enabled = false;
                 hidePL2BFButton.Visible = true;
                 hidePL1BFButton.Enabled = false;
-                hintLabel.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
+                mainLabel.Text = "Игрок 2 промазал! Игрок 1, ваш ход!";
             }
             CheckTHeVinner();
         }
@@ -427,7 +429,7 @@ namespace Sea_Battle
                 hidePL1BFButton.Enabled = false;
                 hidePL2BFButton.Visible = true;
                 hidePL1BFButton.Enabled = false;
-                hintLabel.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
+                mainLabel.Text = "Игрок 1 промазал! Игрок 2, ваш ход!";
             }
 
             // Автозаполнение области вокруг убитых кораблей второго игрока (однопалубные)
@@ -609,9 +611,9 @@ namespace Sea_Battle
             
             if (whoseTurn % 2 != 0) // Если очередь игрока 1
             {
-                    whoseTurnComboBox.SelectedIndex = 0; // Выводит в Combobox, что сейчас ход первого игрока
-                    hintLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
-                    mainButton.Text = "Передать хоть второму игроку";
+                    mainComboBox.SelectedIndex = 0; // Выводит в Combobox, что сейчас ход первого игрока
+                    mainLabel.Text = "Игрок 1, расположение ваших кораблей вы видите слева. Справа - корабли противника";
+                    mainBigButton.Text = "Передать хоть второму игроку";
 
                     foreach (Button button in groupBoxPL2.Controls.OfType<Button>()) // Отрисовка поля противника перед началом боя
                     {
@@ -648,9 +650,9 @@ namespace Sea_Battle
                 
             else if (whoseTurn % 2 == 0) // Если очередь игрока 2
             {
-                    whoseTurnComboBox.SelectedIndex = 1; // Выводит в Combobox, что сейчас ход второго игрока
-                    hintLabel.Text = "Игрок 2, расположение ваших кораблей вы видите справа. Слева - корабли противника";
-                    mainButton.Text = "Передать хоть второму игроку";
+                    mainComboBox.SelectedIndex = 1; // Выводит в Combobox, что сейчас ход второго игрока
+                    mainLabel.Text = "Игрок 2, расположение ваших кораблей вы видите справа. Слева - корабли противника";
+                    mainBigButton.Text = "Передать хоть второму игроку";
 
                     foreach (Button button in groupBoxPL1.Controls.OfType<Button>()) // Отрисовка поля противника перед началом боя
                     {

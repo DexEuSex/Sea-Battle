@@ -8,28 +8,28 @@ using System.Windows.Forms;
 
 namespace Sea_Battle
 {
-    abstract class GameButtons : Form
+    abstract class OverAllGameControls : Form
     {
-        Control buttonItself { get; set; }
+        Control controlItself { get; set; }
 
-        public GameButtons(Control transferedButton)
+        public OverAllGameControls(Control transferedControl)
         {
-            buttonItself = transferedButton;
+            controlItself = transferedControl;
         }
 
         public virtual void IsEnabled(bool wantedСondition)
         {
-            buttonItself.Enabled = wantedСondition;
+            controlItself.Enabled = wantedСondition;
         }
 
         public virtual void SetColor(Color wantedColor)
         {
-            buttonItself.BackColor = wantedColor;
+            controlItself.BackColor = wantedColor;
         }
 
         public virtual void IsVisible(bool wantedButton)
         {
-            buttonItself.Visible = wantedButton;
+            controlItself.Visible = wantedButton;
         }
     }
 }
