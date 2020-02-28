@@ -62,14 +62,17 @@ namespace Sea_Battle
             buttonsToTransfere[0] = pl1OneShipN1;
             ShipButtons pl1OneDeckShipN1 = new ShipButtons("pl1OneDeckShip", 10, buttonsToTransfere);
 
-
-
+            // Создание объектор - кнопок-хелперов (воспомогательных кнопок)
+            AuxButtons player1BigButton = new AuxButtons(hidePL1BFButton);
+            AuxButtons player2BigButton = new AuxButtons(hidePL2BFButton);
 
 
             PlayFile(@"content\music\seabattlemain.wav");
             await Task.Delay(100);
-            hidePL1BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
-            hidePL2BFButton.BackgroundImage = Image.FromFile($@"content\pictures\confidential.jpg");
+
+            player1BigButton.SetBackImage("confidential");
+            player2BigButton.SetBackImage("confidential");
+
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
@@ -321,10 +324,12 @@ namespace Sea_Battle
             }
             
             mainButton.Visible = false;
-            hidePL1BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
-            hidePL2BFButton.Visible = false; // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
-            hidePL1BFButton.Enabled = false;
-            hidePL2BFButton.Enabled = false;
+
+            // Скрытие кнопок, отвечающих за включение режима невидимости игрового поля игрока
+            player1BigButton.IsVisible(false);
+            player2BigButton.IsVisible(false);
+            player1BigButton.IsEnabled(false);
+            player2BigButton.IsEnabled(false);
 
             whoseTurnComboBox.Visible = true;
             whoseTurnComboBox.Enabled = false;

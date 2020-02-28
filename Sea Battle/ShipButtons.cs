@@ -8,12 +8,9 @@ using System.Drawing;
 
 namespace Sea_Battle
 {
-    class ShipButtons
+    class ShipButtons 
     {
         int hp;
-
-        
-
         public string Name { get; set; }
 
         public bool Alive { get; set; }
@@ -36,8 +33,8 @@ namespace Sea_Battle
             }
         }
 
-        
-        public ShipButtons(string shipName, int hp, Control[] transferredButtons)
+
+        public ShipButtons(string shipName, int hp, Control[] transferredButtons) 
         {
             Control[] ownedButtons = new Button[transferredButtons.Length];
             for (int i = 0; i < transferredButtons.Length; i++)
@@ -57,5 +54,31 @@ namespace Sea_Battle
                 autoHittedBurrons[i].Enabled = false;
             }
         }
+
+        //public override void Disable(Control wantedButton)
+        //{
+        //    wantedButton.Enabled = false;
+        //}
+
+        //public override void Enable(Control wantedButton)
+        //{
+        //    wantedButton.Enabled = true;
+        //}
+
+        //public override void SetColor(Control wantedButton, Color wantedColor)
+        //{
+        //    wantedButton.BackColor = wantedColor;
+        //}
+
+        //public override void Show(Control wantedButton)
+        //{
+        //    wantedButton.Visible = true;
+        //}
+
+        //public override void Hide(Control wantedButton)
+        //{
+        //    wantedButton.Visible = false;
+        //}
+
     }
 }
